@@ -51,7 +51,7 @@
 	  
 	  <!-- coming-soon -->
          <section class="coming-soon p-0 pos-r">
-            <div class="fullbg bg-pos-right " data-bg-img="{{ asset('images/brain.jpg')}}" ></div>
+            <div class="fullbg bg-pos-right " data-bg-img="{{ asset('images/keyboard.jpg')}}" ></div>
             <div class="container">
                <div class="row">
                   <div class="col-md-6 col-sm-8 text-center">
