@@ -14,9 +14,12 @@
 Route::get('/', function () {
     return view('pages/coming');
 });
+Route::get('consultant', function () {
+    return view('pages/consultant');
+});
 
-Route::get('coming', function () {
-    return view('welcome');
+Route::get('welcome', function () {
+    return view('pages/welcome');
 });
 
 Auth::routes();
