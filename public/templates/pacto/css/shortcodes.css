@@ -255,7 +255,7 @@ blockquote.pullquote>p:first-of-type:before {  font-family: Georgia,serif;  cont
 blockquote.pullquote>p:first-of-type:after {  font-family: Georgia,serif;  content: close-quote;   font-size: 1.5em;
     line-height: 0;    vertical-align: -0.25em;    margin-left: .1em;}
 blockquote p {   font-size: 18px;   line-height: 1.75;   margin: 18px 0 0;}
-blockquote small {    font-size: 12px;    margin: 9px 0px 0px 0px;    margin-bottom: 0;    display: inline;}
+blockquote small {    font-size: 14px;    margin: 9px 0px 0px 0px;    margin-bottom: 0;    display: inline;}
 blockquote.pos-center {border: none; text-align: center; margin-left: 0; padding-left: 0; }
 blockquote.pullquote.pos-center>p:first-of-type:before,blockquote.pullquote.pos-center>p:first-of-type:after{font-size: 3em;}
 blockquote.pullquote.pos-center>p:first-of-type:after{ vertical-align: -0.45em; }
@@ -267,7 +267,7 @@ blockquote.pullquote.pos-center>p:first-of-type:after{ vertical-align: -0.45em; 
 
 .pricing-table-header .lnr { font-size: 40px; color: #ffffff; }
 
-.pricing-table-header p { font-size: 12px; color: #6f6f6f; margin-bottom: 0; }
+.pricing-table-header p { font-size: 14px; color: #6f6f6f; margin-bottom: 0; }
 
 .pricing-table .heading { font-size: 20px; color: #fff; text-transform: uppercase; letter-spacing: 2px; margin-top: 20px; margin-bottom: 0px; }
 
@@ -277,7 +277,7 @@ blockquote.pullquote.pos-center>p:first-of-type:after{ vertical-align: -0.45em; 
 
 .pricing-table .currency { font-size: 30px; font-weight: bold; position: absolute; top: 6px; left: -19px; }
 
-.pricing-table .month { font-size: 14px; color: #ccc; position: absolute; bottom: 15px; right: -30px; text-transform: uppercase; font-weight: normal; }
+.pricing-table .month { font-size: 16px; color: #ccc; position: absolute; bottom: 15px; right: -30px; text-transform: uppercase; font-weight: normal; }
 
 .pricing-table .pricing-content { background: #fff; position: relative; padding-bottom: 40px;}
 
@@ -287,7 +287,7 @@ blockquote.pullquote.pos-center>p:first-of-type:after{ vertical-align: -0.45em; 
 
 .pricing-table .pricing-content ul li .fa { margin-right: 8px; }
 
-.pricing-table .read { display: inline-block; font-size: 14px; color: #fff; text-transform: uppercase; background: #e0dfdf; padding: 8px 25px; margin: 30px 0; transition: all 0.3s ease 0s; }
+.pricing-table .read { display: inline-block; font-size: 16px; color: #fff; text-transform: uppercase; background: #e0dfdf; padding: 8px 25px; margin: 30px 0; transition: all 0.3s ease 0s; }
 
 
 
@@ -379,9 +379,9 @@ blockquote.pullquote.pos-center>p:first-of-type:after{ vertical-align: -0.45em; 
 
 .accordion .panel-default > .panel-heading { background: none; border:none; padding:0; border-bottom:1px solid #dddddd;}
 
-.accordion .panel-heading .panel-title { font-size: 14px; font-weight: normal; } 
+.accordion .panel-heading .panel-title { font-size: 16px; font-weight: normal; } 
 
-.accordion .panel-title > a:before { float: right !important; font-family: 'Linearicons-Free'; font-size: 12px; content: "\e874"; padding-right: 5px;}
+.accordion .panel-title > a:before { float: right !important; font-family: 'Linearicons-Free'; font-size: 14px; content: "\e874"; padding-right: 5px;}
 
 .accordion .panel-title > a.collapsed:before { float: right !important; content:"\e876";}
 
@@ -505,7 +505,7 @@ radio {
     min-height: 20px;
     padding-left: 20px;
     margin-bottom: 0;
-    
+    font-weight: 400;
     cursor: pointer;
 }
 .checkbox input[type="checkbox"] + label {
@@ -560,7 +560,7 @@ radio {
     font-family: "FontAwesome";
     text-align: center;
     color: #fff;
-    font-size: 10px;
+    font-size: 12px;
     line-height: 1.8;
     border-radius: 50%;
 }
@@ -1210,7 +1210,7 @@ radio {
 
 .post{position:relative; }
 
-.post .categery{border-radius:20px; border: 1px solid #ffffff; color: #fff; padding:3px 12px; font-size: 10px; position: relative;}
+.post .categery{border-radius:20px; border: 1px solid #ffffff; color: #fff; padding:3px 12px; font-size: 12px; position: relative;}
 
 
 

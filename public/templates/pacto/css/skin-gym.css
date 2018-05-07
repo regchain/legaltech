@@ -64,7 +64,7 @@ a:hover,a:focus { color: #e54747;}
 .team.classes {overflow:hidden;}
 .team.classes .member-image:before{background: rgba(0, 0, 0, 0.7)}
 .team.classes:hover .member-image:before{background: rgba(0, 0, 0, 0.5)}
-.team.classes .team-info .member-position{font-size: 12px; color: #e54747}
+.team.classes .team-info .member-position{font-size: 14px; color: #e54747}
 .team.classes .team-info .social{margin-bottom: -100px;}
 .team.classes:hover .team-info .social{margin-bottom: 0;}
 

@@ -7,7 +7,7 @@ h2,
 h3,
 h4,
 h5,
-h6 { margin: 0 0 30px 0;  font-family: 'Roboto', sans-serif; font-weight: 300; letter-spacing: 0; color: #383838;  line-height: 1.5;}
+h6 { margin: 0 0 30px 0;  font-family: 'Source Sans Pro', sans-serif; font-weight: 700; letter-spacing: 0; color: #383838;  line-height: 1.5;}
 a:hover,a:focus { color: #327ec7;}
 .lead{font-weight:500; font-size:17px; line-height:28px; font-family: 'Roboto Slab', serif;}
 
