@@ -40,13 +40,13 @@
                   <div class="owl-carousel owl-theme light-arrow" data-items="1" data-md-items="1" data-sm-items="1" data-nav-dots="false" data-nav-arrow="true" data-auto-play="false"  data-space="0">
                      <!-- item -->
                      <div class="item"  >
-                        <div class="slide-img"><img src="{{ asset('templates/pacto/images/consultant/slide3.jpg')}}" alt="" /></div>
+                        <div class="slide-img"><img src="{{ asset('templates/pacto/images/consultant/slide1.jpg')}}" alt="" /></div>
                         <div class="container">
                            <div class="row">
                               <div class="col-md-8">
-                                 <h3 class="title">Business Consulting</h3>
+                                 <h3 class="title">Matter Management</h3>
                                  <div class="slide-content">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <p>Centralize Matter details such as notes, file status, documents, appointments, progress, invoices and tasks. LPMS’ s versatility means that it can adapt to any practice area..</p>
                                     <a href="#" class="btn btn-default btn-radius btn-outline white-border white-text fill-white">Read More</a>&nbsp;&nbsp; <a href="#" class="btn btn-default btn-radius theme-bg white-text">Purchase Now <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a> 
                                  </div>
                               </div>
@@ -60,9 +60,9 @@
                         <div class="container">
                            <div class="row">
                               <div class="col-md-8 col-md-offset-2 text-center">
-                                 <h3 class="title">Investment Consulting</h3>
+                                 <h3 class="title">Simplified Communication</h3>
                                  <div class="slide-content">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <p>A large part of practice management is making sure that queries get answered promptly. Your staff needs constant updates and clarification on matter details. As do your clients.</p>
                                     <a href="#" class="btn btn-default btn-radius btn-outline white-border white-text fill-white">Read More</a>&nbsp;&nbsp; <a href="#" class="btn btn-default btn-radius theme-bg white-text">Purchase Now <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a> 
                                  </div>
                               </div>
@@ -72,13 +72,13 @@
                      <!-- End item -->
                      <!-- item -->
                      <div class="item"  >
-                        <div class="slide-img"><img src="{{ asset('templates/pacto/images/consultant/slide1.jpg')}}" alt="" /></div>
+                        <div class="slide-img"><img src="{{ asset('templates/pacto/images/consultant/slide3.jpg')}}" alt="" /></div>
                         <div class="container">
                            <div class="row">
                               <div class="col-md-8">
-                                 <h3 class="title">Wealth Management</h3>
+                                 <h3 class="title">Smart Notifications & Reminders</h3>
                                  <div class="slide-content">
-                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    <p>Be notified on-time on important events and actions.</p><p> Never again miss a task deliverable or an appointment with our Smart Email or SMS reminders.</p>
                                     <a href="#" class="btn btn-default btn-radius btn-outline white-border white-text fill-white">Read More</a>&nbsp;&nbsp; <a href="#" class="btn btn-default btn-radius theme-bg white-text">Purchase Now <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a> 
                                  </div>
                               </div>
@@ -179,8 +179,8 @@
                            <div class="item">
                               <div class="mb-4"><img src="{{ asset('templates/pacto/images/consultant/image4.jpg')}}" class="img-responsive" alt="what-we-offer" /></div>
                               <p class="mb-0 theme-text solid-weight">FINANCE</p>
-                              <h5 class="mb-1">Wealth Management Consulting</h5>
-                              <p class="mb-0">The clients are mostly the companies dealing with said products or services, but we also enjoy teaming up with other agencies, companies with great ideas. </p>
+                              <h5 class="mb-1">Smart Notifications & Reminders </h5>
+                              <p class="mb-0">Be notified on-time on important events and actions.</p><p> Never again miss a task deliverable or an appointment with our Smart Email or SMS reminders. </p>
                            </div>
                            <div class="item">
                               <div class="mb-4"><img src="{{ asset('templates/pacto/images/consultant/image5.jpg')}}" class="img-responsive" alt="what-we-offer" /></div>
