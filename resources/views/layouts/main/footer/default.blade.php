@@ -4,23 +4,34 @@
                      <div class="container">
                         <div class="row">
                            <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
-                              <h6 class="text-uppercase">About Pecto</h6>
+                              <h6 class="text-uppercase">About LegalTech</h6>
                               <ul class="list-unstyled address">
-                                 <li><i class="lnr lnr-map-marker"></i><span>387 Madison Ave, New York, NY 10118</span></li>
-                                 <li><i class="lnr lnr-envelope"></i><a href="mailto:support@yourname.com">support@yourname.com</a></li>
-                                 <li><i class="lnr lnr-phone-handset"></i><span>(+91) 123-456-7890</span></li>
+                                 <li><i class="lnr lnr-map-marker"></i><span>Gaharu Coliving Studio</span></li>
+                                 <li><i class="lnr lnr-envelope"></i><a href="mailto:jakarta@legaltech.co.id">jakarta@legaltech.co.id</a></li>
+                                 {{-- <li><i class="lnr lnr-phone-handset"></i><span>(+62) 81.888.2772</span></li> --}}
+                                 <li><i class="lnr lnr-map-marker"></i><span>Ubud Coliving Studio</span></li>
+                                 <li><i class="lnr lnr-envelope"></i><a href="mailto:bali@legaltech.co.id">bali@legaltech.co.id</a></li>
+                                 {{-- <li><i class="lnr lnr-phone-handset"></i><span>(+62) 81.888.2772</span></li> --}}
                               </ul>
                            </div>
                            <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
-                              <h6 class="text-uppercase">Categories</h6>
+                              <h6 class="text-uppercase">Consulting</h6>
                               <ul class="list-unstyled">
-                                 <li><a href="#">Printing </a></li>
-                                 <li><a href="#">Specimen book</a></li>
-                                 <li><a href="#">Simply random</a></li>
-                                 <li><a href="#">Embarrassing</a></li>
-                                 <li><a href="#">Making </a></li>
+                                 <li><a href="#">The New Firm Solution </a></li>
+                                 <li><a href="#">Law Firm Reengineering</a></li>
+                                 <li><a href="#">Technology Implementation</a></li>
+                                 <li><a href="#">Training &amp; Support</a></li>
+                                 <li><a href="#">Legal Government Office </a></li>
                               </ul>
-                           </div>
+                            </div>
+                                  <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
+                                     <h6 class="text-uppercase">Development</h6>
+                                     <ul class="list-unstyled recent-post">
+                                        <li><a href="#">Strategic Consulting and Planning<span>May 10,2017</span></a></li>
+                                        <li><a href="#">Legal Application Development<span>March 23,2017</span></a></li>
+                                        <li><a href="#">Matter Management<span>February 14,2017</span></a></li>
+                                     </ul>
+                                  </div>
                            <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
                               <h6 class="text-uppercase">ARCHIVES</h6>
                               <ul class="list-unstyled">
@@ -31,14 +42,6 @@
                                  <li><a href="#">January 2017</a></li>
                               </ul>
                            </div>
-                           <div class="col-sm-3 col-xs-6 col-xx-12 mb-4">
-                              <h6 class="text-uppercase">RECENT POSTS</h6>
-                              <ul class="list-unstyled recent-post">
-                                 <li><a href="#">Be My Guest<span>May 10,2017</span></a></li>
-                                 <li><a href="#">Ownage In The Mountains<span>February 14,2017</span></a></li>
-                                 <li><a href="#">The Field<span>March 23,2017</span></a></li>
-                              </ul>
-                           </div>
                         </div>
                      </div>
                   </div>
@@ -46,7 +49,7 @@
                   <div class="footer-bottom">
                      <div class="container">
                         <div class="row">
-                           <div class="col-sm-6">© 2017 Pecto All rights reserved</div>
+                           <div class="col-sm-6">© 2017 LegalTech All rights reserved</div>
                            <div class="col-sm-6 text-right">
                               <ul class="list-unstyled list-inline footer-social">
                                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>

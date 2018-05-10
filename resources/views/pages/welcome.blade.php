@@ -63,7 +63,7 @@
                </section>
                <!-- End Banner -->
                <!-- About Us -->
-               <section class="grey-bg section-sm">
+               {{-- <section class="grey-bg section-sm">
                   <div class="container">
                      <div class="row">
                         <div class="col-md-6 sm-mb-4">
@@ -123,10 +123,10 @@
                         </div>
                      </div>
                   </div>
-               </section>
+               </section> --}}
                <!-- End About Us -->
                <!-- Projects -->
-               <section class="xs-mb-5">
+               {{-- <section class="xs-mb-5">
                   <div class="container">
                      <div class="row">
                         <div class="col-md-12">
@@ -171,10 +171,10 @@
                      </div>
                      </div>
                   </div>
-               </section>
+               </section> --}}
                <!-- End Projects -->
                <!-- Services --> 
-               <section class="p-0 pos-r grey-bg">
+               {{-- <section class="p-0 pos-r grey-bg">
                   <div class="fullbg bg-pos-right" data-bg-img="{{ asset('templates/pacto/images/consultant/bg1.jpg')}}"></div>
                   <div class="container">
                      <div class="row ">
@@ -229,10 +229,10 @@
                         </div>
                      </div>
                   </div>
-               </section>
+               </section> --}}
                <!-- End Services --> 
                <!-- News --> 
-               <section class="section-pb ">
+               {{-- <section class="section-pb ">
                   <div class="container">
                      <div class="row mb-3">
                         <div class="col-sm-8 col-sm-offset-2 text-center">
@@ -314,10 +314,10 @@
                         </div>
                      </div>
                   </div>
-               </section>
+               </section> --}}
                <!-- End News --> 
                <!-- Step --> 
-               <section class="grey-bg">
+               {{-- <section class="grey-bg">
                   <div class="container">
                      <div class="row">
                         <div class="col-sm-4 xs-mb-3">
@@ -343,10 +343,10 @@
                         </div>
                      </div>
                   </div>
-               </section>
+               </section> --}}
                <!-- End Step --> 
                <!-- Customer --> 
-               <section class="pos-r p-0">
+               {{-- <section class="pos-r p-0">
                   <div class="fullbg bg-pos-right" data-bg-img="{{ asset('templates/pacto/images/consultant/bg2.jpg')}}" ></div>
                   <div class="container">
                      <div class="row">
@@ -393,10 +393,10 @@
                         </div>
                      </div>
                   </div>
-               </section>
+               </section> --}}
                <!-- End Customer -->
                <!-- Clients --> 
-               <section class="pos-r p-0">
+               {{-- <section class="pos-r p-0">
                   <div class="fullbg bg-left-pos" data-bg-img="{{ asset('templates/pacto/images/consultant/bg3.jpg')}}" ></div>
                   <div class="container">
                      <div class="row">
@@ -434,7 +434,7 @@
                         </div>
                      </div>
                   </div>
-               </section>
+               </section> --}}
                <!-- End Clients --> 
 @endsection()
 
