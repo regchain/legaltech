@@ -5,34 +5,7 @@
 @endsection
 
 @section('content')
-                  <!-- Start Side Menu -->
-                  <div class="side dark-bg">
-                     <a href="#" class="close-side"><i class="fa fa-times"></i></a>
-                     <div class="widget">
-                        <p class="text-center my-3"><img src="{{ asset('images/brand/logo-white.png')}}" class="logo" alt="" /></p>
-                        <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                     </div>
-                     <div class="widget">
-                        <h6 class="text-uppercase">OFFICE 01</h6>
-                        <ul class="list-unstyled address">
-                           <li><i class="lnr lnr-map-marker"></i><span>387 Madison Ave, New York, NY 10118</span></li>
-                           <li><i class="lnr lnr-envelope"></i><span>support@yourname.com</span></li>
-                           <li><i class="icon-phone"></i><span>(+91) 123-456-7890</span></li>
-                        </ul>
-                     </div>
-                     <div class="widget">
-                        <div class="social-icons animated color">
-                           <ul class="clearfix">
-                              <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                              <li class="social-twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                              <li class="social-vimeo"><a href="#"><i class="fa fa-vimeo"></i></a></li>
-                              <li class="social-youtube"><a href="#"><i class="fa fa-youtube"></i></a></li>
-                              <li class="social-instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
-                           </ul>
-                        </div>
-                     </div>
-                  </div>
-                  <!-- End Side Menu -->
+                  @include('layouts.main.menu.sidemenu')
                </nav>
                <!-- End Navigation -->
                <!-- Banner -->
