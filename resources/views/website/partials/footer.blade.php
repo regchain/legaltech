@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-sm-4 text-left">
                 <a href="/" class="logo" title="{{ config('app.name') }}">
-                    <img src="/images/logo-w.png">
+                    <img src="/images/brand/logo-text-white.png">
                 </a>
                 <hr>
                 <small>

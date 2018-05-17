@@ -6,7 +6,7 @@
  */
 
 :root {
-  --blue: #007bff;
+  --blue: #050d25;
   --indigo: #6610f2;
   --purple: #82427a;
   --pink: #e83e8c;
@@ -93,12 +93,15 @@ hr {
   overflow: visible;
 }
 
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
+ font-family: "Fjalla One";
+ font-weight: 400;
   margin-top: 0;
   margin-bottom: 0.5rem;
 }
@@ -5320,6 +5323,12 @@ tbody.collapse.show {
   border-radius: 0.25rem;
 }
 
+.page-header {
+ font-family: "Fjalla One";
+ font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
 .page-link {
   position: relative;
   display: block;

@@ -16,7 +16,7 @@
         <meta property="fb:app_id" name="fb:app_id" content="{{ config('app.facebook_id') }}"/>
         <meta property="og:title" name="og:title" content="{{ isset($title) ? $title : config('app.title') }}">
         <meta property="og:description" name="og:description" content="{{ isset($description) ? $description : config('app.description') }}">
-        <meta property="og:image" name="og:image" content="{{ config('app.url') }}{{ isset($image) ? $image : '/images/logo.png' }}">
+        <meta property="og:image" name="og:image" content="{{ config('app.url') }}{{ isset($image) ? $image : '/images/brand/logo-text-white.png' }}">
 
         @include ('partials.favicons')
 
@@ -24,8 +24,11 @@
 
         @if(config('app.env') != 'local')
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+            
         @endif
 
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
         <link rel="stylesheet" href="/css/website.css?v=2">
 
         @yield('styles')
