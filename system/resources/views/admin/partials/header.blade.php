@@ -2,8 +2,8 @@
 <header class="main-header">
     <h3 class="hidden">Logo</h3>
     <a href="/" class="logo">
-        <span class="logo-mini"><img src="/images/logo-mini.png" style="width: 100%;"/></span>
-        <span class="logo-lg"><img src="/images/logo.png" style="width: 100%;"/></span>
+        <span class="logo-mini"><img src="{{ asset('/images/brand/logo-white-small.png')}}" style="width: 100%;"/></span>
+        <span class="logo-lg"><img src="{{ asset('/images/brand/logo-text-white.png')}}" style="width: 100%;"/></span>
     </a>
 
     <h3 class="hidden">Header Top Actions</h3>
