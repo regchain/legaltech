@@ -3,69 +3,97 @@
 namespace App\Http\Controllers\Auth;
 
 use App\User;
-use App\Http\Controllers\Controller;
-use Illuminate\Support\Facades\Validator;
-use Illuminate\Foundation\Auth\RegistersUsers;
+use Carbon\Carbon;
+use App\Models\UserInvite;
+use Illuminate\Http\Request;
+use App\Events\UserRegistered;
+use App\Notifications\UserConfirmedAccount;
 
-class RegisterController extends Controller
+class RegisterController extends AuthController
 {
-    /*
-    |--------------------------------------------------------------------------
-    | Register Controller
-    |--------------------------------------------------------------------------
-    |
-    | This controller handles the registration of new users as well as their
-    | validation and creation. By default this controller uses a trait to
-    | provide this functionality without requiring any additional code.
-    |
-    */
-
-    use RegistersUsers;
-
     /**
-     * Where to redirect users after registration.
+     * Show the application registration form.
      *
-     * @var string
+     * @param $token
+     * @return \Illuminate\Http\Response
      */
-    protected $redirectTo = '/home';
-
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
+    public function showRegistrationForm($token = null)
     {
-        $this->middleware('guest');
+        $this->showPageBanner = false;
+
+        // check if token is valid
+        $userInvite = UserInvite::whereToken($token)->whereNull('claimed_at')->first();
+
+        return $this->view('register')->with('userInvite', $userInvite);
     }
 
     /**
-     * Get a validator for an incoming registration request.
+     * Handle a registration request for the application.
      *
-     * @param  array  $data
-     * @return \Illuminate\Contracts\Validation\Validator
+     * @param  \Illuminate\Http\Request $request
+     * @return \Illuminate\Http\Response
      */
-    protected function validator(array $data)
+    public function register(Request $request)
     {
-        return Validator::make($data, [
-            'name' => 'required|string|max:255',
-            'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:6|confirmed',
+        $attributes = request()->validate(User::$rules);
+
+        // create new user
+        $user = User::create([
+            'firstname'          => $attributes['firstname'],
+            'lastname'           => $attributes['lastname'],
+            'email'              => $attributes['email'],
+            'password'           => bcrypt($attributes['password']),
+            'confirmation_token' => 'confirmation_token', // will generate a new unique token
         ]);
+
+        // add user roles
+        // send email
+        // log activity
+        event(new UserRegistered($user, input('token')));
+
+        alert()->success('Thank you,',
+            'your account has been created, please check your inbox for further instructions.');
+
+        log_activity('Register', $user->fullname . ' registered.');
+
+        return redirect(route('login'));
     }
 
     /**
-     * Create a new user instance after a valid registration.
+     * User click on register confirmation link in mail
      *
-     * @param  array  $data
-     * @return \App\User
+     * @param $token
+     * @return \Illuminate\Http\RedirectResponse|\Illuminate\Routing\Redirector
      */
-    protected function create(array $data)
+    public function confirmAccount($token)
     {
-        return User::create([
-            'name' => $data['name'],
-            'email' => $data['email'],
-            'password' => bcrypt($data['password']),
-        ]);
+        $user = User::where('confirmation_token', $token)->first();
+        if ($user) {
+            if ($user->confirmed_at && strlen($user->confirmed_at) > 6) {
+                alert()->info('Account is Active',
+                    'Your account is already active, please try to sign in.');
+            }
+            else {
+                // confirm / activate user
+                $user->confirmation_token = null;
+                $user->confirmed_at = Carbon::now();
+                $user->update();
+
+                // notify
+                $user->notify(new UserConfirmedAccount());
+
+                alert()->success('Success',
+                    '<br/>Congratulations, your account has been activated. Please Sign In below.');
+
+                log_activity('User Confirmed', $user->fullname . ' confirmed their account', $user);
+            }
+        }
+        else {
+            alert()->error('Whoops!', 'Sorry, the token does not exist.');
+
+            log_activity('User Confirmed', 'INVALID TOKEN');
+        }
+
+        return redirect(route('login'));
     }
 }
