@@ -29,7 +29,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet"> 
-        <link rel="stylesheet" href="/css/website.css?v=2">
+        <link rel="stylesheet" href="{{ asset('/css/website.css?v=2')}}">
 
         @yield('styles')
     </head>
@@ -62,7 +62,7 @@
             <i class="fa fa-angle-up"></i>
         </a>
 
-        <script type="text/javascript" charset="utf-8" src="/js/website.js?v=2"></script>
+        <script type="text/javascript" charset="utf-8" src="{{ asset('/js/website.js?v=2')}}"></script>
 
         @yield('scripts')
 
