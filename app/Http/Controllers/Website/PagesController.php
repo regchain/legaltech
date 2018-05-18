@@ -21,6 +21,11 @@ class PagesController extends WebsiteController
      * @param null $slug3
      * @return Response
      */
+    
+    public function welcome()
+    {
+        return view('website.welcome');
+    }
     public function index($slug1, $slug2 = null, $slug3 = null)
     {
         $url = $this->getCurrentUrl();
