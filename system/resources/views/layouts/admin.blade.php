@@ -17,7 +17,10 @@
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
         @endif
 
-        <link rel="stylesheet" href="/css/admin.css?v=1">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Tajawal:400,500,800" rel="stylesheet"> 
+        
+        <link rel="stylesheet" href="{{ asset('/css/admin.css?v=1')}}">
+
         @yield('styles')
     </head>
 
@@ -53,7 +56,7 @@
                     <div class="col-sm-6 text-right">
                         <small>
                             Developed by
-                            <a href="https://github.com/bpocallaghan" target="_blank">{!! config('app.author') !!}</a>
+                            <a href="http://soerojo.com" target="_blank">{!! config('app.author') !!}</a>
                         </small>
                     </div>
                 </div>
@@ -63,7 +66,7 @@
         @include('notify::notify')
         @include('admin.partials.modals')
 
-        <script type="text/javascript" charset="utf-8" src="/js/admin.js?v=1"></script>
+        <script type="text/javascript" charset="utf-8" src="{{ asset('/js/admin.js?v=1')}}"></script>
         <script type="text/javascript" charset="utf-8">
             $(document).ready(function () {
                 initAdmin();
