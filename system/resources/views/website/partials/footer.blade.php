@@ -3,11 +3,11 @@
         <div class="row">
             <div class="col-sm-4 text-left">
                 <a href="/" class="logo" title="{{ config('app.name') }}">
-                    <img src="{{ asset('/images/brand/logo-text-white.png')}}">
+                    <img src="/images/logo-w.png">
                 </a>
                 <hr>
                 <small>
-                    Website by <a href="https://github.com/bpocallaghan" target="_blank">{!! env('APP_AUTHOR') !!}</a>
+                    Website by <a href="http://www.soerojo.com" target="_blank">{!! env('APP_AUTHOR') !!}</a>
                 </small>
             </div>
             <div class="col-sm-8 text-center">

@@ -1,7 +1,7 @@
 <div class="container">
     <div class="row p-3 d-flex align-items-center">
         <a href="/" class="logo" title="{{ config('app.name') }}">
-            <img src="{{ asset('/images/brand/logo-text-black.png')}}">
+            <img src="/images/logo.png">
         </a>
 
         {{--<div style="width: 20%; max-width: 246px; min-width: 120px">
