@@ -67,7 +67,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://legaltech.co.id/public/'),
+    'url' => env('APP_URL', 'http://localhost'),
 
     /*
     |--------------------------------------------------------------------------
