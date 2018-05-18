@@ -19,7 +19,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i|Tajawal:400,500,800" rel="stylesheet"> 
         
-        <link rel="stylesheet" href="/css/admin.css?v=1">
+        <link rel="stylesheet" href="{{ asset('{{ asset('/css/admin.css?v=1')}}')}}">
 
         @yield('styles')
     </head>
@@ -66,7 +66,7 @@
         @include('notify::notify')
         @include('admin.partials.modals')
 
-        <script type="text/javascript" charset="utf-8" src="/js/admin.js?v=1"></script>
+        <script type="text/javascript" charset="utf-8" src="{{ asset('{{ asset('/js/admin.js?v=1')}}')}}"></script>
         <script type="text/javascript" charset="utf-8">
             $(document).ready(function () {
                 initAdmin();

@@ -2,8 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4 text-left">
-                <a href="/" class="logo" title="{{ config('app.name') }}">
-                    <img src="/images/logo-w.png">
+                <a href="{{ url('/')}}" class="logo" title="{{ config('app.name') }}">
+                    <img src="{{ asset('/images/logo-w.png')}}">
                 </a>
                 <hr>
                 <small>
