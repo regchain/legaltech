@@ -33,9 +33,9 @@
                         <div class="container">
                            <div class="row">
                               <div class="col-md-8 col-md-offset-2 text-center">
-                                 <h3 class="title">Simplified Communication</h3>
+                                 <h3 class="title">Analytics Engine</h3>
                                  <div class="slide-content">
-                                    <p>A large part of practice management is making sure that queries get answered promptly. Your staff needs constant updates and clarification on matter details. As do your clients.</p>
+                                    <p>A combined Apache Spark and Apache Hadoop service for creating analytics applications</p>
                                     <a href="#" class="btn btn-default btn-radius btn-outline white-border white-text fill-white">Read More</a>&nbsp;&nbsp; <a href="#" class="btn btn-default btn-radius theme-bg white-text">Purchase Now <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a> 
                                  </div>
                               </div>
@@ -49,9 +49,9 @@
                         <div class="container">
                            <div class="row">
                               <div class="col-md-8">
-                                 <h3 class="title">Smart Notifications & Reminders</h3>
+                                 <h3 class="title">Decision Optimization</h3>
                                  <div class="slide-content">
-                                    <p>Be notified on-time on important events and actions.</p><p> Never again miss a task deliverable or an appointment with our Smart Email or SMS reminders.</p>
+                                    <p>A self-service decision environment designed to harness optimization-based support</p>
                                     <a href="#" class="btn btn-default btn-radius btn-outline white-border white-text fill-white">Read More</a>&nbsp;&nbsp; <a href="#" class="btn btn-default btn-radius theme-bg white-text">Purchase Now <i class="fa fa-cart-arrow-down" aria-hidden="true"></i></a> 
                                  </div>
                               </div>
