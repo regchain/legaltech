@@ -1,76 +1,20 @@
 <?php return array (
-  'laravel/tinker' => 
+  'barryvdh/laravel-debugbar' => 
   array (
     'providers' => 
     array (
-      0 => 'Laravel\\Tinker\\TinkerServiceProvider',
-    ),
-  ),
-  'fideloper/proxy' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
-    ),
-  ),
-  'bpocallaghan/faq' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Bpocallaghan\\FAQ\\FAQServiceProvider',
-    ),
-  ),
-  'bpocallaghan/impersonate' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Bpocallaghan\\Impersonate\\ImpersonateServiceProvider',
-    ),
-  ),
-  'bpocallaghan/corporate' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Bpocallaghan\\Corporate\\CorporateServiceProvider',
-    ),
-  ),
-  'bpocallaghan/locations' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Bpocallaghan\\Locations\\LocationsServiceProvider',
-    ),
-  ),
-  'bpocallaghan/changelogs' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Bpocallaghan\\Changelogs\\ChangelogsServiceProvider',
-    ),
-  ),
-  'bpocallaghan/testimonials' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Bpocallaghan\\Testimonials\\TestimonialsServiceProvider',
-    ),
-  ),
-  'bpocallaghan/subscriptions' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Bpocallaghan\\Subscriptions\\SubscriptionsServiceProvider',
-    ),
-  ),
-  'intervention/image' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Intervention\\Image\\ImageServiceProvider',
+      0 => 'Barryvdh\\Debugbar\\ServiceProvider',
     ),
     'aliases' => 
     array (
-      'Image' => 'Intervention\\Image\\Facades\\Image',
+      'Debugbar' => 'Barryvdh\\Debugbar\\Facade',
+    ),
+  ),
+  'barryvdh/laravel-ide-helper' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider',
     ),
   ),
   'bpocallaghan/alert' => 
@@ -84,6 +28,48 @@
       'Alert' => 'Bpocallaghan\\Alert\\Facades\\Alert',
     ),
   ),
+  'bpocallaghan/changelogs' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Bpocallaghan\\Changelogs\\ChangelogsServiceProvider',
+    ),
+  ),
+  'bpocallaghan/corporate' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Bpocallaghan\\Corporate\\CorporateServiceProvider',
+    ),
+  ),
+  'bpocallaghan/faq' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Bpocallaghan\\FAQ\\FAQServiceProvider',
+    ),
+  ),
+  'bpocallaghan/generators' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Bpocallaghan\\Generators\\GeneratorsServiceProvider',
+    ),
+  ),
+  'bpocallaghan/impersonate' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Bpocallaghan\\Impersonate\\ImpersonateServiceProvider',
+    ),
+  ),
+  'bpocallaghan/locations' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Bpocallaghan\\Locations\\LocationsServiceProvider',
+    ),
+  ),
   'bpocallaghan/notify' => 
   array (
     'providers' => 
@@ -93,6 +79,52 @@
     'aliases' => 
     array (
       'Alert' => 'Bpocallaghan\\Notify\\Facades\\Notify',
+    ),
+  ),
+  'bpocallaghan/subscriptions' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Bpocallaghan\\Subscriptions\\SubscriptionsServiceProvider',
+    ),
+  ),
+  'bpocallaghan/testimonials' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Bpocallaghan\\Testimonials\\TestimonialsServiceProvider',
+    ),
+  ),
+  'fideloper/proxy' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Fideloper\\Proxy\\TrustedProxyServiceProvider',
+    ),
+  ),
+  'intervention/image' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Intervention\\Image\\ImageServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'Image' => 'Intervention\\Image\\Facades\\Image',
+    ),
+  ),
+  'laravel/tinker' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Tinker\\TinkerServiceProvider',
+    ),
+  ),
+  'nunomaduro/collision' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
     ),
   ),
   'spatie/laravel-analytics' => 
@@ -115,38 +147,6 @@
     'aliases' => 
     array (
       'DataTables' => 'Yajra\\DataTables\\Facades\\DataTables',
-    ),
-  ),
-  'nunomaduro/collision' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider',
-    ),
-  ),
-  'bpocallaghan/generators' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Bpocallaghan\\Generators\\GeneratorsServiceProvider',
-    ),
-  ),
-  'barryvdh/laravel-debugbar' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Barryvdh\\Debugbar\\ServiceProvider',
-    ),
-    'aliases' => 
-    array (
-      'Debugbar' => 'Barryvdh\\Debugbar\\Facade',
-    ),
-  ),
-  'barryvdh/laravel-ide-helper' => 
-  array (
-    'providers' => 
-    array (
-      0 => 'Barryvdh\\LaravelIdeHelper\\IdeHelperServiceProvider',
     ),
   ),
 );

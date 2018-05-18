@@ -1,0 +1,8 @@
+/node_modules
+/hot
+/storage
+/storage/*.key
+/vendor
+/.idea
+/.vagrant
+
