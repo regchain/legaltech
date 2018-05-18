@@ -1,8 +1,0 @@
-
-RewriteEngine on
-RewriteCond %{HTTP_HOST} ^legaltech\.co\.id$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.legaltech\.co\.id$
-RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
-RewriteCond %{REQUEST_URI} !^/\.well-known/pki-validation/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
-RewriteRule ^/?$ "http\:\/\/legaltech\.co\.id\/public\/" [R=301,L]
-
