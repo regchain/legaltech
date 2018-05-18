@@ -6,34 +6,34 @@
  */
 
 :root {
-  --blue: #050d25;
-  --indigo: #6610f2;
+  --blue: #2791d8;
+  --indigo: #5c41b3;
   --purple: #82427a;
   --pink: #e83e8c;
   --red: #dc3545;
   --orange: #fd7e14;
   --yellow: #ffc107;
   --green: #28a745;
-  --teal: #20c997;
+  --teal: #008571;
   --cyan: #17a2b8;
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #255d78;
-  --secondary: #82427a;
+  --primary: #2791d8;
+  --secondary: #5c41b3;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
   --danger: #dc3545;
   --light: #f7f7f7;
   --dark: #222;
-  --grey: #adb5bd;
+  --grey: #264a60;
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-sans-serif: Tajawal, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
@@ -73,13 +73,13 @@ section {
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 1rem;
+  font-family: Tajawal, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji";
+  font-size: 0.8rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #212529;
+  color: #0b1a15;
   text-align: left;
-  background-color: #fff;
+  background-color: #f5f5f5;
 }
 
 [tabindex="-1"]:focus {
@@ -93,17 +93,18 @@ hr {
   overflow: visible;
 }
 
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
- font-family: "Fjalla One";
- font-weight: 400;
+.page-header {
+  font-family: "Yanone Kaffeesatz", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
   margin-top: 0;
   margin-bottom: 0.5rem;
+  font-family: 'Yanone Kaffeesatz';
 }
 
 p {
@@ -5048,6 +5049,7 @@ tbody.collapse.show {
 
 .card-title {
   margin-bottom: 0.75rem;
+  font-family: "Yanone Kaffeesatz";
 }
 
 .card-subtitle {
@@ -5323,12 +5325,6 @@ tbody.collapse.show {
   border-radius: 0.25rem;
 }
 
-.page-header {
- font-family: "Fjalla One";
- font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
-}
 .page-link {
   position: relative;
   display: block;
@@ -14837,6 +14833,7 @@ a.text-grey:focus {
 #faq-box .faq-category {
     font-size: 27px;
     margin: 20px 20px 20px 0px;
+    font-family: "Yanone Kaffeesatz";
 }
 
 #faq-box .accordion-toggle {
@@ -15472,9 +15469,11 @@ footer ul a:before {
 }
 
 .side-heading {
-    font-size: 20px;
+    font-size: 1.5rem;
     margin-bottom: 10px;
-    margin-top: 0
+    margin-top: 0;
+    font-family: "Yanone Kaffeesatz";
+    font-weight: 400;
 }
 
 .side .card ul {
@@ -15509,6 +15508,8 @@ footer ul a:before {
 
 .content .body h2, .content .body h3, .content .body h4 {
     font-weight: bold;
+    font-family: "Yanone Kaffeesatz";
+    color: teal;
 }
 
 .content .body h2 {
@@ -15537,7 +15538,12 @@ footer ul a:before {
 .news .media-heading {
     /*text-overflow: ellipsis;*/
     overflow: hidden;
-    white-space: nowrap
+    white-space: nowrap;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-family: "Yanone Kaffeesatz";
+    font-weight: 400;
 }
 
 .news .media {
