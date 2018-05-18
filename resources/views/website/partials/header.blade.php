@@ -1,11 +1,11 @@
 <div class="container">
     <div class="row p-3 d-flex align-items-center">
-        <a href="{{ url('/')}}" class="logo" title="{{ config('app.name') }}">
-            <img src="{{ asset('/images/logo.png')}}">
+        <a href="/" class="logo" title="{{ config('app.name') }}">
+            <img src="/images/logo.png">
         </a>
 
         {{--<div style="width: 20%; max-width: 246px; min-width: 120px">
-            <a href="{{ url('/')}}" class="logo" title="{{ config('app.name') }}">
+            <a href="/" class="logo" title="{{ config('app.name') }}">
                 @svg('logo', ['id' => 'Layer-1'])
             </a>
         </div>--}}

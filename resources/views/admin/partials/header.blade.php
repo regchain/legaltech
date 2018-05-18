@@ -1,9 +1,9 @@
 <h2 class="hidden">Header</h2>
 <header class="main-header">
     <h3 class="hidden">Logo</h3>
-    <a href="{{ url('/')}}" class="logo">
-        <span class="logo-mini"><img src="{{ asset('/images/brand/logo-white-small.png')}}" style="width: 100%;"/></span>
-        <span class="logo-lg"><img src="{{ asset('/images/brand/logo-text-white.png')}}" style="width: 100%;"/></span>
+    <a href="/" class="logo">
+        <span class="logo-mini"><img src="/images/logo-mini.png" style="width: 100%;"/></span>
+        <span class="logo-lg"><img src="/images/logo-w.png" style="width: 100%;"/></span>
     </a>
 
     <h3 class="hidden">Header Top Actions</h3>

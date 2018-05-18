@@ -38,8 +38,7 @@ Route::group(['namespace' => 'Website'], function () {
     Route::get('/', 'HomeController@index');
     Route::get('/contact-us', 'ContactUsController@index');
     Route::post('/contact-us/submit', 'ContactUsController@feedback');
-    
-    Route::get('/welcome', 'PagesController@welcome');
+
     // gallery
     Route::get('/gallery', 'GalleryController@index');
     Route::get('/gallery/{albumSlug}', 'GalleryController@showAlbum');

@@ -28,7 +28,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:200,300,400,700|Tajawal:400,500,800" rel="stylesheet"> 
         
-        <link rel="stylesheet" href="{{ asset('/css/website.css?v=2')}}">
+        <link rel="stylesheet" href="/css/website.css?v=2">
 
         @yield('styles')
     </head>
@@ -61,7 +61,7 @@
             <i class="fa fa-angle-up"></i>
         </a>
 
-        <script type="text/javascript" charset="utf-8" src="{{ asset('/js/website.js?v=2')}}"></script>
+        <script type="text/javascript" charset="utf-8" src="/js/website.js?v=2"></script>
 
         @yield('scripts')
 
