@@ -45,7 +45,7 @@ return [
         |
         */
         
-        'skin' => 'blue-light',
+        'skin' => 'red-light',
         
         /*
         |--------------------------------------------------------------------------
@@ -58,7 +58,7 @@ return [
             |
             */
             
-            'layout' => null,
+            'layout' => 'boxed',
             
             /*
             |--------------------------------------------------------------------------
@@ -115,39 +115,47 @@ return [
                     'can'  => 'manage-blog',
                 ],
                 [
-                    'text'        => 'Pages',
-                    'url'         => 'admin/pages',
-                    'icon'        => 'file',
-                    'label'       => 4,
-                    'label_color' => 'success',
+                    'text'        => 'LegalTech',
+                    'url'         => 'welcome',
+                    'icon'        => 'home',
                 ],
-                'BIDANG TEKNIS',
+                'e-KEJAKSAAN',
+                [
+                    'text'        => 'DASHBOARD',
+                    'url'         => 'home',
+                    'icon'        => 'dashboard',
+                ],
                 [
                     'text'    => 'Pembinaan',
-                    'icon'    => 'share',
+                    'icon'    => 'graduation-cap',
                     'submenu' => [
                         [
-                            'text' => 'Level One',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'Level One',
+                            'text'    => 'Apps 1',
                             'url'     => '#',
                             'submenu' => [
                                 [
-                                    'text' => 'Level Two',
+                                    'text' => 'Dashboard',
+                                    'url'  => 'bin/apps1/home',
+                                    'icon' => 'dashboard',
+                                ],
+                                [
+                                    'text' => 'Page 1',
                                     'url'  => '#',
                                 ],
                                 [
-                                    'text'    => 'Level Two',
+                                    'text'    => 'Progress 1',
                                     'url'     => '#',
                                     'submenu' => [
                                         [
-                                            'text' => 'Level Three',
+                                            'text' => 'List',
                                             'url'  => '#',
                                         ],
                                         [
-                                            'text' => 'Level Three',
+                                            'text' => 'Edit',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Process',
                                             'url'  => '#',
                                         ],
                                     ],
@@ -155,37 +163,69 @@ return [
                             ],
                         ],
                         [
-                            'text' => 'Level One',
-                            'url'  => '#',
+                            'text'    => 'Apps 2',
+                            'url'     => '#',
+                            'submenu' => [
+                                [
+                                    'text' => 'Dashboard',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text' => 'Page 1',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text'    => 'Progress 1',
+                                    'url'     => '#',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'List',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Edit',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Process',
+                                            'url'  => '#',
+                                        ],
+                                    ],
+                                ],
+                            ],
                         ],
                     ],
                 ],
                 [
                     'text'    => 'Intelijen',
-                    'icon'    => 'share',
+                    'icon'    => 'user-secret',
                     'submenu' => [
                         [
-                            'text' => 'Level One',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'Level One',
+                            'text'    => 'Apps 1',
                             'url'     => '#',
                             'submenu' => [
                                 [
-                                    'text' => 'Level Two',
+                                    'text' => 'Dashboard',
                                     'url'  => '#',
                                 ],
                                 [
-                                    'text'    => 'Level Two',
+                                    'text' => 'Page 1',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text'    => 'Progress 1',
                                     'url'     => '#',
                                     'submenu' => [
                                         [
-                                            'text' => 'Level Three',
+                                            'text' => 'List',
                                             'url'  => '#',
                                         ],
                                         [
-                                            'text' => 'Level Three',
+                                            'text' => 'Edit',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Process',
                                             'url'  => '#',
                                         ],
                                     ],
@@ -193,37 +233,69 @@ return [
                             ],
                         ],
                         [
-                            'text' => 'Level One',
-                            'url'  => '#',
+                            'text'    => 'Apps 2',
+                            'url'     => '#',
+                            'submenu' => [
+                                [
+                                    'text' => 'Dashboard',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text' => 'Page 1',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text'    => 'Progress 1',
+                                    'url'     => '#',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'List',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Edit',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Process',
+                                            'url'  => '#',
+                                        ],
+                                    ],
+                                ],
+                            ],
                         ],
                     ],
                 ],
                 [
                     'text'    => 'Pidana Umum',
-                    'icon'    => 'share',
+                    'icon'    => 'gavel',
                     'submenu' => [
                         [
-                            'text' => 'Level One',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'Level One',
+                            'text'    => 'Apps 1',
                             'url'     => '#',
                             'submenu' => [
                                 [
-                                    'text' => 'Level Two',
+                                    'text' => 'Dashboard',
                                     'url'  => '#',
                                 ],
                                 [
-                                    'text'    => 'Level Two',
+                                    'text' => 'Page 1',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text'    => 'Progress 1',
                                     'url'     => '#',
                                     'submenu' => [
                                         [
-                                            'text' => 'Level Three',
+                                            'text' => 'List',
                                             'url'  => '#',
                                         ],
                                         [
-                                            'text' => 'Level Three',
+                                            'text' => 'Edit',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Process',
                                             'url'  => '#',
                                         ],
                                     ],
@@ -231,37 +303,69 @@ return [
                             ],
                         ],
                         [
-                            'text' => 'Level One',
-                            'url'  => '#',
+                            'text'    => 'Apps 2',
+                            'url'     => '#',
+                            'submenu' => [
+                                [
+                                    'text' => 'Dashboard',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text' => 'Page 1',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text'    => 'Progress 1',
+                                    'url'     => '#',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'List',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Edit',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Process',
+                                            'url'  => '#',
+                                        ],
+                                    ],
+                                ],
+                            ],
                         ],
                     ],
                 ],
                 [
                     'text'    => 'Pidana Khusus',
-                    'icon'    => 'share',
+                    'icon'    => 'money',
                     'submenu' => [
                         [
-                            'text' => 'Level One',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'Level One',
+                            'text'    => 'Apps 1',
                             'url'     => '#',
                             'submenu' => [
                                 [
-                                    'text' => 'Level Two',
+                                    'text' => 'Dashboard',
                                     'url'  => '#',
                                 ],
                                 [
-                                    'text'    => 'Level Two',
+                                    'text' => 'Page 1',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text'    => 'Progress 1',
                                     'url'     => '#',
                                     'submenu' => [
                                         [
-                                            'text' => 'Level Three',
+                                            'text' => 'List',
                                             'url'  => '#',
                                         ],
                                         [
-                                            'text' => 'Level Three',
+                                            'text' => 'Edit',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Process',
                                             'url'  => '#',
                                         ],
                                     ],
@@ -269,37 +373,69 @@ return [
                             ],
                         ],
                         [
-                            'text' => 'Level One',
-                            'url'  => '#',
+                            'text'    => 'Apps 2',
+                            'url'     => '#',
+                            'submenu' => [
+                                [
+                                    'text' => 'Dashboard',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text' => 'Page 1',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text'    => 'Progress 1',
+                                    'url'     => '#',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'List',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Edit',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Process',
+                                            'url'  => '#',
+                                        ],
+                                    ],
+                                ],
+                            ],
                         ],
                     ],
                 ],
                 [
                     'text'    => 'Perdata & TUN',
-                    'icon'    => 'share',
+                    'icon'    => 'university',
                     'submenu' => [
                         [
-                            'text' => 'Level One',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'Level One',
+                            'text'    => 'Apps 1',
                             'url'     => '#',
                             'submenu' => [
                                 [
-                                    'text' => 'Level Two',
+                                    'text' => 'Dashboard',
                                     'url'  => '#',
                                 ],
                                 [
-                                    'text'    => 'Level Two',
+                                    'text' => 'Page 1',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text'    => 'Progress 1',
                                     'url'     => '#',
                                     'submenu' => [
                                         [
-                                            'text' => 'Level Three',
+                                            'text' => 'List',
                                             'url'  => '#',
                                         ],
                                         [
-                                            'text' => 'Level Three',
+                                            'text' => 'Edit',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Process',
                                             'url'  => '#',
                                         ],
                                     ],
@@ -307,37 +443,115 @@ return [
                             ],
                         ],
                         [
-                            'text' => 'Level One',
-                            'url'  => '#',
+                            'text'    => 'Apps 2',
+                            'url'     => '#',
+                            'submenu' => [
+                                [
+                                    'text' => 'Dashboard',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text' => 'Page 1',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text'    => 'Progress 1',
+                                    'url'     => '#',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'List',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Edit',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Process',
+                                            'url'  => '#',
+                                        ],
+                                    ],
+                                ],
+                            ],
                         ],
                     ],
                 ],
                 [
                     'text'    => 'Pengawasan',
-                    'icon'    => 'share',
+                    'icon'    => 'binoculars',
+                    'label'       => 'new',
+                    'label_color' => 'info',
                     'submenu' => [
                         [
-                            'text' => 'Level One',
-                            'url'  => '#',
-                        ],
-                        [
-                            'text'    => 'Level One',
+                            'text'    => 'eLAPDU',
+                            'icon'    => 'bullhorn',
                             'url'     => '#',
                             'submenu' => [
                                 [
-                                    'text' => 'Level Two',
-                                    'url'  => '#',
+                                    'text' => 'Dashboard',
+                                    'url'  => 'was/elapdu/operator',
+                                    'icon' => 'dashboard',
                                 ],
                                 [
-                                    'text'    => 'Level Two',
-                                    'url'     => '#',
+                                    'text' => 'Pelapor',
+                                    'url'  => 'was/elapdu/pelapor',
+                                    'icon' => 'user',
+                                ],
+                                [
+                                    'text' => 'Pemeriksaan',
+                                    'url'  => '#',
+                                    'icon' => 'balance-scale',
                                     'submenu' => [
                                         [
-                                            'text' => 'Level Three',
+                                            'text' => 'Pengaduan Baru',
+                                            'url'  => '#',
+                                            'icon' => 'commenting',
+                                        ],
+                                        [
+                                            'text' => 'Klarifikasi',
+                                            'url'  => '#',
+                                            'icon' => 'comments-o',
+                                        ],
+                                        [
+                                            'text' => 'Inspeksi Kasus',
+                                            'url'  => '#',
+                                            'icon' => 'search-plus',
+                                        ],
+                                        [
+                                            'text' => 'Usulan Hukum',
+                                            'url'  => '#',
+                                            'icon' => 'balance-scale',
+                                        ],
+                                        [
+                                            'text' => 'Putusan Hukuman',
+                                            'url'  => '#',
+                                            'icon' => 'gavel',
+                                        ],
+                                    ],
+                                ],
+                                [
+                                    'text'    => 'Terlapor',
+                                    'url'     => '#',
+                                    'icon' => 'user',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'Pengaduan Baru',
                                             'url'  => '#',
                                         ],
                                         [
-                                            'text' => 'Level Three',
+                                            'text' => 'Klarifikasi',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Inspeksi Kasus',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Usulan Hukum',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Putusan Hukuman',
                                             'url'  => '#',
                                         ],
                                     ],
@@ -345,8 +559,36 @@ return [
                             ],
                         ],
                         [
-                            'text' => 'Level One',
-                            'url'  => '#',
+                            'text'    => 'Apps 2',
+                            'url'     => '#',
+                            'submenu' => [
+                                [
+                                    'text' => 'Dashboard',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text' => 'Page 1',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text'    => 'Progress 1',
+                                    'url'     => '#',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'List',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Edit',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Process',
+                                            'url'  => '#',
+                                        ],
+                                    ],
+                                ],
+                            ],
                         ],
                     ],
                 ],

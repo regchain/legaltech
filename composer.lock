@@ -644,7 +644,11 @@
                 "framework",
                 "laravel"
             ],
+<<<<<<< HEAD
             "time": "2018-05-22 14:55:57"
+=======
+            "time": "2018-05-22T14:55:57+00:00"
+>>>>>>> 9739f49b526d6c42fdc969edd4c422690e98b171
         },
         {
             "name": "laravel/tinker",
@@ -1237,7 +1241,11 @@
                 "interactive",
                 "shell"
             ],
+<<<<<<< HEAD
             "time": "2018-05-22 06:48:07"
+=======
+            "time": "2018-05-22T06:48:07+00:00"
+>>>>>>> 9739f49b526d6c42fdc969edd4c422690e98b171
         },
         {
             "name": "ramsey/uuid",
@@ -1440,7 +1448,11 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2018-05-16 09:05:32"
+=======
+            "time": "2018-05-16T09:05:32+00:00"
+>>>>>>> 9739f49b526d6c42fdc969edd4c422690e98b171
         },
         {
             "name": "symfony/css-selector",
@@ -1493,7 +1505,11 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2018-05-11 15:58:37"
+=======
+            "time": "2018-05-11T15:58:37+00:00"
+>>>>>>> 9739f49b526d6c42fdc969edd4c422690e98b171
         },
         {
             "name": "symfony/debug",
@@ -1549,7 +1565,11 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2018-05-16 09:05:32"
+=======
+            "time": "2018-05-16T09:05:32+00:00"
+>>>>>>> 9739f49b526d6c42fdc969edd4c422690e98b171
         },
         {
             "name": "symfony/event-dispatcher",
@@ -1661,7 +1681,11 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2018-05-16 09:05:32"
+=======
+            "time": "2018-05-16T09:05:32+00:00"
+>>>>>>> 9739f49b526d6c42fdc969edd4c422690e98b171
         },
         {
             "name": "symfony/http-foundation",
@@ -1714,7 +1738,11 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2018-05-16 09:05:32"
+=======
+            "time": "2018-05-16T09:05:32+00:00"
+>>>>>>> 9739f49b526d6c42fdc969edd4c422690e98b171
         },
         {
             "name": "symfony/http-kernel",
@@ -1801,7 +1829,11 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2018-05-21 14:02:31"
+=======
+            "time": "2018-05-21T14:02:31+00:00"
+>>>>>>> 9739f49b526d6c42fdc969edd4c422690e98b171
         },
         {
             "name": "symfony/polyfill-ctype",
@@ -1856,7 +1888,11 @@
                 "polyfill",
                 "portable"
             ],
+<<<<<<< HEAD
             "time": "2018-04-30 19:57:29"
+=======
+            "time": "2018-04-30T19:57:29+00:00"
+>>>>>>> 9739f49b526d6c42fdc969edd4c422690e98b171
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -2019,7 +2055,11 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2018-05-16 09:05:32"
+=======
+            "time": "2018-05-16T09:05:32+00:00"
+>>>>>>> 9739f49b526d6c42fdc969edd4c422690e98b171
         },
         {
             "name": "symfony/routing",
@@ -2097,7 +2137,11 @@
                 "uri",
                 "url"
             ],
+<<<<<<< HEAD
             "time": "2018-05-16 14:21:07"
+=======
+            "time": "2018-05-16T14:21:07+00:00"
+>>>>>>> 9739f49b526d6c42fdc969edd4c422690e98b171
         },
         {
             "name": "symfony/translation",
@@ -2165,7 +2209,11 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
+<<<<<<< HEAD
             "time": "2018-05-21 10:09:47"
+=======
+            "time": "2018-05-21T10:09:47+00:00"
+>>>>>>> 9739f49b526d6c42fdc969edd4c422690e98b171
         },
         {
             "name": "symfony/var-dumper",

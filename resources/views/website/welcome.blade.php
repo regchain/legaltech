@@ -1,11 +1,11 @@
-@extends('layouts.main.template')
+@extends('themes.main.template')
 
 @section('stylesheets')
     {{-- expr --}}
 @endsection
 
 @section('content')
-                  @include('layouts.main.menu.sidemenu')
+                  @include('themes.main.menu.sidemenu')
                </nav>
                <!-- End Navigation -->
                <!-- Banner -->
