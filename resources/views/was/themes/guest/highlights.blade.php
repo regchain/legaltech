@@ -9,7 +9,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    @include('elapdu.guest.head')
+    @include('was.elapdu.guest.head')
 
     @yield('stylesheets')
 
@@ -28,12 +28,12 @@
     <!-- /.content -->
    
 
-    @include('elapdu.guest.footer')
+    @include('was.elapdu.guest.footer')
 
 
       <!-- REQUIRED JS SCRIPTS -->
 
-       @include('elapdu.guest.scripts')
+       @include('was.elapdu.guest.scripts')
 
       <!-- Optionally, you can add Slimscroll and FastClick plugins.
            Both of these plugins are recommended to enhance the

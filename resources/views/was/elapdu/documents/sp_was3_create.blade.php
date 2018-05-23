@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Surat Penetapan Hukuman')
 
@@ -81,7 +81,7 @@
 
 
   <div class="box-body">
-    @include('elapdu.surat.partials._sp_was3_create')
+    @include('was.elapdu.surat.partials._sp_was3_create')
   </div>
 
 
@@ -98,7 +98,7 @@
       <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
         <div class="panel-body">
 
-          @include('elapdu.lapdu.partials.kasus_view')
+          @include('was.elapdu.process.lapdu.partials.kasus_view')
 
         </div>
       </div>
@@ -116,19 +116,19 @@
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.pelapor_view')
+            @include('was.elapdu.process.lapdu.partials.pelapor_view')
 
           </div>
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.terlapor_view')
+            @include('was.elapdu.process.lapdu.partials.terlapor_view')
 
           </div>
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.datapenunjang_view')
+            @include('was.elapdu.process.lapdu.partials.datapenunjang_view')
 
           </div>
 
@@ -146,9 +146,9 @@
       <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
         <div class="panel-body">
 
-        @include('elapdu.klarifikasi.partials._spklarifikasi_view')
+        @include('was.elapdu.klarifikasi.partials._spklarifikasi_view')
 
-        @include('elapdu.klarifikasi.partials._wawancara_view')
+        @include('was.elapdu.klarifikasi.partials._wawancara_view')
 
        </div>
      </div>
@@ -164,7 +164,7 @@
     <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
       <div class="panel-body">
 
-        @include('elapdu.klarifikasi.partials._notadinas_view')
+        @include('was.elapdu.klarifikasi.partials._notadinas_view')
 
         
       </div>

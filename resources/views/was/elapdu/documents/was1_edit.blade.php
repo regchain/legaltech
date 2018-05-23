@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Dashboard')
 
@@ -30,7 +30,7 @@
         <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
           <div class="panel-body">
 
-           @include('elapdu.lapdu.partials.kasus_view')
+           @include('was.elapdu.process.lapdu.partials.kasus_view')
 
          </div>
        </div>
@@ -47,13 +47,13 @@
       <div class="panel-body">
 
         <h4>1. Data Pelapor</h4>
-        @include('elapdu.lapdu.partials.pelapor_view')
+        @include('was.elapdu.process.lapdu.partials.pelapor_view')
 
         <h4>2. Data Terlapor</h4>
-        @include('elapdu.lapdu.partials.terlapor_view')
+        @include('was.elapdu.process.lapdu.partials.terlapor_view')
 
         <h4>3. Data Penunjang</h4>
-        @include('elapdu.lapdu.partials.datapenunjang_view')
+        @include('was.elapdu.process.lapdu.partials.datapenunjang_view')
 
       </div>
     </div>

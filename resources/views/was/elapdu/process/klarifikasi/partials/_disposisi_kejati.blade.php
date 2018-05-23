@@ -10,7 +10,7 @@
     <div id="collapsekajati" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingkajati">
       <div class="panel-body">
         
-        @include('elapdu.lapdu.partials._disposisi_kajati')
+        @include('was.elapdu.process.lapdu.partials._disposisi_kajati')
         
       </div>
     </div>
@@ -25,7 +25,7 @@
     </div>
     <div id="collapseAswas" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAswas">
       <div class="panel-body">
-        @include('elapdu.lapdu.partials._disposisi_aswas')
+        @include('was.elapdu.process.lapdu.partials._disposisi_aswas')
       </div>
     </div>
   </div>
@@ -41,7 +41,7 @@
     <div id="collapseRiksajati" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingRiksajati">
       <div class="panel-body">
 
-         @include('elapdu.klarifikasi.partials._disposisi_riksa')
+         @include('was.elapdu.klarifikasi.partials._disposisi_riksa')
       <div class="box-footer">
         <br>
         <a href='ba_was2_qna' class="btn btn-flat btn-info" data-toggle="tooltip" data-placement="top" title="FORM KLARIFIKASI" style="margin-right: 5px;"><i class="fa fa-plus"></i> Form Klarifikasi</a>

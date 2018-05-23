@@ -104,19 +104,19 @@
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.pelapor_view')
+            @include('was.elapdu.process.lapdu.partials.pelapor_view')
 
           </div>
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.kasus_view')
+            @include('was.elapdu.process.lapdu.partials.kasus_view')
 
           </div>
 
           <div class="box-body">
 
-            @include('elapdu.surat.partials._l_was2_view')
+            @include('was.elapdu.surat.partials._l_was2_view')
 
           </div>
 

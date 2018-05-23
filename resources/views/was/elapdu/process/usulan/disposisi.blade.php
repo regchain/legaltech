@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Kartu Disposisi')
 
@@ -30,7 +30,7 @@
   </div>
 
   <div class="box-body">
-   @include('elapdu.lapdu.partials._disposisi_register')
+   @include('was.elapdu.process.lapdu.partials._disposisi_register')
  </div>
 
  <div class="box-header with-border">
@@ -38,9 +38,9 @@
 </div>
 <div class="box-body">
 
- @include('elapdu.usulan.partials._disposisi_row2')
+ @include('was.elapdu.usulan.partials._disposisi_row2')
 
- @include('elapdu.usulan.partials._disposisi_kejati')
+ @include('was.elapdu.usulan.partials._disposisi_kejati')
 
 </div>
 <div class="box-header with-border">
@@ -48,9 +48,9 @@
 </div>
 <div class="box-body">
 
- @include('elapdu.usulan.partials._lanjutan_inspektur')
+ @include('was.elapdu.usulan.partials._lanjutan_inspektur')
 
-  @include('elapdu.usulan.partials._lanjutan_kejati')
+  @include('was.elapdu.usulan.partials._lanjutan_kejati')
 
 </div>
 <!-- /.row -->
@@ -60,7 +60,7 @@
   <h3 class="box-title">RENCANA PENJATUHAN HUKUMAN DISIPLIN</h3><br>
 </div>
 <div class="box-body">
-  @include('elapdu.usulan.partials._usulan_view')
+  @include('was.elapdu.usulan.partials._usulan_view')
 </div>
 
 

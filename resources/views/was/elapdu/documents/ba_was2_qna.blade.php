@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Kartu Disposisi')
 
@@ -34,7 +34,7 @@
 
    {{-- <span class="description-text">(KLARIFIKASI)</span> --}}
   <div class="box-body">
-    @include('elapdu.surat.partials._ba_was2_qna_create')
+    @include('was.elapdu.surat.partials._ba_was2_qna_create')
 
   </div>
 

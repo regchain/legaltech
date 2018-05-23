@@ -13,7 +13,7 @@
 
           <div class="box-body">
 
-            @include('elapdu.surat.partials._l_was2_view')
+            @include('was.elapdu.surat.partials._l_was2_view')
 
           </div>
 
@@ -67,7 +67,7 @@
     <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
       <div class="panel-body">
         <div class="row">
-          {{-- @include('elapdu.surat.partials._ba_was3_list') --}}
+          {{-- @include('was.elapdu.surat.partials._ba_was3_list') --}}
           </div>
       </div>
     </div>
@@ -83,7 +83,7 @@
     <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
       <div class="panel-body">
         <div class="row">
-          @include('elapdu.surat.partials._l_was2_view')
+          @include('was.elapdu.surat.partials._l_was2_view')
           </div>
       </div>
     </div>

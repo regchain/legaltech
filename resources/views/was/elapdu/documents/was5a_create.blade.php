@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Klarifikasi')
 
@@ -23,7 +23,7 @@
     </div>
 
   <div class="box-body">
-    @include('elapdu.surat.partials._was5a_create')
+    @include('was.elapdu.surat.partials._was5a_create')
   </div>
 
 
@@ -40,7 +40,7 @@
       <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
         <div class="panel-body">
 
-          @include('elapdu.lapdu.partials.kasus_view')
+          @include('was.elapdu.process.lapdu.partials.kasus_view')
 
         </div>
       </div>
@@ -58,19 +58,19 @@
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.pelapor_view')
+            @include('was.elapdu.process.lapdu.partials.pelapor_view')
 
           </div>
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.terlapor_view')
+            @include('was.elapdu.process.lapdu.partials.terlapor_view')
 
           </div>
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.datapenunjang_view')
+            @include('was.elapdu.process.lapdu.partials.datapenunjang_view')
 
           </div>
 
@@ -89,9 +89,9 @@
       <div class="panel-body">
 
         <div class="box-body">
-          @include('elapdu.surat.partials._was4_view')
+          @include('was.elapdu.surat.partials._was4_view')
 
-          @include('elapdu.surat.partials._ba_was2_list')
+          @include('was.elapdu.surat.partials._ba_was2_list')
         </div>
       </div>
     </div>
@@ -107,7 +107,7 @@
     <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
       <div class="panel-body">
 
-        @include('elapdu.surat.partials._was5b_view')
+        @include('was.elapdu.surat.partials._was5b_view')
         
       </div>
     </div>

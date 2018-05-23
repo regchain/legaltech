@@ -15,7 +15,7 @@
       <div id="kejatiOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
         <div class="panel-body">
           
-          @include('elapdu.klarifikasi.partials._lanjutan_kejati_kajati')
+          @include('was.elapdu.klarifikasi.partials._lanjutan_kejati_kajati')
           <div class="box-footer">
             <a href='sp_was1_create' for="spwas1" class="btn btn-flat btn-info" data-toggle="tooltip" data-placement="top" title="SURAT PERINTAH KLARIFIKASI" style="margin-right: 5px;"><i class="fa fa-plus"></i> SP.WAS-1</a>
           </div>
@@ -37,7 +37,7 @@
       <div id="kejatiThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
         <div class="panel-body">
 
-          @include('elapdu.klarifikasi.partials._lanjutan_kejati_aswas')
+          @include('was.elapdu.klarifikasi.partials._lanjutan_kejati_aswas')
             <div class="box-footer">
               <a href='sp_was2_create' for="spwas1" class="btn btn-flat btn-info" data-toggle="tooltip" data-placement="top" title="SURAT PERINTAH INSPEKSI KASUS" style="margin-right: 5px;"><i class="fa fa-plus"></i> SP.WAS-2</a>
             </div>
@@ -60,7 +60,7 @@
     </div>
     <div id="kejatiSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
       <div class="panel-body">
-        @include('elapdu.klarifikasi.partials._lanjutan_inspektur_riksa')
+        @include('was.elapdu.klarifikasi.partials._lanjutan_inspektur_riksa')
       </div>
         <div class="box-footer">
           <br>

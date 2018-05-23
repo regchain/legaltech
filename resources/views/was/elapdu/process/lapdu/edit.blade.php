@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Edit LapDu')
 
@@ -47,7 +47,7 @@
                 <div class="panel-body">
 
                   <div class="box-body">
-                    @include('elapdu.lapdu.partials.kasus_edit')
+                    @include('was.elapdu.process.lapdu.partials.kasus_edit')
                   </div>
 
                 </div>
@@ -64,7 +64,7 @@
               <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body">
                   <div class="box-body">
-                    @include('elapdu.lapdu.partials.pelapor_edit')
+                    @include('was.elapdu.process.lapdu.partials.pelapor_edit')
                   </div>
 
                 </div>
@@ -82,7 +82,7 @@
                 <div class="panel-body">
 
                   <div class="box-body">
-                    @include('elapdu.lapdu.partials.terlapor_edit')
+                    @include('was.elapdu.process.lapdu.partials.terlapor_edit')
                   </div>
                 </div>
 
@@ -100,7 +100,7 @@
                 <div class="panel-body">
 
                   <div class="box-body">
-                    @include('elapdu.lapdu.partials.datapenunjang_edit')
+                    @include('was.elapdu.process.lapdu.partials.datapenunjang_edit')
                   </div>
                 </div>
 

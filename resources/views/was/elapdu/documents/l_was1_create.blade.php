@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Laporan Hasil Klarifikasi')
 
@@ -42,14 +42,14 @@
 Sehubungan dengan Surat Perintah [id_sp.was1] Nomor: [no_sp.was1] tanggal [tgl_sp.was1], telah ditugaskan :
 <p>
   <ul style="list-style-type:none">
-  <li>@include('elapdu.klarifikasi.partials._jaksapengawas')</li>
+  <li>@include('was.elapdu.klarifikasi.partials._jaksapengawas')</li>
 </ul>
 </p>
     <p>untuk melakukan Klarifikasl terhadap :</p>
     <p>
   <ul style="list-style-type:none">
-  <li>@include('elapdu.lapdu.partials.terlapor_view')</li>
-  <li>@include('elapdu.lapdu.partials.pelapor_view')</li>
+  <li>@include('was.elapdu.process.lapdu.partials.terlapor_view')</li>
+  <li>@include('was.elapdu.process.lapdu.partials.pelapor_view')</li>
 </ul>
 </p>
 <p>Dengan hasil sebagai berikut :</p>
@@ -68,11 +68,11 @@ Sehubungan dengan Surat Perintah [id_sp.was1] Nomor: [no_sp.was1] tanggal [tgl_s
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.kasus_view')
+            @include('was.elapdu.process.lapdu.partials.kasus_view')
 
           <div class="box box-success">
 
-          @include('elapdu.surat.partials._was1_view')
+          @include('was.elapdu.surat.partials._was1_view')
 
           </div>
 
@@ -94,25 +94,25 @@ Sehubungan dengan Surat Perintah [id_sp.was1] Nomor: [no_sp.was1] tanggal [tgl_s
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.pelapor_view')
+            @include('was.elapdu.process.lapdu.partials.pelapor_view')
 
           </div>
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.terlapor_view')
+            @include('was.elapdu.process.lapdu.partials.terlapor_view')
 
           </div>
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.datapenunjang_view')
+            @include('was.elapdu.process.lapdu.partials.datapenunjang_view')
 
           </div>
           <div class="box-body">
-          {{-- @include('elapdu.surat.partials._was4_view') --}}
+          {{-- @include('was.elapdu.surat.partials._was4_view') --}}
 
-          @include('elapdu.surat.partials._ba_was2_list')
+          @include('was.elapdu.surat.partials._ba_was2_list')
         </div>
 
         </div>

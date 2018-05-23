@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Nota Dinas')
 
@@ -24,12 +24,12 @@
 
           <div class="box-body">
             
-          @include('elapdu.surat.partials._was5b_create')
+          @include('was.elapdu.surat.partials._was5b_create')
 
           </div>
 
          <div class="box-body">
-            {{-- @include('elapdu.klarifikasi.partials._klarifikasi_view') --}}
+            {{-- @include('was.elapdu.klarifikasi.partials._klarifikasi_view') --}}
          </div>
 
 

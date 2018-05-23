@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\WasElapdu;
 
 use Illuminate\Http\Request;
 

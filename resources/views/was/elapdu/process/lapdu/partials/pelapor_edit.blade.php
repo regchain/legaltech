@@ -92,4 +92,4 @@
     
 	<!-- /.box-body -->
   
-    @include('elapdu.lapdu.partials.pelapor_view')
+    @include('was.elapdu.process.lapdu.partials.pelapor_view')

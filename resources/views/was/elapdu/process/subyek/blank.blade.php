@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Subyek Hukum')
 
@@ -26,7 +26,7 @@
           </div>
         </div>
 
-        @include('elapdu.partials.new')
+        extends('was.elapdu.process.partials.new')
 
         <div class="box-footer">
           Footer

@@ -1,4 +1,4 @@
-@extends('elapdu.pelapor.template')
+@extends('was.elapdu.themes.pelapor.template')
 
 @section('title', 'Pelapor')
 
@@ -33,7 +33,7 @@
           <div class="tab-pane active" id="tab_1-1">
               <div class="box-body">
 
-                @include('elapdu.pelapor.partials.progress')
+                @include('was.elapdu.themes.pelapor.partials.progress')
               </div>
               <!-- /.box-body -->
 
@@ -143,7 +143,7 @@
               <!-- /.tab-pane -->
               <div class="tab-pane" id="tab_3-2">
                 <div class="box-body">
-                  @include('elapdu.lapdu.partials.pelapor_edit')
+                  @include('was.elapdu.process.lapdu.partials.pelapor_edit')
                 </div>
               </div>
               <!-- /.tab-pane -->

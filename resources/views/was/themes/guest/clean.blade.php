@@ -12,7 +12,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    @include('elapdu.guest.clean_head')
+    @include('was.elapdu.guest.clean_head')
 
     @yield('stylesheets')
 
@@ -60,7 +60,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
   <!-- REQUIRED JS SCRIPTS -->
 
-   @include('elapdu.guest.scripts')
+   @include('was.elapdu.guest.scripts')
 
   <!-- Optionally, you can add Slimscroll and FastClick plugins.
        Both of these plugins are recommended to enhance the

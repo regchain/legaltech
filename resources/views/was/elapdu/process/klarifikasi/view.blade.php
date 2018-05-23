@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Klarifikasi')
 
@@ -24,7 +24,7 @@
 
 
   <div class="box-body">
-   @include('elapdu.klarifikasi.partials._klarifikasi_view')
+   @include('was.elapdu.klarifikasi.partials._klarifikasi_view')
 </div>
 
 

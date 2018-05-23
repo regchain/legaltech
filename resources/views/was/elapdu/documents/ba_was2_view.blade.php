@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Kartu Disposisi')
 
@@ -35,7 +35,7 @@
     </div>
 
 
-       @include('elapdu.surat.partials._ba_was2_detail')
+       @include('was.elapdu.surat.partials._ba_was2_detail')
 
      </div>
    <div class="box-footer">

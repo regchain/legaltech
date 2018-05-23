@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Dashboard')
 
@@ -27,15 +27,15 @@
           
           <div class="row">
 
-          @include('elapdu.partials.dashboard.putusan')
+          extends('was.elapdu.process.partials.dashboard.putusan')
 
 
 
-          @include('elapdu.partials.dashboard.subyek_hukum')
+          extends('was.elapdu.process.partials.dashboard.subyek_hukum')
 
 
 
-          @include('elapdu.partials.dashboard.kasus')
+          extends('was.elapdu.process.partials.dashboard.kasus')
 
         </div>
 

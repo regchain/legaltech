@@ -13,7 +13,7 @@
 
           <div class="box-body">
 
-            @include('elapdu.surat.partials._sp_was2_view')
+            @include('was.elapdu.surat.partials._sp_was2_view')
 
           </div>
 
@@ -31,11 +31,11 @@
       <div id="collapsePermasalahan" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPermasalahan">
         <div class="panel-body">
 
-          @include('elapdu.lapdu.partials.kasus_view')
+          @include('was.elapdu.process.lapdu.partials.kasus_view')
 
           <div class="box box-success">
 
-          @include('elapdu.surat.partials._was1_view')
+          @include('was.elapdu.surat.partials._was1_view')
 
           </div>
 
@@ -55,19 +55,19 @@
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.pelapor_view')
+            @include('was.elapdu.process.lapdu.partials.pelapor_view')
 
           </div>
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.terlapor_view')
+            @include('was.elapdu.process.lapdu.partials.terlapor_view')
 
           </div>
 
           <div class="box-body">
 
-            @include('elapdu.lapdu.partials.datapenunjang_view')
+            @include('was.elapdu.process.lapdu.partials.datapenunjang_view')
 
           </div>
 
@@ -85,7 +85,7 @@
     <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
       <div class="panel-body">
         <div class="row">
-          @include('elapdu.surat.partials._ba_was3_list')
+          @include('was.elapdu.surat.partials._ba_was3_list')
           </div>
       </div>
     </div>
@@ -103,7 +103,7 @@
         <div class="box-body">
 
 
-          @include('elapdu.surat.partials._l_was2_view')
+          @include('was.elapdu.surat.partials._l_was2_view')
           
           </div>
       </div>

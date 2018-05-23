@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Nota Dinas')
 
@@ -28,7 +28,7 @@
 
           <div class="box-body">
             
-          @include('elapdu.surat.partials._was17_create')
+          @include('was.elapdu.surat.partials._was17_create')
 
           </div>
 

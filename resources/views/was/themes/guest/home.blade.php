@@ -1,4 +1,4 @@
-@extends('elapdu.guest.template')
+@extends('was.elapdu.themes.guest.template')
 
 @section('title', 'Awal')
 

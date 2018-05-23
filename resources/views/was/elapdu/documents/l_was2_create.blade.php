@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Laporan Hasil Inspeksi')
 
@@ -41,14 +41,14 @@
       Berdasarkan Surat Perintah [id_sp.was2] Nomor: [no_sp.was2] tanggal [tgl_sp.was2], telah ditugaskan :
       <p>
         <ul style="list-style-type:none">
-          <li>@include('elapdu.klarifikasi.partials._jaksapengawas')</li>
+          <li>@include('was.elapdu.klarifikasi.partials._jaksapengawas')</li>
         </ul>
       </p>
       <p>untuk melakukan Klarifikasl terhadap :</p>
       <p>
         <ul style="list-style-type:none">
-          <li>@include('elapdu.lapdu.partials.terlapor_view')</li>
-          <li>@include('elapdu.lapdu.partials.pelapor_view')</li>
+          <li>@include('was.elapdu.process.lapdu.partials.terlapor_view')</li>
+          <li>@include('was.elapdu.process.lapdu.partials.pelapor_view')</li>
         </ul>
       </p>
       <p>Dengan hasil sebagai berikut :</p>
@@ -64,7 +64,7 @@
           </form>
         
         <h3>DATA</h3>
-        @include('elapdu.surat.partials._ba_was3_list')
+        @include('was.elapdu.surat.partials._ba_was3_list')
         <h3>ANALISA</h3>
         
           <form>
@@ -107,17 +107,17 @@
 
           <ol type="1" style="margin-left: -20px">
             <h4><li>&nbsp;[Nama Terlapor] </li></h4>
-            @include('elapdu.surat.partials._l_was2_terlapor')
+            @include('was.elapdu.surat.partials._l_was2_terlapor')
             <hr>
             <h4><li>&nbsp; [Nama Terlapor] </li></h4>
-            @include('elapdu.surat.partials._l_was2_terlapor')
+            @include('was.elapdu.surat.partials._l_was2_terlapor')
             <hr>
             
           </ol>
 
 
       </div>
-    {{-- @include('elapdu.lapdu.partials._telaahan_view') --}}
+    {{-- @include('was.elapdu.process.lapdu.partials._telaahan_view') --}}
 
 
     <div class="box-footer">

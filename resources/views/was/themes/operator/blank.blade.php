@@ -1,4 +1,4 @@
-@extends('elapdu.pelapor.template')
+@extends('was.elapdu.themes.pelapor.template')
 
 @section('title', 'Users')
 

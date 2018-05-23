@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Dashboard')
 
@@ -35,7 +35,7 @@
 
         <div class="box-body">
 
-          @include('elapdu.lapdu.partials.kasus_view')
+          @include('was.elapdu.process.lapdu.partials.kasus_view')
 
         </div>
 
@@ -55,19 +55,19 @@
 
         <div class="box-body">
 
-          @include('elapdu.lapdu.partials.pelapor_view')
+          @include('was.elapdu.process.lapdu.partials.pelapor_view')
 
         </div>
         
         <div class="box-body">
 
-          @include('elapdu.lapdu.partials.terlapor_view')
+          @include('was.elapdu.process.lapdu.partials.terlapor_view')
 
         </div>
 
         <div class="box-body">
 
-          @include('elapdu.lapdu.partials.datapenunjang_view')
+          @include('was.elapdu.process.lapdu.partials.datapenunjang_view')
 
         </div>
 
@@ -87,7 +87,7 @@
 
         <div class="row">
 
-          @include('elapdu.surat.partials._was1_view')
+          @include('was.elapdu.surat.partials._was1_view')
 
         </div>
 
@@ -108,7 +108,7 @@
 
         <div class="row">
 
-          @include('elapdu.lapdu.partials._notadinas_view')
+          @include('was.elapdu.process.lapdu.partials._notadinas_view')
 
         </div>
 
@@ -129,7 +129,7 @@
 
         <div class="row">
 
-          @include('elapdu.lapdu.partials._was3_create')
+          @include('was.elapdu.process.lapdu.partials._was3_create')
 
         </div>
 

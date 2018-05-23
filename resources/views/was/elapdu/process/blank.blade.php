@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Dashboard')
 
@@ -27,7 +27,7 @@
           </div>
         </div>
 
-        {{-- @include('elapdu.partials.new') --}}
+        {{-- extends('was.elapdu.process.partials.new') --}}
         <div class="input-group date">
           <input type="text" class="form-control"><span class="input-group-addon"><i class="glyphicon glyphicon-th"></i></span>
         </div>

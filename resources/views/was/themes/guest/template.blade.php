@@ -9,7 +9,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <title>@yield('title') | e-Kejaksaan</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 
-    @include('elapdu.guest.head')
+    @include('was.elapdu.guest.head')
 
     @yield('stylesheets')
 
@@ -39,10 +39,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <div class="wrapper">
 
     <!-- Header -->
-    @include('elapdu.guest.header')
+    @include('was.elapdu.guest.header')
 
     <!-- Sidebar -->
-    @include('elapdu.guest.sidebar')
+    @include('was.elapdu.guest.sidebar')
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
@@ -68,11 +68,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
     </div><!-- /.content-wrapper -->
 
   <!-- Footer -->
-    @include('elapdu.guest.footer')
+    @include('was.elapdu.guest.footer')
 
   <!-- Control Sidebar -->
 
-  @include('elapdu.guest.sidebar-right')
+  @include('was.elapdu.guest.sidebar-right')
   
   <!-- /.control-sidebar -->
   <!-- Add the sidebar's background. This div must be placed
@@ -83,7 +83,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 <!-- REQUIRED JS SCRIPTS -->
 
- @include('elapdu.guest.scripts')
+ @include('was.elapdu.guest.scripts')
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the

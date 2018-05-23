@@ -15,7 +15,7 @@
       <div id="kejatiOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
         <div class="panel-body">
           
-          @include('elapdu.inspeksi.partials._lanjutan_kejati_kajati')
+          @include('was.elapdu.inspeksi.partials._lanjutan_kejati_kajati')
           
           
           
@@ -35,7 +35,7 @@
       <div id="kejatiThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
         <div class="panel-body">
 
-          @include('elapdu.inspeksi.partials._lanjutan_kejati_aswas')
+          @include('was.elapdu.inspeksi.partials._lanjutan_kejati_aswas')
             
             
           </div>
@@ -56,7 +56,7 @@
     </div>
     <div id="kejatiSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
       <div class="panel-body">
-        @include('elapdu.inspeksi.partials._lanjutan_inspektur_riksa')
+        @include('was.elapdu.inspeksi.partials._lanjutan_inspektur_riksa')
       <div class="box-footer">
         <br>
         <a href='ba_was3_qna' class="btn btn-flat btn-info" data-toggle="tooltip" data-placement="top" title="FORM KARTU WAWANCARA" style="margin-right: 5px;"><i class="fa fa-plus"></i> Form Wawancara</a>

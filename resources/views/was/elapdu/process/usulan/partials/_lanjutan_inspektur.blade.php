@@ -10,7 +10,7 @@
     <div id="collapseJa" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingJa">
       <div class="panel-body">
 
-        {{-- @include('elapdu.inspeksi.partials._disposisi_ja') --}}
+        {{-- @include('was.elapdu.inspeksi.partials._disposisi_ja') --}}
         
     </div>
   </div>
@@ -44,7 +44,7 @@
   <div id="collapseInspektur" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingInspektur">
     <div class="panel-body">
 
-      {{-- @include('elapdu.inspeksi.partials._disposisi_inspektur') --}}
+      {{-- @include('was.elapdu.inspeksi.partials._disposisi_inspektur') --}}
 
     </div>
   </div>
@@ -60,7 +60,7 @@
   <div id="collapseIrmud" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingIrmud">
     <div class="panel-body">
 
-      {{-- @include('elapdu.inspeksi.partials._disposisi_irmud') --}}
+      {{-- @include('was.elapdu.inspeksi.partials._disposisi_irmud') --}}
       <div class="box-footer">
         <br>
         <a href='was17_create' class="btn btn-flat btn-info" data-toggle="tooltip" data-placement="top" title="Usul Penunjukan Majelis Kehormatan Jaksa" style="margin-right: 5px;"><i class="fa fa-plus"></i> WAS-17</a>
@@ -81,7 +81,7 @@
   <div id="collapseRiksa" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingRiksa">
     <div class="panel-body">
 
-      {{-- @include('elapdu.inspeksi.partials._disposisi_riksa') --}}
+      {{-- @include('was.elapdu.inspeksi.partials._disposisi_riksa') --}}
       
 
     </div>

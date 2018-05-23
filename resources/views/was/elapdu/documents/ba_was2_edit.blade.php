@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Kartu Disposisi')
 
@@ -25,9 +25,9 @@
     <h1 class="box-title">EDIT HASIL KLARIFIKASI</h1><br>
   </div>
   <div class="box-body">
-    @include('elapdu.surat.partials._ba_was2_edit')
+    @include('was.elapdu.surat.partials._ba_was2_edit')
 
-       @include('elapdu.surat.partials._ba_was2_detail')
+       @include('was.elapdu.surat.partials._ba_was2_detail')
        <div class="col-md-12">
        <label for="">Kesimpulan : </label>
        <form>

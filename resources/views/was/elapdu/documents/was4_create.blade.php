@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.elapdu.themes.operator.template')
 
 @section('title', 'Dashboard')
 
@@ -24,7 +24,7 @@
           <div class="box-body">
 
 
-          @include('elapdu.surat.partials._was4_create')
+          @include('was.elapdu.surat.partials._was4_create')
 
 
         </div>
