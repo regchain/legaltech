@@ -489,8 +489,13 @@ return [
                             'submenu' => [
                                 [
                                     'text' => 'Dashboard',
-                                    'url'  => '#',
+                                    'url'  => 'was/elapdu/home',
                                     'icon' => 'dashboard',
+                                ],
+                                [
+                                    'text' => 'Pelapor',
+                                    'url'  => 'was/elapdu/home',
+                                    'icon' => 'user',
                                 ],
                                 [
                                     'text' => 'Pemeriksaan',
