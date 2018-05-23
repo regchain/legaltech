@@ -12,7 +12,7 @@
 
         <div class="box-body">
 
-          @include('was.elapdu.process.lapdu.partials.kasus_view')
+          @include('was.elapdu.lapdu.partials.kasus_view')
 
         </div>
 
@@ -32,19 +32,19 @@
 
         <div class="box-body">
 
-          @include('was.elapdu.process.lapdu.partials.pelapor_view')
+          @include('was.elapdu.lapdu.partials.pelapor_view')
 
         </div>
         
         <div class="box-body">
 
-          @include('was.elapdu.process.lapdu.partials.terlapor_view')
+          @include('was.elapdu.lapdu.partials.terlapor_view')
 
         </div>
 
         <div class="box-body">
 
-          @include('was.elapdu.process.lapdu.partials.datapenunjang_view')
+          @include('was.elapdu.lapdu.partials.datapenunjang_view')
 
         </div>
 

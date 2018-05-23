@@ -9,7 +9,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <title>@yield('title') | e-LAPDU</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 
-    @include('was.elapdu.operator.head')
+    @include('was.elapdu.themes.operator.head')
 
     @yield('stylesheets')
 
@@ -19,10 +19,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <div class="wrapper">
 
     <!-- Header -->
-    @include('was.elapdu.operator.header')
+    @include('was.elapdu.themes.operator.header')
 
     <!-- Sidebar -->
-    @include('was.elapdu.operator.sidebar')
+    @include('was.elapdu.themes.operator.sidebar')
 
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
@@ -58,11 +58,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
     </div><!-- /.content-wrapper -->
 
   <!-- Footer -->
-    @include('was.elapdu.operator.footer')
+    @include('was.elapdu.themes.operator.footer')
 
   <!-- Control Sidebar -->
 
-  @include('was.elapdu.operator.sidebar-right')
+  @include('was.elapdu.themes.operator.sidebar-right')
   
   <!-- /.control-sidebar -->
   <!-- Add the sidebar's background. This div must be placed
@@ -73,7 +73,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 <!-- REQUIRED JS SCRIPTS -->
 
- @include('was.elapdu.operator.scripts')
+ @include('was.elapdu.themes.operator.scripts')
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the

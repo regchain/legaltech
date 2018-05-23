@@ -1,4 +1,4 @@
-@extends('was.elapdu.themes.operator.template')
+@extends('elapdu.operator.template')
 
 @section('title', 'Kartu Disposisi')
 
@@ -30,7 +30,7 @@
   </div>
 
   <div class="box-body">
-   @include('was.elapdu.process.lapdu.partials._disposisi_register')
+   @include('was.elapdu.lapdu.partials._disposisi_register')
  </div>
 
  <div class="box-header with-border">

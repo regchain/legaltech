@@ -14,7 +14,7 @@ class OperatorController extends Controller
         $counts['ringan'] = Punishment::where('keterangan', 'RINGAN')->count();
         $counts['sedang'] = Punishment::where('keterangan', 'SEDANG')->count();
         $counts['berhenti'] = Punishment::where('keterangan', 'BERHENTI SEMENTARA')->count();
-        return view('elapdu.operator.home', compact('datas', 'counts'));
+        return view('was.elapdu.process.home', compact('datas', 'counts'));
     }
 
     public function store(Request $request)
@@ -49,15 +49,15 @@ class OperatorController extends Controller
                 // dd('Insert Record successfully.');
             }
 
-            return redirect('operator');
+            return redirect('/was/elapdu/operator');
         }
     }
     public function generic()
     {
-        return view('elapdu.operator.generic');
+        return view('was.elapdu.process.generic');
     }
     public function elements()
     {
-        return view('elapdu.operator.elements');
+        return view('was.elapdu.process.elements');
     }
 }

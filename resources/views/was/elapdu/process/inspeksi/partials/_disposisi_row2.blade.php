@@ -10,7 +10,7 @@
     <div id="collapseJa" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingJa">
       <div class="panel-body">
 
-        @include('was.elapdu.process.lapdu.partials._disposisi_ja')
+        @include('was.elapdu.lapdu.partials._disposisi_ja')
         {{-- <div class="box-footer">
          <a href='sp_was2_create' for="spwas1" class="btn btn-info" data-toggle="tooltip" data-placement="top" title="SURAT PERINTAH INSPEKSI KASUS" style="margin-right: 5px;"><i class="fa fa-plus"></i> SP.WAS-2</a>
 
@@ -29,7 +29,7 @@
   <div id="collapseJamwas" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingJamwas">
     <div class="panel-body">
 
-      @include('was.elapdu.process.lapdu.partials._disposisi_jamwas')
+      @include('was.elapdu.lapdu.partials._disposisi_jamwas')
       {{-- <div class="box-footer">
        <a href='sp_was2_create' for="spwas1" class="btn btn-info" data-toggle="tooltip" data-placement="top" title="SURAT PERINTAH INSPEKSI KASUS" style="margin-right: 5px;"><i class="fa fa-plus"></i> SP.WAS-2</a>
      </div> --}}
@@ -47,7 +47,7 @@
   <div id="collapseInspektur" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingInspektur">
     <div class="panel-body">
 
-      @include('was.elapdu.process.lapdu.partials._disposisi_inspektur')
+      @include('was.elapdu.lapdu.partials._disposisi_inspektur')
 
     </div>
   </div>
@@ -63,7 +63,7 @@
   <div id="collapseIrmud" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingIrmud">
     <div class="panel-body">
 
-      @include('was.elapdu.process.lapdu.partials._disposisi_irmud')
+      @include('was.elapdu.lapdu.partials._disposisi_irmud')
 
     </div>
   </div>
@@ -79,7 +79,7 @@
   <div id="collapseRiksa" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingRiksa">
     <div class="panel-body">
 
-      @include('was.elapdu.process.lapdu.partials._disposisi_riksa')
+      @include('was.elapdu.lapdu.partials._disposisi_riksa')
       <div class="box-footer">
         <br>
         <a href='ba_was3_qna' class="btn btn-flat btn-info" data-toggle="tooltip" data-placement="top" title="FORM KARTU WAWANCARA" style="margin-right: 5px;"><i class="fa fa-plus"></i> Form Wawancara</a>

@@ -1,4 +1,4 @@
-@extends('was.elapdu.themes.operator.template')
+@extends('elapdu.operator.template')
 
 @section('title', 'Kartu Disposisi')
 
@@ -30,27 +30,27 @@
   </div>
   
   <div class="box-body">
-    @include('was.elapdu.process.lapdu.partials._disposisi_register')
+    @include('was.elapdu.lapdu.partials._disposisi_register')
   </div>
   
   
   <div class="box-body">
     <div class="col-sm-12">
-      @include('was.elapdu.process.lapdu.partials._disposisi_row2')
+      @include('was.elapdu.lapdu.partials._disposisi_row2')
     </div>
   </div>
   <div class="box-body">
     <div class="col-sm-12">
-      @include('was.elapdu.process.lapdu.partials._disposisi_kejati')
+      @include('was.elapdu.lapdu.partials._disposisi_kejati')
     </div>
   </div>
   
   <div class="box-body">
     <div class="col-sm-12">
-      @include('was.elapdu.process.lapdu.partials._lanjutan_inspektur')
+      @include('was.elapdu.lapdu.partials._lanjutan_inspektur')
     </div>
     <div class="col-sm-12">
-      @include('was.elapdu.process.lapdu.partials._lanjutan_kejati')
+      @include('was.elapdu.lapdu.partials._lanjutan_kejati')
     </div>
   </div>
 </div>
@@ -70,7 +70,7 @@
   <!-- /.row -->
   <div class="box-body">
     <div class="col-md-12">
-      @include('was.elapdu.process.lapdu.partials._pengaduan')
+      @include('was.elapdu.lapdu.partials._pengaduan')
     </div>
   </div>
   

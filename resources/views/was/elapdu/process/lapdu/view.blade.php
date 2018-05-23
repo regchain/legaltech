@@ -1,4 +1,4 @@
-@extends('was.elapdu.themes.operator.template')
+@extends('elapdu.operator.template')
 
 @section('title', 'Lapdu Baru')
 
@@ -23,7 +23,7 @@
 
         <div class="box-body">
           
-        @include('was.elapdu.process.lapdu.partials._pengaduan')
+        @include('was.elapdu.lapdu.partials._pengaduan')
 
         </div>
 

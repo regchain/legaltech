@@ -50,5 +50,9 @@ Route::get('/bin/apps1/home', 'Pembinaan\PagesController@index')->name('apps1hom
 
 // Pengawasan/Elapdu
 
-Route::get('/was/elapdu/home', 'WasElapdu\PagesController@index');
+Route::get('/was/elapdu/operator', 'WasElapdu\PagesController@index')->name('operator');
+
+Route::get('/was/elapdu/pelapor', 'WasElapdu\PagesController@pelapor')->name('pelapor');
+
+
 

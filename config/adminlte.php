@@ -489,12 +489,12 @@ return [
                             'submenu' => [
                                 [
                                     'text' => 'Dashboard',
-                                    'url'  => 'was/elapdu/home',
+                                    'url'  => 'was/elapdu/operator',
                                     'icon' => 'dashboard',
                                 ],
                                 [
                                     'text' => 'Pelapor',
-                                    'url'  => 'was/elapdu/home',
+                                    'url'  => 'was/elapdu/pelapor',
                                     'icon' => 'user',
                                 ],
                                 [

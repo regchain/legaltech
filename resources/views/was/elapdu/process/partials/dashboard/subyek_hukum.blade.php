@@ -21,7 +21,7 @@
   <!-- ./col -->
   <div class="col-lg-3 col-xs-6">
     <!-- small box -->
-    {{-- <div class="small-box bg-aqua">
+    <div class="small-box bg-aqua">
       <div class="inner">
         <p></p>
         <h3>13<sup style="font-size: 20px"> orang</sup></h3>
@@ -32,12 +32,12 @@
         <i class="fa fa-user"></i>
       </div>
       <a href="subyek_klarifikasi" class="small-box-footer">Lihat Daftar <i class="fa fa-arrow-circle-right"></i></a>
-    </div> --}}
+    </div>
   </div>
   <!-- ./col -->
   <div class="col-lg-3 col-xs-6">
     <!-- small box -->
-    {{-- <div class="small-box bg-yellow">
+    <div class="small-box bg-yellow">
       <div class="inner">
         <p></p>
         <h3>6<sup style="font-size: 20px"> orang</sup></h3>
@@ -48,12 +48,12 @@
         <i class="fa fa-user"></i>
       </div>
       <a href="subyek_inspeksi" class="small-box-footer">Lihat Daftar <i class="fa fa-arrow-circle-right"></i></a>
-    </div> --}}
+    </div>
   </div>
   <!-- ./col -->
   <div class="col-lg-3 col-xs-6">
     <!-- small box -->
-    {{-- <div class="small-box bg-red">
+    <div class="small-box bg-red">
       <div class="inner">
         <p></p>
         <h3>8<sup style="font-size: 20px"> orang</sup></h3>
@@ -64,7 +64,7 @@
         <i class="fa fa-user"></i>
       </div>
       <a href="subyek_usulan" class="small-box-footer">Lihat Daftar <i class="fa fa-arrow-circle-right"></i></a>
-    </div> --}}
+    </div>
   </div>
   <!-- ./col -->
 </div>

@@ -10,7 +10,7 @@
     <div id="collapsekajati" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingkajati">
       <div class="panel-body">
         
-        @include('was.elapdu.process.lapdu.partials._disposisi_kajati')
+        @include('was.elapdu.lapdu.partials._disposisi_kajati')
         
       </div>
     </div>
@@ -25,7 +25,7 @@
     </div>
     <div id="collapseAswas" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAswas">
       <div class="panel-body">
-        @include('was.elapdu.process.lapdu.partials._disposisi_aswas')
+        @include('was.elapdu.lapdu.partials._disposisi_aswas')
       </div>
     </div>
   </div>

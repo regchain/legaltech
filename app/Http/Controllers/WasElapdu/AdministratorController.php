@@ -8,68 +8,68 @@ class AdministratorController extends Controller
 {
     public function index()
         {
-            return view('administrator.home');
+            return view('was.elapdu.admin.home');
         }
     public function jabatan()
         {
-            return view('administrator.jabatan_list');
+            return view('was.elapdu.admin.jabatan_list');
         }
     public function jabatan_create()
         {
-            return view('administrator.jabatan_create');
+            return view('was.elapdu.admin.jabatan_create');
         }
     public function pangkat()
         {
-            return view('administrator.pangkat_list');
+            return view('was.elapdu.admin.pangkat_list');
         }
     public function pangkat_create()
         {
-            return view('administrator.pangkat_create');
+            return view('was.elapdu.admin.pangkat_create');
         }
     public function pegawai()
         {
-            return view('administrator.pegawai_list');
+            return view('was.elapdu.admin.pegawai_list');
         }
     public function pegawai_create()
         {
-            return view('administrator.pegawai_create');
+            return view('was.elapdu.admin.pegawai_create');
         }
     public function wilayah()
         {
-            return view('administrator.wilayah_list');
+            return view('was.elapdu.admin.wilayah_list');
         }
     public function wilayah_create()
         {
-            return view('administrator.wilayah_create');
+            return view('was.elapdu.admin.wilayah_create');
         }
 
     public function hakakses_list()
         {
-            return view('administrator.hakakses_list');
+            return view('was.elapdu.admin.hakakses_list');
         }
 
     public function hakakses_create()
         {
-            return view('administrator.hakakses_create');
+            return view('was.elapdu.admin.hakakses_create');
         }
     public function group()
         {
-            return view('administrator.group');
+            return view('was.elapdu.admin.group');
         }
 
     public function peraturan()
         {
-            return view('administrator.code');
+            return view('was.elapdu.admin.code');
         }
 
     public function pasal_create()
         {
-            return view('administrator.code_article_create');
+            return view('was.elapdu.admin.code_article_create');
         }
     
     public function peraturan_create()
         {
-            return view('administrator.code_create');
+            return view('was.elapdu.admin.code_create');
         }
     
 

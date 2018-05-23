@@ -11,4 +11,9 @@ class PagesController extends Controller
     {
         return view('was.elapdu.dashboard.home');
     }
+
+    public function pelapor()
+    {
+        return view('was.elapdu.dashboard.pelapor');
+    }
 }
