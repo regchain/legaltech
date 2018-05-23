@@ -8,42 +8,42 @@ class PublicPagesController extends Controller
 {
     public function index()
     {
-        return view('elapdu.guest.pages.pengaduan');
+        return view('was.elapdu.guest.pengaduan');
     }
 
     public function pengaduan2()
     {
-        return view('elapdu.guest.pages.pengaduan2');
+        return view('was.elapdu.guest.pengaduan2');
     }
 
     public function question1()
     {
-        return view('elapdu.guest.pages.question1');
+        return view('was.elapdu.guest.question1');
     }
 
     public function question2()
     {
-        return view('elapdu.guest.pages.question2');
+        return view('was.elapdu.guest.question2');
     }
 
     public function question3()
     {
-        return view('elapdu.guest.pages.question3');
+        return view('was.elapdu.guest.question3');
     }
 
     public function question4()
     {
-        return view('elapdu.guest.pages.question4');
+        return view('was.elapdu.guest.question4');
     }
 
     public function cara_lapdu()
     {
-        return view('elapdu.guest.pages.cara_lapdu');
+        return view('was.elapdu.guest.cara_lapdu');
     }
 
     public function cara_whistle()
     {
-        return view('elapdu.guest.pages.cara_whistle');
+        return view('was.elapdu.guest.cara_whistle');
     }
 
     public function test()

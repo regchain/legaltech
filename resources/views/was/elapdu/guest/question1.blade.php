@@ -129,7 +129,7 @@
   <a href="#" class="btn btn-primary pull-right"><span class="fa fa-plus"></span> Pelapor / Saksi</a>
 </div>
       <div class="row">
-        @include('elapdu.guest.pages.pelapor_view')
+        @include('was.elapdu.guest.pelapor_view')
       </div>
 
       <div class="box-footer">

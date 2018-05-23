@@ -25,7 +25,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 			<!-- Banner -->
 				
-				@include('elapdu.guest.pages.banner')
+				@include('was.elapdu.guest.banner')
 
 			<!-- Main -->
 				<section id="main" class="container">

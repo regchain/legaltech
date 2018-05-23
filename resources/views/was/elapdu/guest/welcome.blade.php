@@ -27,7 +27,7 @@
 					<h3>Akuntabilitas Pengaduan Masyarakat</h3>
 				</p>
 			</div>
-			@include('elapdu.guest.pages.public_info1')
+			@include('was.elapdu.guest.public_info1')
 		</div>
 	</section>
 
