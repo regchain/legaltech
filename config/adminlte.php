@@ -201,34 +201,63 @@ return [
                     'icon'    => 'user-secret',
                     'submenu' => [
                         [
-                            'text'    => 'Apps 1',
+                            'text'    => 'TP4D',
                             'url'     => '#',
+                            'icon'    => 'bar-chart',
                             'submenu' => [
                                 [
                                     'text' => 'Dashboard',
                                     'url'  => '#',
+                                    'icon' => 'dashboard',
                                 ],
                                 [
-                                    'text' => 'Page 1',
+                                    'text' => 'Perencanaan',
                                     'url'  => '#',
-                                ],
-                                [
-                                    'text'    => 'Progress 1',
-                                    'url'     => '#',
+                                    'icon' => 'puzzle-piece',
                                     'submenu' => [
                                         [
-                                            'text' => 'List',
+                                            'text' => 'eBudgeting [SIMDA]',
+                                            'icon' => 'angle-right',
                                             'url'  => '#',
                                         ],
                                         [
-                                            'text' => 'Edit',
+                                            'text' => 'eRUP [SIRUP]',
+                                            'icon' => 'angle-right',
                                             'url'  => '#',
                                         ],
                                         [
-                                            'text' => 'Process',
+                                            'text' => 'Project Planning',
+                                            'icon' => 'angle-right',
                                             'url'  => '#',
                                         ],
                                     ],
+                                ],
+                                [
+                                    'text'    => 'Pengadaan',
+                                    'url'     => '#',
+                                    'icon' => 'cubes',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'eULP',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'eProc [LPSE]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'eSwakelola',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                    ],
+                                ],
+                                [
+                                    'text'    => 'eKontrak',
+                                    'url'     => '#',
+                                    'icon' => 'file-text',
                                 ],
                             ],
                         ],
@@ -271,64 +300,183 @@ return [
                     'icon'    => 'gavel',
                     'submenu' => [
                         [
-                            'text'    => 'Apps 1',
+                            'text'    => 'eSPDP',
                             'url'     => '#',
+                            'icon'    => 'search-plus',
                             'submenu' => [
                                 [
                                     'text' => 'Dashboard',
+                                    'icon' => 'dashboard',
                                     'url'  => '#',
                                 ],
                                 [
-                                    'text' => 'Page 1',
-                                    'url'  => '#',
+                                    'text'    => 'Proses',
+                                    'url'     => '#',
+                                    'icon'    => 'forward',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'Kasus Baru [RP-1]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Penyelidikan [RP-2]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Dik Umum [RP3mum]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Dik Khusus [RP3sus]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                    ],
                                 ],
                                 [
-                                    'text'    => 'Progress 1',
+                                    'text'    => 'Subyek & Obyek',
+                                    'icon' => 'cubes',
                                     'url'     => '#',
                                     'submenu' => [
                                         [
-                                            'text' => 'List',
+                                            'text' => 'Benda Sitaan',
                                             'url'  => '#',
+                                            'icon' => 'angle-right',
                                         ],
                                         [
-                                            'text' => 'Edit',
+                                            'text' => 'Terlapor',
                                             'url'  => '#',
+                                            'icon' => 'angle-right',
                                         ],
                                         [
-                                            'text' => 'Process',
+                                            'text' => 'Tahanan',
                                             'url'  => '#',
+                                            'icon' => 'angle-right',
                                         ],
                                     ],
                                 ],
                             ],
                         ],
                         [
-                            'text'    => 'Apps 2',
+                            'text'    => 'Penuntutan',
                             'url'     => '#',
+                            'icon'    => 'balance-scale',
                             'submenu' => [
                                 [
                                     'text' => 'Dashboard',
+                                    'icon' => 'dashboard',
                                     'url'  => '#',
                                 ],
                                 [
-                                    'text' => 'Page 1',
-                                    'url'  => '#',
+                                    'text'    => 'Proses',
+                                    'url'     => '#',
+                                    'icon'    => 'forward',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'Kasus Baru [RP-1]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Penyelidikan [RP-2]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Dik Umum [RP3mum]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Dik Khusus [RP3sus]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                    ],
                                 ],
                                 [
-                                    'text'    => 'Progress 1',
+                                    'text'    => 'Subyek & Obyek',
+                                    'icon' => 'cubes',
                                     'url'     => '#',
                                     'submenu' => [
                                         [
-                                            'text' => 'List',
+                                            'text' => 'Benda Sitaan',
+                                            'url'  => '#',
+                                            'icon' => 'angle-right',
+                                        ],
+                                        [
+                                            'text' => 'Terlapor',
+                                            'url'  => '#',
+                                            'icon' => 'angle-right',
+                                        ],
+                                        [
+                                            'text' => 'Tahanan',
+                                            'url'  => '#',
+                                            'icon' => 'angle-right',
+                                        ],
+                                    ],
+                                ],
+                            ],
+                        ],
+                        [
+                            'text'    => 'Eksekusi',
+                            'url'     => '#',
+                            'icon'    => 'gavel',
+                            'submenu' => [
+                                [
+                                    'text' => 'Dashboard',
+                                    'icon' => 'dashboard',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text'    => 'Proses',
+                                    'url'     => '#',
+                                    'icon'    => 'forward',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'Kasus Baru [RP-1]',
+                                            'icon' => 'angle-right',
                                             'url'  => '#',
                                         ],
                                         [
-                                            'text' => 'Edit',
+                                            'text' => 'Penyelidikan [RP-2]',
+                                            'icon' => 'angle-right',
                                             'url'  => '#',
                                         ],
                                         [
-                                            'text' => 'Process',
+                                            'text' => 'Dik Umum [RP3mum]',
+                                            'icon' => 'angle-right',
                                             'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Dik Khusus [RP3sus]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                    ],
+                                ],
+                                [
+                                    'text'    => 'Subyek & Obyek',
+                                    'icon' => 'cubes',
+                                    'url'     => '#',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'Benda Sitaan',
+                                            'url'  => '#',
+                                            'icon' => 'angle-right',
+                                        ],
+                                        [
+                                            'text' => 'Terlapor',
+                                            'url'  => '#',
+                                            'icon' => 'angle-right',
+                                        ],
+                                        [
+                                            'text' => 'Tahanan',
+                                            'url'  => '#',
+                                            'icon' => 'angle-right',
                                         ],
                                     ],
                                 ],
@@ -341,64 +489,183 @@ return [
                     'icon'    => 'money',
                     'submenu' => [
                         [
-                            'text'    => 'Apps 1',
+                            'text'    => 'Penyidikan',
                             'url'     => '#',
+                            'icon'    => 'search-plus',
                             'submenu' => [
                                 [
                                     'text' => 'Dashboard',
+                                    'icon' => 'dashboard',
                                     'url'  => '#',
                                 ],
                                 [
-                                    'text' => 'Page 1',
-                                    'url'  => '#',
+                                    'text'    => 'Proses',
+                                    'url'     => '#',
+                                    'icon'    => 'forward',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'Kasus Baru [RP-1]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Penyelidikan [RP-2]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Dik Umum [RP3mum]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Dik Khusus [RP3sus]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                    ],
                                 ],
                                 [
-                                    'text'    => 'Progress 1',
+                                    'text'    => 'Subyek & Obyek',
+                                    'icon' => 'cubes',
                                     'url'     => '#',
                                     'submenu' => [
                                         [
-                                            'text' => 'List',
+                                            'text' => 'Benda Sitaan',
                                             'url'  => '#',
+                                            'icon' => 'angle-right',
                                         ],
                                         [
-                                            'text' => 'Edit',
+                                            'text' => 'Terlapor',
                                             'url'  => '#',
+                                            'icon' => 'angle-right',
                                         ],
                                         [
-                                            'text' => 'Process',
+                                            'text' => 'Tahanan',
                                             'url'  => '#',
+                                            'icon' => 'angle-right',
                                         ],
                                     ],
                                 ],
                             ],
                         ],
                         [
-                            'text'    => 'Apps 2',
+                            'text'    => 'Penuntutan',
                             'url'     => '#',
+                            'icon'    => 'balance-scale',
                             'submenu' => [
                                 [
                                     'text' => 'Dashboard',
+                                    'icon' => 'dashboard',
                                     'url'  => '#',
                                 ],
                                 [
-                                    'text' => 'Page 1',
-                                    'url'  => '#',
+                                    'text'    => 'Proses',
+                                    'url'     => '#',
+                                    'icon'    => 'forward',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'Kasus Baru [RP-1]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Penyelidikan [RP-2]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Dik Umum [RP3mum]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Dik Khusus [RP3sus]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                    ],
                                 ],
                                 [
-                                    'text'    => 'Progress 1',
+                                    'text'    => 'Subyek & Obyek',
+                                    'icon' => 'cubes',
                                     'url'     => '#',
                                     'submenu' => [
                                         [
-                                            'text' => 'List',
+                                            'text' => 'Benda Sitaan',
+                                            'url'  => '#',
+                                            'icon' => 'angle-right',
+                                        ],
+                                        [
+                                            'text' => 'Terlapor',
+                                            'url'  => '#',
+                                            'icon' => 'angle-right',
+                                        ],
+                                        [
+                                            'text' => 'Tahanan',
+                                            'url'  => '#',
+                                            'icon' => 'angle-right',
+                                        ],
+                                    ],
+                                ],
+                            ],
+                        ],
+                        [
+                            'text'    => 'Eksekusi',
+                            'url'     => '#',
+                            'icon'    => 'gavel',
+                            'submenu' => [
+                                [
+                                    'text' => 'Dashboard',
+                                    'icon' => 'dashboard',
+                                    'url'  => '#',
+                                ],
+                                [
+                                    'text'    => 'Proses',
+                                    'url'     => '#',
+                                    'icon'    => 'forward',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'Kasus Baru [RP-1]',
+                                            'icon' => 'angle-right',
                                             'url'  => '#',
                                         ],
                                         [
-                                            'text' => 'Edit',
+                                            'text' => 'Penyelidikan [RP-2]',
+                                            'icon' => 'angle-right',
                                             'url'  => '#',
                                         ],
                                         [
-                                            'text' => 'Process',
+                                            'text' => 'Dik Umum [RP3mum]',
+                                            'icon' => 'angle-right',
                                             'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Dik Khusus [RP3sus]',
+                                            'icon' => 'angle-right',
+                                            'url'  => '#',
+                                        ],
+                                    ],
+                                ],
+                                [
+                                    'text'    => 'Subyek & Obyek',
+                                    'icon' => 'cubes',
+                                    'url'     => '#',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'Benda Sitaan',
+                                            'url'  => '#',
+                                            'icon' => 'angle-right',
+                                        ],
+                                        [
+                                            'text' => 'Terlapor',
+                                            'url'  => '#',
+                                            'icon' => 'angle-right',
+                                        ],
+                                        [
+                                            'text' => 'Tahanan',
+                                            'url'  => '#',
+                                            'icon' => 'angle-right',
                                         ],
                                     ],
                                 ],
