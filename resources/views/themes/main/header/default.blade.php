@@ -33,6 +33,6 @@
         </a> 
       </div>
       <!-- End Header Navigation -->
-      @include('layouts.main.menu.megamenu')
+      @include('themes.main.menu.megamenu')
       <!-- /.navbar-collapse -->
     </div>

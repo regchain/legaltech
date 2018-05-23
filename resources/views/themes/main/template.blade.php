@@ -1,14 +1,14 @@
-@include('layouts.main.header.head')
+@include('themes.main.header.head')
 
  @yield('stylesheets')
 
-@include('layouts.main.header.default')
+@include('themes.main.header.default')
 
 @yield('content')
 
 
-@include('layouts.main.footer.default')
+@include('themes.main.footer.default')
 
  @yield('scripts')
 
-@include('layouts.main.footer.scripts')
+@include('themes.main.footer.scripts')

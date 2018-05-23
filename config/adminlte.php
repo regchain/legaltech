@@ -45,7 +45,7 @@ return [
         |
         */
         
-        'skin' => 'blue-light',
+        'skin' => 'red-light',
         
         /*
         |--------------------------------------------------------------------------
@@ -58,7 +58,7 @@ return [
             |
             */
             
-            'layout' => null,
+            'layout' => 'boxed',
             
             /*
             |--------------------------------------------------------------------------
@@ -115,19 +115,15 @@ return [
                     'can'  => 'manage-blog',
                 ],
                 [
-                    'text'        => 'Pages',
-                    'url'         => 'admin/pages',
-                    'icon'        => 'file',
-                    'label'       => 4,
-                    'label_color' => 'success',
+                    'text'        => 'LegalTech',
+                    'url'         => 'welcome',
+                    'icon'        => 'home',
                 ],
                 'e-KEJAKSAAN',
                 [
                     'text'        => 'DASHBOARD',
                     'url'         => 'home',
                     'icon'        => 'dashboard',
-                    'label'       => 4,
-                    'label_color' => 'success',
                 ],
                 [
                     'text'    => 'Pembinaan',
@@ -139,7 +135,8 @@ return [
                             'submenu' => [
                                 [
                                     'text' => 'Dashboard',
-                                    'url'  => '#',
+                                    'url'  => 'bin/apps1/home',
+                                    'icon' => 'dashboard',
                                 ],
                                 [
                                     'text' => 'Page 1',
@@ -481,34 +478,75 @@ return [
                 ],
                 [
                     'text'    => 'Pengawasan',
-                    'icon'    => 'eye',
+                    'icon'    => 'binoculars',
+                    'label'       => 'new',
+                    'label_color' => 'info',
                     'submenu' => [
                         [
-                            'text'    => 'Apps 1',
+                            'text'    => 'eLAPDU',
+                            'icon'    => 'bullhorn',
                             'url'     => '#',
                             'submenu' => [
                                 [
                                     'text' => 'Dashboard',
                                     'url'  => '#',
+                                    'icon' => 'dashboard',
                                 ],
                                 [
-                                    'text' => 'Page 1',
+                                    'text' => 'Pemeriksaan',
                                     'url'  => '#',
-                                ],
-                                [
-                                    'text'    => 'Progress 1',
-                                    'url'     => '#',
+                                    'icon' => 'balance-scale',
                                     'submenu' => [
                                         [
-                                            'text' => 'List',
+                                            'text' => 'Pengaduan Baru',
+                                            'url'  => '#',
+                                            'icon' => 'commenting',
+                                        ],
+                                        [
+                                            'text' => 'Klarifikasi',
+                                            'url'  => '#',
+                                            'icon' => 'comments-o',
+                                        ],
+                                        [
+                                            'text' => 'Inspeksi Kasus',
+                                            'url'  => '#',
+                                            'icon' => 'search-plus',
+                                        ],
+                                        [
+                                            'text' => 'Usulan Hukum',
+                                            'url'  => '#',
+                                            'icon' => 'balance-scale',
+                                        ],
+                                        [
+                                            'text' => 'Putusan Hukuman',
+                                            'url'  => '#',
+                                            'icon' => 'gavel',
+                                        ],
+                                    ],
+                                ],
+                                [
+                                    'text'    => 'Terlapor',
+                                    'url'     => '#',
+                                    'icon' => 'user',
+                                    'submenu' => [
+                                        [
+                                            'text' => 'Pengaduan Baru',
                                             'url'  => '#',
                                         ],
                                         [
-                                            'text' => 'Edit',
+                                            'text' => 'Klarifikasi',
                                             'url'  => '#',
                                         ],
                                         [
-                                            'text' => 'Process',
+                                            'text' => 'Inspeksi Kasus',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Usulan Hukum',
+                                            'url'  => '#',
+                                        ],
+                                        [
+                                            'text' => 'Putusan Hukuman',
                                             'url'  => '#',
                                         ],
                                     ],
