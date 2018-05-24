@@ -14,6 +14,24 @@
 
 @section('content')
 
+<!-- Default box -->
+<div class="box">
+  <div class="box-header with-border">
+    <h3 class="box-title">Daftar Subyek Hukum <small>[RT]</small></h3>
+    
+    <div class="box-tools pull-right">
+      <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"
+      title="Collapse">
+      <i class="fa fa-minus"></i></button>
+      <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
+        <i class="fa fa-times"></i></button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="box-body">
+        
+        <div class="table table-responsive">
+          <div class="col-md-12">
   <ul class="nav nav-tabs">
     <li class="active"><a data-toggle="tab" href="#terlapor">Terlapor</a></li>
     <li><a data-toggle="tab" href="#tersangka">Tersangka</a></li>
@@ -91,7 +109,7 @@
     </table>
     </div>
   </div>
-
+          </div>
 @stop
 
 @section('script')

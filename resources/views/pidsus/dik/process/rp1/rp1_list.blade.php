@@ -10,12 +10,31 @@
 
 @section('mainsubtitle', 'Tindak Pidana Khusus')
 
-@section('judulhalaman', 'Daftar Kasus Baru')
+@section('judulhalaman', 'elPIDSUS')
+
+@section('subjudul', 'Daftar Kasus Baru RP-1')
 
 @section('content')
 
-<div class="table table-responsive">
-<table class="table table-striped">
+<!-- Default box -->
+<div class="box">
+    <div class="box-header with-border">
+        <h3 class="box-title">Daftar Kasus Baru <small>[RP-1]</small></h3>
+        
+        <div class="box-tools pull-right">
+            <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"
+            title="Collapse">
+            <i class="fa fa-minus"></i></button>
+            <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
+                <i class="fa fa-times"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="box-body">
+                
+                <div class="table table-responsive">
+                    <div class="col-md-12">
+                        <table class="table table-striped">
   <thead>
       <td>ID</td>
       <td width="60%">KASUS POSISI</td>
@@ -47,10 +66,16 @@
     @endforelse
   </tbody>
 </table>
-</div>
-
-@stop
-
-@section('script')
-
-@endsection
+                    </div>
+                </div>
+            </div>
+            <!-- /.box-body -->
+        </div>
+        <!-- /.row-box-body -->
+        
+        @stop
+        
+        @section('script')
+        
+        @endsection
+        
