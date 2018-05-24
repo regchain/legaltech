@@ -32,25 +32,25 @@
               </a>
               <ul class="treeview-menu">
                 <li class="">
-                  <a href="#">
+                  <a href="{{ asset('pidsus/dik/rp1')}}">
                     <i class="fa fa-fw fa-angle-right "></i>
                     <span>Kasus Baru [RP-1]</span>
                   </a>
                 </li>
                 <li class="">
-                  <a href="#">
+                  <a href="{{ asset('pidsus/dik/rp2')}}">
                     <i class="fa fa-fw fa-angle-right "></i>
                     <span>Penyelidikan [RP-2]</span>
                   </a>
                 </li>
                 <li class="">
-                  <a href="#">
+                  <a href="{{ asset('pidsus/dik/rp3mum')}}">
                     <i class="fa fa-fw fa-angle-right "></i>
                     <span>Dik Umum [RP3mum]</span>
                   </a>
                 </li>
                 <li class="">
-                  <a href="#">
+                  <a href="{{ asset('pidsus/dik/rp3sus')}}">
                     <i class="fa fa-fw fa-angle-right "></i>
                     <span>Dik Khusus [RP3sus]</span>
                   </a>
@@ -67,13 +67,13 @@
               </a>
               <ul class="treeview-menu">
                 <li class="">
-                  <a href="#">
+                  <a href="{{ asset('pidsus/dik/obyek')}}">
                     <i class="fa fa-fw fa-angle-right "></i>
                     <span>Benda Sitaan</span>
                   </a>
                 </li>
                 <li class="">
-                  <a href="#">
+                  <a href="{{ asset('pidsus/dik/subyek')}}">
                     <i class="fa fa-fw fa-angle-right "></i>
                     <span>Terlapor</span>
                   </a>

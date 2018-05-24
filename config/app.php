@@ -161,6 +161,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+          /*
+         * Custom Providers
+         */
+        Maatwebsite\Excel\ExcelServiceProvider::class,
+
     ],
 
     /*
