@@ -7,7 +7,7 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 
-  @include('themes.admin.layouts.head')
+  @include('themes.core.layouts.head')
 
   @yield('stylesheets')
 
@@ -16,15 +16,15 @@
 <div class="wrapper">
 
     <!-- Header -->
-    @include('themes.admin.layouts.header')
+    @include('themes.core.layouts.header')
 
     <!-- Left side column. contains the logo and sidebar -->
-    @include('themes.admin.layouts.sidebar')
+    @include('themes.core.layouts.sidebar')
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    @include('themes.admin.layouts.content-header')
+    @include('themes.core.layouts.content-header')
     
 
     <!-- Main content -->
@@ -34,16 +34,16 @@
     <!-- /.content -->
   </div>
   <!-- /.content-wrapper -->
-  @include('themes.admin.layouts.footer')
+  @include('themes.core.layouts.footer')
 
 
   <!-- Control Sidebar -->
-  @include('themes.admin.layouts.sidebar-right')
+  @include('themes.core.layouts.sidebar-right')
 
 </div>
 <!-- ./wrapper -->
 <!-- scripts -->
-  @include('themes.admin.layouts.scripts')
+  @include('themes.core.layouts.scripts')
 
 @yield('scripts')
 </body>

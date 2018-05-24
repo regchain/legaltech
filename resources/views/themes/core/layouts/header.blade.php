@@ -2,7 +2,7 @@
     <!-- Logo -->
     <a href="{{ url('/welcome') }}" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><b>L</b>Tech</span>
+      <span class="logo-mini"><i class="fa fa-cubes"></i> </span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><b>Legal</b>Tech</span>
     </a>
@@ -14,7 +14,7 @@
       </a>
 
       <div class="navbar-custom-menu">
-        @include('themes.admin.menu.top')
+        @include('themes.core.menu.top')
       </div>
     </nav>
   </header>
