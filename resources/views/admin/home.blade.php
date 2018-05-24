@@ -14,11 +14,11 @@
 <!-- Default box -->
 <div class="box">
   <div class="box-header with-border">
+    <h3>Executive Information System</h3>    
   </div>
   <div class="row">
     <div class="box-body">
       <div class="col-xs-12">
-        Row - 1    
       </div>
     </div>
     <!-- /.box-body -->

@@ -2,9 +2,9 @@
 
 @section('title', 'Dashboard')
 
-@section('judulhalaman', 'e-LAPDU')
+@section('judulhalaman', 'el-PIDSUS')
 
-@section('subjudul', 'KEJAKSAAN AGUNG R.I.')
+@section('subjudul', 'J.A.M. PIDSUS - Kejaksan Agung R.I')
 
 @section('stylesheets')
   <!-- Bootstrap 3.3.7 -->
