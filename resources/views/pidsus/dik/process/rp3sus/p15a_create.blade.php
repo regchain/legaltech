@@ -55,7 +55,7 @@
 					<div class="col-lg-12 col-md-12 col-xs-12">
 						<label>Pasal Disangkakan</label>
 						<div class="form-group">
-							@include('decay-case.partials._pasalp15', ['surat_pasal' => $surat_pasal])
+							@include('pidsus.dik.partials._pasalp15', ['surat_pasal' => $surat_pasal])
 					    </div>
 					</div>
 				</div>

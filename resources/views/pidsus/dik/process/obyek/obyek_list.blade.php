@@ -15,7 +15,7 @@
 @section('content')
 
     <div class="box-body">
-		@include('decay-case.partials._bendasitaan', ['cases' => $cases])
+		@include('pidsus.dik.partials._bendasitaan', ['cases' => $cases])
 	</div>
 
 @stop

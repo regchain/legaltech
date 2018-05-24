@@ -15,7 +15,7 @@
 @section('content')
 
 {!! Form::open(['url' => route('rp1.store'), 'method' => 'post']) !!}
-	@include('decay-case.rp1.rp1_form')
+	@include('pidsus.dik.process.rp1.rp1_form')
 {!! Form::close() !!}
 
 @stop

@@ -25,7 +25,7 @@
         @forelse ($cases as $case)
         <tr>
           <td colspan="2">
-              @include('decay-case.partials._kasusrp3mum', ['case' => $case])
+              @include('pidsus.dik.partials._kasusrp3mum', ['case' => $case])
           </td>
         </tr>
         @empty

@@ -15,7 +15,7 @@
 @section('content')
 
 {!! Form::model($case, ['url' => route('rp1.update', $case->id), 'method' => 'put']) !!}
-	@include('decay-case.rp1.rp1_form')
+	@include('pidsus.dik.process.rp1.rp1_form')
 {!! Form::close() !!}
       
 @stop

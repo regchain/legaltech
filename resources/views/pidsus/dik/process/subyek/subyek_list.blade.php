@@ -34,7 +34,7 @@
       @forelse ($terlapors as $terlapor)
       <tr>
         <td width="100%" colspan="4">
-          <div>@include('decay-case.partials._terlapor', ['terlapor' => $terlapor])</div>
+          <div>@include('pidsus.dik.partials._terlapor', ['terlapor' => $terlapor])</div>
         </td>
       </tr>
       @empty
@@ -57,7 +57,7 @@
       @forelse ($tersangkas as $tersangka)
       <tr>
         <td width="100%" colspan="4">
-          <div>@include('decay-case.partials._tersangka', ['tersangka' => $tersangka])</div>
+          <div>@include('pidsus.dik.partials._tersangka', ['tersangka' => $tersangka])</div>
         </td>
       </tr>
       @empty
@@ -80,7 +80,7 @@
       @forelse ($tahanans as $tahanan)
       <tr>
         <td width="100%" colspan="4">
-          <div>@include('decay-case.partials._tahanan', ['tahanan' => $tahanan])</div>
+          <div>@include('pidsus.dik.partials._tahanan', ['tahanan' => $tahanan])</div>
         </td>
       </tr>
       @empty

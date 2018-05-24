@@ -67,7 +67,7 @@
 	<div class="col-lg-7 col-md-7 col-sm-12">
 		<table class="table table-responsive table-striped">
 			<tbody>
-				@include('decay-case.partials._subyekrp3mum', ['case' => $case])				
+				@include('pidsus.dik.partials._subyekrp3mum', ['case' => $case])				
 			</tbody>
 		</table>
 	</div>
