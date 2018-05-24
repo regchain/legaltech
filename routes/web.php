@@ -46,7 +46,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 // Pembinaan
 
-Route::get('/bin/apps1/home', 'Pembinaan\PagesController@index')->name('apps1home');
+Route::get('/bin/apps1/home', 'Bin\PagesController@index')->name('apps1home');
 
 // Pengawasan/Elapdu
 
