@@ -204,7 +204,7 @@ Pemulihan Aset
 	<div class="col-lg-6 col-md-6 col-sm-12">
 		<h4>Data Jaksa</h4>
 		<div align="center" class="thumbnail">
-		@include('decay-case.partials._timjaksa')
+		@include('pidsus.dik.partials._timjaksa')
 		</div>
 	<div class="box-tools pull-right">
 			<a href="rp1" class="btn btn-danger"> BATAL</a>

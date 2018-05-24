@@ -14,13 +14,24 @@
 
 @section('content')
 
-{!! Form::model($case, ['url' => route('rp1.update', $case->id), 'method' => 'put']) !!}
-	@include('decay-case.rp1.rp1_form')
-{!! Form::close() !!}
-      
-@stop
-
-@section('script')
+<!-- Default box -->
+<div class="box">
+	<div class="box-header with-border">
+		<h3 class="box-title">Edit Pengaduan</
+		</div>
+		<div class="row">
+			<div class="box-body">
+				<div class="col-xs-12">
+					{!! Form::model($case, ['url' => route('rp1.update', $case->id), 'method' => 'put']) !!}
+					@include('pidsus.dik.process.rp1.rp1_form')
+					{!! Form::close() !!}
+				</div>
+			</div>
+		</div>
+	</div>
+	@stop
+	
+	@section('script')
 	<!-- Form Kasus Posisi -->
 	<script src='{{ asset('bower_components/js/kasus_posisi.js') }}'></script>
-@endsection
+	@endsection

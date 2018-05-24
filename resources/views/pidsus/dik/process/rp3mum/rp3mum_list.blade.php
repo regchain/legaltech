@@ -13,33 +13,51 @@
 @section('judulhalaman', 'Daftar Perkara Penyidikan Umum [RP-3 mum]')
 
 @section('content')
-
-  <!-- /.box-header -->
-  <div class="table-responsive no-padding">
-    <table class="table table-striped">
-      <tbody>
-        <tr>
-          <th width="75%">Kasus Posisi</th>
-          <th width="25%">No & Tanggal Surat</th>
-        </tr>
-        @forelse ($cases as $case)
-        <tr>
-          <td colspan="2">
-              @include('decay-case.partials._kasusrp3mum', ['case' => $case])
-          </td>
-        </tr>
-        @empty
-        <tr>
-          <td colspan="2">No data.</td>
-        </tr>
-        @endforelse
-      </tbody>
-    </table>
-  </div>
-  <!-- /.box-body -->
+<!-- Default box -->
+<div class="box">
+  <div class="box-header with-border">
+    <h3 class="box-title">Daftar Perkara Penyidikan Umum <small>[RP-3mum]</small></h3>
     
-@stop
-
-@section('script')
-
-@endsection
+    <div class="box-tools pull-right">
+      <button type="button" class="btn btn-box-tool" data-widget="collapse" data-toggle="tooltip"
+      title="Collapse">
+      <i class="fa fa-minus"></i></button>
+      <button type="button" class="btn btn-box-tool" data-widget="remove" data-toggle="tooltip" title="Remove">
+        <i class="fa fa-times"></i></button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="box-body">
+        
+        <div class="table table-responsive">
+          <div class="col-md-12">
+            <!-- /.box-header -->
+            <div class="table-responsive no-padding">
+              <table class="table table-striped">
+                <tbody>
+                  <tr>
+                    <th width="75%">Kasus Posisi</th>
+                    <th width="25%">No & Tanggal Surat</th>
+                  </tr>
+                  @forelse ($cases as $case)
+                  <tr>
+                    <td colspan="2">
+                      @include('pidsus.dik.partials._kasusrp3mum', ['case' => $case])
+                    </td>
+                  </tr>
+                  @empty
+                  <tr>
+                    <td colspan="2">No data.</td>
+                  </tr>
+                  @endforelse
+                </tbody>
+              </table>
+            </div>
+            <!-- /.box-body -->
+          </div>
+        </div>
+        @stop
+        
+        @section('script')
+        
+        @endsection

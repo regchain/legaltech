@@ -32,7 +32,7 @@
 		<div class="col-lg-8 col-md-8 col-sm-12">
 			<table class="table table-responsive table-striped">
 				<tbody>
-					@include('decay-case.partials._subyekrp2')				
+					@include('pidsus.dik.partials._subyekrp2')				
 				</tbody>
 			</table>
 		</div>

@@ -6,8 +6,8 @@
               </a>
           </div>
           <div class="media-body">
-            <h2 class="media-heading">@yield('judulhalaman')</h2>
-            <h4>@yield('subjudul') </h4>
+            <h2 class="media-heading">@yield('maintitle')</h2>
+            <h3>@yield('mainsubtitle') </h3>
           </div>
         </div>
 

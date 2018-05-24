@@ -8,13 +8,6 @@
       </a>
     </li>
 
-    <li class="">
-      <a href="{{ url('/home')}}">
-        <i class="fa fa-fw fa-dashboard "></i>
-        <span>DASHBOARD</span>
-      </a>
-    </li>
-
     @include('themes.admin.menu.core.ekejaksaan')
     
     <li class="header">BIDANG TEKNIS</li>
