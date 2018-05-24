@@ -21,6 +21,8 @@
 
     @include('themes.core.menu.core.pidsus')
 
+    @include('themes.core.menu.core.was')  
+
     @include('themes.core.menu.core.bin')
 
     @include('themes.core.menu.core.intel')
@@ -28,9 +30,6 @@
     @include('themes.core.menu.core.pidum')
 
     @include('themes.core.menu.core.datun')
-
-    @include('themes.core.menu.core.was')  
-
 
     @include('themes.core.menu.left.example')
 

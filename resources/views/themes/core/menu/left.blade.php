@@ -21,6 +21,8 @@
 
     @include('themes.admin.menu.core.bin')
 
+    @include('themes.admin.menu.core.was') 
+     
     @include('themes.admin.menu.core.intel')
 
     @include('themes.admin.menu.core.pidum')
@@ -29,7 +31,6 @@
 
     @include('themes.admin.menu.core.datun')
 
-    @include('themes.admin.menu.core.was')  
 
 
     @include('themes.admin.menu.left.example')
