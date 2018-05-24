@@ -8,26 +8,26 @@
       </a>
     </li>
 
-    @include('themes.admin.menu.core.ekejaksaan')
+    @include('themes.user.menu.core.ekejaksaan')
     
     <li class="header">BIDANG TEKNIS</li>
 
-    @include('themes.admin.menu.core.bin')
+    @include('themes.user.menu.core.bin')
 
-    @include('themes.admin.menu.core.intel')
+    @include('themes.user.menu.core.intel')
 
-    @include('themes.admin.menu.core.pidum')
+    @include('themes.user.menu.core.pidum')
 
-    @include('themes.admin.menu.core.pidsus')
+    @include('themes.user.menu.core.pidsus')
 
-    @include('themes.admin.menu.core.datun')
+    @include('themes.user.menu.core.datun')
 
-    @include('themes.admin.menu.core.was')  
+    @include('themes.user.menu.core.was')  
 
 
-    @include('themes.admin.menu.left.example')
+    @include('themes.user.menu.left.example')
 
-    {{-- @include('themes.admin.menu.left.others') --}}
+    {{-- @include('themes.user.menu.left.others') --}}
     
   </ul>
   <!-- /.sidebar-menu -->
