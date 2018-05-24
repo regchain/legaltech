@@ -1,33 +1,33 @@
-<ul class="sidebar-menu" data-widget="tree">
-        {{-- <li class="header">MAIN NAVIGATION</li> --}}
+<!-- Sidebar Menu -->
+  <ul class="sidebar-menu tree" data-widget="tree">
+    <li class="header">MAIN NAVIGATION</li>
+    <li class="">
+      <a href="http://localhost/legaltech/public/welcome">
+        <i class="fa fa-fw fa-home "></i>
+        <span>LegalTech</span>
+      </a>
+    </li>
 
-        <!-- Dashboard -->
-        {{-- @include('themes.admin.menu.left.dashboard') --}}
+    @include('themes.admin.menu.core.ekejaksaan')
+    
+    <li class="header">BIDANG TEKNIS</li>
 
-        <!-- layout -->
-        {{-- @include('themes.admin.menu.left.layout') --}}
-        
-        <!-- widget -->
-        {{-- @include('themes.admin.menu.left.widget') --}}
-        
-        <!-- chart -->
-        {{-- @include('themes.admin.menu.left.chart') --}}
+    @include('themes.admin.menu.core.bin')
 
-        <!-- ui-elements -->
-        {{-- @include('themes.admin.menu.left.ui-elements') --}}
+    @include('themes.admin.menu.core.intel')
 
-        <!-- forms -->
-        {{-- @include('themes.admin.menu.left.forms') --}}
+    @include('themes.admin.menu.core.pidum')
 
-        <!-- tebles -->
-        {{-- @include('themes.admin.menu.left.tables') --}}
+    @include('themes.admin.menu.core.pidsus')
 
-        <!-- calender -->
-        {{-- @include('themes.admin.menu.left.calender') --}}
-        
-        <!-- others -->
-        {{-- @include('themes.admin.menu.left.others') --}}
-        
-        
-      </ul>
-      @include('themes.admin.menu.left.core')
+    @include('themes.admin.menu.core.datun')
+
+    @include('themes.admin.menu.core.was')  
+
+
+    @include('themes.admin.menu.left.example')
+
+    {{-- @include('themes.admin.menu.left.others') --}}
+    
+  </ul>
+  <!-- /.sidebar-menu -->

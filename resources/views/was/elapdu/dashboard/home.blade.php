@@ -1,10 +1,10 @@
-@extends('adminlte::page')
+@extends('themes.admin.template')
 
-@section('title', 'LegalTech Indonesia')
+@section('title', 'Dashboard')
 
-@section('judulhalaman', 'Kejaksaan Agung')
+@section('judulhalaman', 'e-LAPDU')
 
-@section('subjudul', 'Republik Indonesia')
+@section('subjudul', 'KEJAKSAAN AGUNG R.I.')
 
 @section('stylesheets')
   <!-- Bootstrap 3.3.7 -->

@@ -1,10 +1,10 @@
-@extends('adminlte::page')
+@extends('themes.user.template')
 
-@section('title', 'LegalTech Indonesia')
+@section('title', 'Dashboard')
 
-@section('judulhalaman', 'J.A.M. PENGAWASAN')
+@section('judulhalaman', 'e-LAPDU')
 
-@section('subjudul', 'Kejaksan Agung R.I')
+@section('subjudul', 'KEJAKSAAN AGUNG R.I.')
 
 @section('stylesheets')
 {{-- expr --}}

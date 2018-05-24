@@ -7,9 +7,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/layout/top-nav"><i class="fa fa-circle-o"></i> Top Navigation</a></li>
-            <li><a href="pages/layout/boxed"><i class="fa fa-circle-o"></i> Boxed</a></li>
-            <li><a href="pages/layout/fixed"><i class="fa fa-circle-o"></i> Fixed</a></li>
-            <li><a href="pages/layout/collapsed-sidebar"><i class="fa fa-circle-o"></i> Collapsed Sidebar</a></li>
+            <li><a href="pages/layout/top-nav"><i class="fa fa-angle-right"></i> Top Navigation</a></li>
+            <li><a href="pages/layout/boxed"><i class="fa fa-angle-right"></i> Boxed</a></li>
+            <li><a href="pages/layout/fixed"><i class="fa fa-angle-right"></i> Fixed</a></li>
+            <li><a href="pages/layout/collapsed-sidebar"><i class="fa fa-angle-right"></i> Collapsed Sidebar</a></li>
           </ul>
         </li> 

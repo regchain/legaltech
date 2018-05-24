@@ -6,8 +6,8 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/forms/general"><i class="fa fa-circle-o"></i> General Elements</a></li>
-            <li><a href="pages/forms/advanced"><i class="fa fa-circle-o"></i> Advanced Elements</a></li>
-            <li><a href="pages/forms/editors"><i class="fa fa-circle-o"></i> Editors</a></li>
+            <li><a href="pages/forms/general"><i class="fa fa-angle-right"></i> General Elements</a></li>
+            <li><a href="pages/forms/advanced"><i class="fa fa-angle-right"></i> Advanced Elements</a></li>
+            <li><a href="pages/forms/editors"><i class="fa fa-angle-right"></i> Editors</a></li>
           </ul>
         </li>

@@ -7,9 +7,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="pages/charts/chartjs"><i class="fa fa-circle-o"></i> ChartJS</a></li>
-            <li><a href="pages/charts/morris"><i class="fa fa-circle-o"></i> Morris</a></li>
-            <li><a href="pages/charts/flot"><i class="fa fa-circle-o"></i> Flot</a></li>
-            <li><a href="pages/charts/inline"><i class="fa fa-circle-o"></i> Inline charts</a></li>
+            <li><a href="pages/charts/chartjs"><i class="fa fa-angle-right"></i> ChartJS</a></li>
+            <li><a href="pages/charts/morris"><i class="fa fa-angle-right"></i> Morris</a></li>
+            <li><a href="pages/charts/flot"><i class="fa fa-angle-right"></i> Flot</a></li>
+            <li><a href="pages/charts/inline"><i class="fa fa-angle-right"></i> Inline charts</a></li>
           </ul>
         </li>
