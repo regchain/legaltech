@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Punishment;
+use App\Pidsus\Models\Punishment;
 
 class SubyekController extends Controller
 {

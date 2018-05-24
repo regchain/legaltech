@@ -1,8 +1,8 @@
 <?php namespace App\Http\Controllers\WasElapdu;
 
 use Illuminate\Http\Request;
-use App\Http\Controllers\Controller;
-use App\Models\Punishment;
+use App\Pidsus\Http\Controllers\Controller;
+use App\Pidsus\Models\Punishment;
 
 class OperatorController extends Controller
 {
