@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\WasElapdu;
 
 use Illuminate\Http\Request;
-use App\Pidsus\Http\Controllers\Controller;
+use App\Http\Controllers\Controller;
 
 class PagesController extends Controller
 {

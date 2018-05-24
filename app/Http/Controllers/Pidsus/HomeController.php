@@ -114,7 +114,7 @@ class HomeController extends Controller
         $dashboard["kasus_rp3sus"] = $kasus_rp3sus;
         $dashboard["tahanan"] = $tahanan;
 
-        return view('home', ['dashboard' => $dashboard, 'subyek_hukum' => $subyek_hukum, 'obyek_pidana' => $obyek_pidana, 'kerugian_pemulihan' => $kerugian_pemulihan, 'nama_bulan' => $nama_bulan, 'masa_tahanan' => $kategori_obyek]);
+        return view('pidsus.dik.dashboard.home', ['dashboard' => $dashboard, 'subyek_hukum' => $subyek_hukum, 'obyek_pidana' => $obyek_pidana, 'kerugian_pemulihan' => $kerugian_pemulihan, 'nama_bulan' => $nama_bulan, 'masa_tahanan' => $kategori_obyek]);
     }
 
     public function trial()

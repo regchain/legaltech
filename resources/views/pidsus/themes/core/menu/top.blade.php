@@ -1,14 +1,14 @@
 <ul class="nav navbar-nav">
   <!-- Messages: style can be found in dropdown.less-->
   <!-- messages -->
-  @include('themes.admin.menu.top.messages')
+  @include('pidsus.themes.core.menu.top.messages')
   <!-- Notifications: style can be found in dropdown.less -->
   <!-- notif -->
-  @include('themes.admin.menu.top.notif')
+  @include('pidsus.themes.core.menu.top.notif')
   
   <!-- Tasks: style can be found in dropdown.less -->
   <!-- tasks -->
-  @include('themes.admin.menu.top.tasks')
+  @include('pidsus.themes.core.menu.top.tasks')
   <!-- end task item -->
 </ul>
 </li>

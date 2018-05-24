@@ -17,22 +17,22 @@
       </a>
     </li>
 
-    @include('themes.admin.menu.core.bin')
+    @include('pidsus.themes.core.menu.core.bin')
 
-    @include('themes.admin.menu.core.intel')
+    @include('pidsus.themes.core.menu.core.intel')
 
-    @include('themes.admin.menu.core.pidum')
+    @include('pidsus.themes.core.menu.core.pidum')
 
-    @include('themes.admin.menu.core.pidus')
+    @include('pidsus.themes.core.menu.core.pidus')
 
-    @include('themes.admin.menu.core.datun')
+    @include('pidsus.themes.core.menu.core.datun')
 
-    @include('themes.admin.menu.core.was')  
+    @include('pidsus.themes.core.menu.core.was')  
 
 
-    @include('themes.admin.menu.core.setting')
+    @include('pidsus.themes.core.menu.core.setting')
 
-    @include('themes.admin.menu.core.others')
+    @include('pidsus.themes.core.menu.core.others')
     
   </ul>
   <!-- /.sidebar-menu -->

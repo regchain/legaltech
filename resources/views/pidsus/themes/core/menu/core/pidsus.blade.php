@@ -17,7 +17,7 @@
           </a>
           <ul class="treeview-menu">
             <li class="">
-              <a href="#">
+              <a href="home">
                 <i class="fa fa-fw fa-dashboard "></i>
                 <span>Dashboard</span>
               </a>

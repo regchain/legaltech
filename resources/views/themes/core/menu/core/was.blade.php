@@ -17,13 +17,13 @@
           </a>
           <ul class="treeview-menu">
             <li class="">
-              <a href="http://localhost/legaltech/public/was/elapdu/operator">
+              <a href="{{ asset('was/elapdu/operator')}}">
                 <i class="fa fa-fw fa-dashboard "></i>
                 <span>Dashboard</span>
               </a>
             </li>
             <li class="">
-              <a href="http://localhost/legaltech/public/was/elapdu/pelapor">
+              <a href="{{ asset('was/elapdu/pelapor')}}">
                 <i class="fa fa-fw fa-user "></i>
                 <span>Pelapor</span>
               </a>

@@ -14,7 +14,7 @@
       </a>
 
       <div class="navbar-custom-menu">
-        @include('themes.admin.menu.top')
+        @include('pidsus.themes.core.menu.top')
       </div>
     </nav>
   </header>

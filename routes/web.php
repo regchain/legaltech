@@ -87,47 +87,47 @@ Route::get('/was/elapdu/pelapor', 'WasElapdu\PagesController@pelapor')->name('pe
 
 // Pidsus/elPIDSUS
 
-Route::get('/home', 'Pidsus\HomeController@index');
-Route::get('/admin', 'Pidsus\HomeController@index');
-Route::get('/trial', 'Pidsus\HomeController@trial');
-Route::get('master_penyidikan', 'Pidsus\HomeController@master_penyidikan');
-Route::get('master_penuntutan', 'Pidsus\HomeController@master_penuntutan');
+Route::get('pidsus/dik/home', 'Pidsus\HomeController@index');
+Route::get('pidsus/dik/admin', 'Pidsus\HomeController@index');
+Route::get('pidsus/dik/trial', 'Pidsus\HomeController@trial');
+Route::get('pidsus/dik/master_penyidikan', 'Pidsus\HomeController@master_penyidikan');
+Route::get('pidsus/dik/master_penuntutan', 'Pidsus\HomeController@master_penuntutan');
 
 
-Route::get('penyidikan', 'Pidsus\LayoutController@penyidikan');
+Route::get('pidsus/dik/penyidikan', 'Pidsus\LayoutController@penyidikan');
 
 Route::group(['prefix' => '', 'middleware' => ['auth']], function() {
-	Route::resource('jaksa', 'Pidsus\JaksasController');
-	Route::resource('pasal', 'Pidsus\PasalsController');
-	Route::resource('kategori_subyek', 'Pidsus\KategoriSubyeksController');
-	Route::resource('rp1', 'Pidsus\Rp1Controller');
-	Route::resource('lidik', 'Pidsus\LidikController', [
+	Route::resource('pidsus/dik/jaksa', 'Pidsus\JaksasController');
+	Route::resource('pidsus/dik/pasal', 'Pidsus\PasalsController');
+	Route::resource('pidsus/dik/kategori_subyek', 'Pidsus\KategoriSubyeksController');
+	Route::resource('pidsus/dik/rp1', 'Pidsus\Rp1Controller');
+	Route::resource('pidsus/dik/lidik', 'Pidsus\LidikController', [
 		'except' => ['create', 'store', 'show', 'destroy']]);
-	Route::resource('rp2', 'Pidsus\Rp2Controller');
+	Route::resource('pidsus/dik/rp2', 'Pidsus\Rp2Controller');
 	Route::get('dikmum/{kasus_id}', 'Pidsus\Rp3MumController@create');
 	Route::get('diksus/{kasus_id}/spt/{spt_id}', 'Pidsus\Rp3SusController@create');
-	Route::resource('rp3mum', 'Pidsus\Rp3MumController');
-	Route::resource('spt', 'Pidsus\SptController');
-	Route::resource('rp3sus', 'Pidsus\Rp3SusController');
-	Route::get('subyek', 'Pidsus\SubyekController@index');
-	Route::get('tersangka/{kasus_id}', 'Pidsus\SubyekController@tersangka');
-	Route::get('tahan/{subyek_id}', 'Pidsus\SubyekController@tahan');
-	Route::put('tahan/{subyek_id}', 'Pidsus\SubyekController@tahanupdate');
-	Route::get('obyek', 'Pidsus\ObyekController@index');
-	Route::get('fp15/{spt_id}', 'Pidsus\Rp3SusController@fp15');
-	Route::put('p15/{spt_id}', 'Pidsus\Rp3SusController@p15update');
-	Route::get('fp15a/{spt_id}', 'Pidsus\Rp3SusController@fp15a');
-	Route::put('p15a/{spt_id}', 'Pidsus\Rp3SusController@p15aupdate');
-	Route::get('surat_jaksa/{id}/{tipe}/{kasus_id}', 'Pidsus\JaksasController@deleteSuratJaksa');
-	Route::get('surat_pasal/{id}/{tipe}/{kasus_id}', 'Pidsus\PasalsController@deleteSuratPasal');
+	Route::resource('pidsus/dik/rp3mum', 'Pidsus\Rp3MumController');
+	Route::resource('pidsus/dik/spt', 'Pidsus\SptController');
+	Route::resource('pidsus/dik/rp3sus', 'Pidsus\Rp3SusController');
+	Route::get('pidsus/dik/subyek', 'Pidsus\SubyekController@index');
+	Route::get('pidsus/dik/tersangka/{kasus_id}', 'Pidsus\SubyekController@tersangka');
+	Route::get('pidsus/dik/tahan/{subyek_id}', 'Pidsus\SubyekController@tahan');
+	Route::put('pidsus/dik/tahan/{subyek_id}', 'Pidsus\SubyekController@tahanupdate');
+	Route::get('pidsus/dik/obyek', 'Pidsus\ObyekController@index');
+	Route::get('pidsus/dik/fp15/{spt_id}', 'Pidsus\Rp3SusController@fp15');
+	Route::put('pidsus/dik/p15/{spt_id}', 'Pidsus\Rp3SusController@p15update');
+	Route::get('pidsus/dik/fp15a/{spt_id}', 'Pidsus\Rp3SusController@fp15a');
+	Route::put('pidsus/dik/p15a/{spt_id}', 'Pidsus\Rp3SusController@p15aupdate');
+	Route::get('pidsus/dik/surat_jaksa/{id}/{tipe}/{kasus_id}', 'Pidsus\JaksasController@deleteSuratJaksa');
+	Route::get('pidsus/dik/surat_pasal/{id}/{tipe}/{kasus_id}', 'Pidsus\PasalsController@deleteSuratPasal');
 });
 
 Route::group(['prefix' => 'kasus'], function() {
 	Route::group(['prefix' => '{kasus_id}'], function($kasus_id) {
     	
-    	Route::resource('subyek', 'Pidsus\SubyekController', [
+    	Route::resource('pidsus/dik/subyek', 'Pidsus\SubyekController', [
 			'except' => ['index', 'show']]);
-    	Route::resource('obyek', 'Pidsus\ObyekController', [
+    	Route::resource('pidsus/dik/obyek', 'Pidsus\ObyekController', [
 			'except' => ['index', 'show', 'destroy']]);
   	});	
 });
