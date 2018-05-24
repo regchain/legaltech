@@ -4,11 +4,11 @@ namespace App\Http\Controllers\Pidsus;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\File;
-use App\Pidsus\Pidsus\Kasus;
-use App\Pidsus\Pidsus\Subyek;
-use App\Pidsus\Pidsus\KasusSubyek;
-use App\Pidsus\Pidsus\KategoriSubyek;
-use App\Pidsus\Pidsus\Spt;
+use App\Pidsus\Kasus;
+use App\Pidsus\Subyek;
+use App\Pidsus\KasusSubyek;
+use App\Pidsus\KategoriSubyek;
+use App\Pidsus\Spt;
 use Carbon\Carbon;
 
 class SubyekController extends Controller

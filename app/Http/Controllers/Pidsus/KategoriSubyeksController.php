@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Pidsus;
 
 use Illuminate\Http\Request;
-use App\Pidsus\Pidsus\KategoriSubyek;
+use App\Pidsus\KategoriSubyek;
 use Yajra\Datatables\Html\Builder;
 use Yajra\Datatables\Datatables;
 use Session;

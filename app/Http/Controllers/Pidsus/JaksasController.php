@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\Pidsus;
 
 use Illuminate\Http\Request;
-use App\Pidsus\Pidsus\Jaksa;
-use App\Pidsus\Pidsus\SuratJaksa;
+use App\Pidsus\Jaksa;
+use App\Pidsus\SuratJaksa;
 use Yajra\Datatables\Html\Builder;
 use Yajra\Datatables\Datatables;
 use Illuminate\Support\Facades\Session;

@@ -3,19 +3,19 @@
 namespace App\Http\Controllers\Pidsus;
 
 use Illuminate\Http\Request;
-use App\Pidsus\Pidsus\Kasus;
-use App\Pidsus\Pidsus\Obyek;
-use App\Pidsus\Pidsus\Subyek;
-use App\Pidsus\Pidsus\KasusSubyek;
-use App\Pidsus\Pidsus\KasusObyek;
-use App\Pidsus\Pidsus\Jaksa;
-use App\Pidsus\Pidsus\KategoriSubyek;
-use App\Pidsus\Pidsus\Pasal;
-use App\Pidsus\Pidsus\Spt;
-use App\Pidsus\Pidsus\Surat;
-use App\Pidsus\Pidsus\SuratJaksa;
-use App\Pidsus\Pidsus\SuratPasal;
-use App\Pidsus\Pidsus\SuratP15;
+use App\Pidsus\Kasus;
+use App\Pidsus\Obyek;
+use App\Pidsus\Subyek;
+use App\Pidsus\KasusSubyek;
+use App\Pidsus\KasusObyek;
+use App\Pidsus\Jaksa;
+use App\Pidsus\KategoriSubyek;
+use App\Pidsus\Pasal;
+use App\Pidsus\Spt;
+use App\Pidsus\Surat;
+use App\Pidsus\SuratJaksa;
+use App\Pidsus\SuratPasal;
+use App\Pidsus\SuratP15;
 
 class Rp3SusController extends Controller
 {

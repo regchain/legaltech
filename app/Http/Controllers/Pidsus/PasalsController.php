@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\Pidsus;
 
 use Illuminate\Http\Request;
-use App\Pidsus\Pidsus\Pasal;
-use App\Pidsus\Pidsus\SuratPasal;
+use App\Pidsus\Pasal;
+use App\Pidsus\SuratPasal;
 use Yajra\Datatables\Html\Builder;
 use Yajra\Datatables\Datatables;
 use Illuminate\Support\Facades\Session;

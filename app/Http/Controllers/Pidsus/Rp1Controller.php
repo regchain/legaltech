@@ -3,9 +3,9 @@
 namespace App\Http\Controllers\Pidsus;
 
 use Illuminate\Http\Request;
-use App\Pidsus\Pidsus\Kasus;
-use App\Pidsus\Pidsus\Obyek;
-use App\Pidsus\Pidsus\Subyek;
+use App\Pidsus\Kasus;
+use App\Pidsus\Obyek;
+use App\Pidsus\Subyek;
 
 class Rp1Controller extends Controller
 {

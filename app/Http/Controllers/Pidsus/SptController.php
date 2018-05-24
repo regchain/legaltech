@@ -3,8 +3,8 @@
 namespace App\Http\Controllers\Pidsus;
 
 use Illuminate\Http\Request;
-use App\Pidsus\Pidsus\Spt;
-use App\Pidsus\Pidsus\Subyek;
+use App\Pidsus\Spt;
+use App\Pidsus\Subyek;
 
 class SptController extends Controller
 {

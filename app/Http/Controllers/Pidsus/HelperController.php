@@ -3,10 +3,10 @@
 namespace App\Http\Controllers\Pidsus;
 
 use Illuminate\Http\Request;
-use App\Pidsus\Pidsus\Kasus;
-use App\Pidsus\Pidsus\Subyek;
-use App\Pidsus\Pidsus\KategoriSubyek;
-use App\Pidsus\Pidsus\Jaksa;
+use App\Pidsus\Kasus;
+use App\Pidsus\Subyek;
+use App\Pidsus\KategoriSubyek;
+use App\Pidsus\Jaksa;
 
 class HelperController extends Controller
 {

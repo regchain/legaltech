@@ -3,11 +3,11 @@
 namespace App\Http\Controllers\Pidsus;
 
 use Illuminate\Http\Request;
-use App\Pidsus\Pidsus\Kasus;
-use App\Pidsus\Pidsus\Obyek;
-use App\Pidsus\Pidsus\Surat;
-use App\Pidsus\Pidsus\Jaksa;
-use App\Pidsus\Pidsus\BarangBukti;
+use App\Pidsus\Kasus;
+use App\Pidsus\Obyek;
+use App\Pidsus\Surat;
+use App\Pidsus\Jaksa;
+use App\Pidsus\BarangBukti;
 
 class ObyekController extends Controller
 {

@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Pidsus;
 
-use App\Pidsus\Pidsus\Tabel_Modul;
+use App\Pidsus\Tabel_Modul;
 use Illuminate\Http\Request;
 
 class ModulController extends Controller

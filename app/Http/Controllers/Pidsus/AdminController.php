@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Pidsus;
 
 use Illuminate\Http\Request;
-use App\Pidsus\Pidsus\Http\Controllers\Controller;
+use App\Pidsus\Http\Controllers\Controller;
 
 class AdminController extends Controller
 {

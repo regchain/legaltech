@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Pidsus;
 
-use App\Pidsus\Pidsus\Tabel_User;
+use App\Pidsus\Tabel_User;
 use Illuminate\Http\Request;
 
 class UserController extends Controller

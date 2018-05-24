@@ -3,12 +3,12 @@
 namespace App\Http\Controllers\Pidsus;
 
 use Illuminate\Http\Request;
-use App\Pidsus\Pidsus\Kasus;
-use App\Pidsus\Pidsus\Subyek;
-use App\Pidsus\Pidsus\KategoriSubyek;
-use App\Pidsus\Pidsus\Pasal;
-use App\Pidsus\Pidsus\Spt;
-use App\Pidsus\Pidsus\Surat;
+use App\Pidsus\Kasus;
+use App\Pidsus\Subyek;
+use App\Pidsus\KategoriSubyek;
+use App\Pidsus\Pasal;
+use App\Pidsus\Spt;
+use App\Pidsus\Surat;
 
 class HomeController extends Controller
 {

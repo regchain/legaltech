@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers\Pidsus;
 
-use App\Pidsus\Pidsus\Jabatan;
+use App\Pidsus\Jabatan;
 use Illuminate\Http\Request;
 
 class LayoutController extends Controller
