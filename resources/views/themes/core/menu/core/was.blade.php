@@ -3,7 +3,7 @@
         <i class="fa fa-fw fa-binoculars "></i>
         <span>Pengawasan</span>
         <span class="pull-right-container">
-          <span class="label label-info pull-right">new</span>
+          <span class="label label-danger pull-right">new</span>
         </span>
       </a>
       <ul class="treeview-menu">

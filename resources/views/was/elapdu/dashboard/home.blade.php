@@ -18,7 +18,7 @@
 @section('content')
 
       <!-- Default box -->
-      <div class="box">
+      <div class="box box-danger">
         <div class="box-header with-border">
           <h2 class="box-title">EXECUTIVE INFORMATION SYSTEM</h2>
           
