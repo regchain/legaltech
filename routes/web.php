@@ -44,6 +44,36 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
+// core
+
+Route::get('forms', 'DocumentationsController@index');
+
+Route::get('editor', 'DocumentationsController@editor');
+
+Route::get('select2', 'DocumentationsController@select2');
+
+Route::get('daterange', 'DocumentationsController@daterange');
+
+Route::get('timepicker', 'DocumentationsController@timepicker');
+
+Route::get('icheck', 'DocumentationsController@icheck');
+
+Route::get('inputmask', 'DocumentationsController@inputmask');
+
+Route::get('inputaddon', 'DocumentationsController@inputaddon');
+
+Route::get('uigeneral', 'DocumentationsController@uigeneral');
+
+Route::get('documents', 'DocumentationsController@documents');
+
+Route::get('documentprint', 'DocumentationsController@documentprint');
+
+Route::get('button', 'DocumentationsController@button');
+
+Route::get('progress', 'DocumentationsController@progress');
+
+Route::get('table', 'DocumentationsController@table');
+
 // Pembinaan
 
 Route::get('/bin/apps1/home', 'Bin\PagesController@index')->name('apps1home');
@@ -54,33 +84,7 @@ Route::get('/was/elapdu/operator', 'WasElapdu\PagesController@index')->name('ope
 
 Route::get('/was/elapdu/pelapor', 'WasElapdu\PagesController@pelapor')->name('pelapor');
 
-Route::get('forms', 'WasElapdu\FormsController@index');
 
-Route::get('editor', 'WasElapdu\FormsController@editor');
-
-Route::get('select2', 'WasElapdu\FormsController@select2');
-
-Route::get('daterange', 'WasElapdu\FormsController@daterange');
-
-Route::get('timepicker', 'WasElapdu\FormsController@timepicker');
-
-Route::get('icheck', 'WasElapdu\FormsController@icheck');
-
-Route::get('inputmask', 'WasElapdu\FormsController@inputmask');
-
-Route::get('inputaddon', 'WasElapdu\FormsController@inputaddon');
-
-Route::get('uigeneral', 'WasElapdu\FormsController@uigeneral');
-
-Route::get('documents', 'WasElapdu\FormsController@documents');
-
-Route::get('documentprint', 'WasElapdu\FormsController@documentprint');
-
-Route::get('button', 'WasElapdu\FormsController@button');
-
-Route::get('progress', 'WasElapdu\FormsController@progress');
-
-Route::get('table', 'WasElapdu\FormsController@table');
 
 
 

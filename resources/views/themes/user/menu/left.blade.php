@@ -8,26 +8,33 @@
       </a>
     </li>
 
-    @include('themes.user.menu.core.ekejaksaan')
+    <li class="">
+      <a href="pelapor">
+        <i class="fa fa-fw fa-dashboard "></i>
+        <span>DASHBOARD</span>
+      </a>
+    </li>
+
+    {{-- @include('themes.core.menu.core.ekejaksaan') --}}
     
-    <li class="header">BIDANG TEKNIS</li>
+    {{-- <li class="header">BIDANG TEKNIS</li> --}}
 
-    @include('themes.user.menu.core.bin')
+    {{-- @include('themes.core.menu.core.bin') --}}
 
-    @include('themes.user.menu.core.intel')
+    {{-- @include('themes.core.menu.core.intel') --}}
 
-    @include('themes.user.menu.core.pidum')
+    {{-- @include('themes.core.menu.core.pidum') --}}
 
-    @include('themes.user.menu.core.pidsus')
+    {{-- @include('themes.core.menu.core.pidsus') --}}
 
-    @include('themes.user.menu.core.datun')
+    {{-- @include('themes.core.menu.core.datun') --}}
 
-    @include('themes.user.menu.core.was')  
+    {{-- @include('themes.core.menu.core.was')   --}}
 
 
-    @include('themes.user.menu.left.example')
+    {{-- @include('themes.core.menu.left.example') --}}
 
-    {{-- @include('themes.user.menu.left.others') --}}
+    {{-- @include('themes.core.menu.left.others') --}}
     
   </ul>
   <!-- /.sidebar-menu -->
