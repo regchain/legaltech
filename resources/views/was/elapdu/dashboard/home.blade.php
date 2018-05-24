@@ -41,7 +41,7 @@
 
         </div> 
         <!-- /.box-body -->
-
+        
         <div class="box-footer">
           &nbsp;
         </div>

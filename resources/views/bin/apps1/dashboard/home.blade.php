@@ -1,12 +1,14 @@
-@extends('adminlte::page')
+@extends('themes.admin.template')
 
-@section('title', 'LegalTech Indonesia')
+@section('title', 'Dashboard')
 
+@section('judulhalaman', 'J.A.M. PENGAWASAN')
 
-@section('content_header')
-<h1>Dashboard</h1>
-<p>APPS 1 J.A.M. Pembinaan</p>
-@stop
+@section('subjudul', 'Kejaksan Agung R.I')
+
+@section('stylesheets')
+{{-- expr --}}
+@endsection
 
 @section('content')
 <!-- Default box -->
@@ -37,7 +39,7 @@
             <!-- /.box-body -->
         </div>
         <!-- /.row-box-body -->
-        
+
         <div class="row">
             <div class="box-body">
                 <div class="col-xs-12">Row Box 1</div>
@@ -45,19 +47,12 @@
             <!-- /.box-body -->
         </div>
         <!-- /.row-box-body -->
-        
-        <div class="box-footer">
-            Footer
-        </div>
-        <!-- /.box-footer-->
-    </div>
-    <!-- /.box -->
-    @stop
-    
-    @section('css')
-        {{-- expr --}}
-    @endsection
-    
-    @section('js')
-    {{-- expr --}}
-    @endsection
+@endsection
+
+@section('scripts')
+
+<script>
+  
+</script>
+
+@endsection
