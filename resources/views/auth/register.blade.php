@@ -6,7 +6,7 @@
 <div class="container">
       <div class="login-box">
         <div class="login-logo">
-          <a href="{{ url('/') }}"><b>e-</b>KEJAKSAAN</a>
+          <a href="{{ url('/') }}"><b>Legal</b>Tech Indonesia</a>
         </div>
     </div>
     <div class="row">
