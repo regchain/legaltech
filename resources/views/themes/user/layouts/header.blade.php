@@ -9,7 +9,7 @@
       <span class="logo-lg">e<b>LAP</b>DU</span>
     </a> --}}
 
-    <a href="{{ url('/operator') }}" class="logo">
+    <a href="{{ url('was/elapdu/pelapor ') }}" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini">
         <h2 class="fa fa-arrow-right"> </h2>

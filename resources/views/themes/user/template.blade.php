@@ -32,7 +32,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
         <div class="media">
           <div class="media-left media-middle">
-            <a href="user">
+            <a href="pelapor">
                 <img class="media-object" src="{{asset('bower_components/admin-lte/dist/img/logo-kejaksaan.png')}}" alt="logo"  height="100"">
               </a>
           </div>

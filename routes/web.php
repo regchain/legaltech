@@ -54,5 +54,33 @@ Route::get('/was/elapdu/operator', 'WasElapdu\PagesController@index')->name('ope
 
 Route::get('/was/elapdu/pelapor', 'WasElapdu\PagesController@pelapor')->name('pelapor');
 
+Route::get('forms', 'WasElapdu\FormsController@index');
+
+Route::get('editor', 'WasElapdu\FormsController@editor');
+
+Route::get('select2', 'WasElapdu\FormsController@select2');
+
+Route::get('daterange', 'WasElapdu\FormsController@daterange');
+
+Route::get('timepicker', 'WasElapdu\FormsController@timepicker');
+
+Route::get('icheck', 'WasElapdu\FormsController@icheck');
+
+Route::get('inputmask', 'WasElapdu\FormsController@inputmask');
+
+Route::get('inputaddon', 'WasElapdu\FormsController@inputaddon');
+
+Route::get('uigeneral', 'WasElapdu\FormsController@uigeneral');
+
+Route::get('documents', 'WasElapdu\FormsController@documents');
+
+Route::get('documentprint', 'WasElapdu\FormsController@documentprint');
+
+Route::get('button', 'WasElapdu\FormsController@button');
+
+Route::get('progress', 'WasElapdu\FormsController@progress');
+
+Route::get('table', 'WasElapdu\FormsController@table');
+
 
 
