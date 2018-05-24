@@ -21,7 +21,7 @@ class KategoriSubyeksController extends Controller
             $kategori_subyeks = KategoriSubyek::select(['id', 'name']);
             return Datatables::of($kategori_subyeks)
                 ->addColumn('action', function($kategori_subyeks) {
-                    return view('decay-case.datatable._action', [
+                    return view('pidsus.dik.process.datatable._action', [
                         'model'     => $kategori_subyeks,
                         'form_url'  => route('kategori_subyek.destroy', $kategori_subyeks->id),
                         'edit_url'  => route('kategori_subyek.edit', $kategori_subyeks->id),

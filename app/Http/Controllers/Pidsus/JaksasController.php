@@ -22,7 +22,7 @@ class JaksasController extends Controller
             $jaksas = Jaksa::select(['id', 'nip', 'nama_jaksa', 'pangkat', 'telepon']);
             return Datatables::of($jaksas)
                 ->addColumn('action', function($jaksas) {
-                    return view('decay-case.datatable._action', [
+                    return view('pidsus.dik.process.datatable._action', [
                         'model'     => $jaksas,
                         'form_url'  => route('jaksa.destroy', $jaksas->id),
                         'edit_url'  => route('jaksa.edit', $jaksas->id),

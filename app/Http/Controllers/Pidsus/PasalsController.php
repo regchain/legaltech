@@ -22,7 +22,7 @@ class PasalsController extends Controller
             $pasals = Pasal::select(['id', 'pasal', 'ayat', 'huruf', 'keterangan', 'kategori_pasal']);
             return Datatables::of($pasals)
                 ->addColumn('action', function($pasals) {
-                    return view('decay-case.datatable._action', [
+                    return view('pidsus.dik.process.datatable._action', [
                         'model'     => $pasals,
                         'form_url'  => route('pasal.destroy', $pasals->id),
                         'edit_url'  => route('pasal.edit', $pasals->id),
