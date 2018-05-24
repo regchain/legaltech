@@ -13,7 +13,14 @@
 @section('judulhalaman', 'Edit Perkara Penyelidikan')
 
 @section('content')
-
+<!-- Default box -->
+<div class="box">
+	<div class="box-header with-border">
+		<h3 class="box-title">Edit Pengaduan</
+		</div>
+		<div class="row">
+			<div class="box-body">
+				<div class="col-xs-12">
 {!! Form::model($case, ['url' => route('rp2.update', $case->id), 'method' => 'put']) !!}
 <div class="row">
 	<div class="col-lg-4 col-md-4 col-sm-12">
@@ -120,7 +127,10 @@
 	</div>
 </div>
 {!! Form::close() !!}
-
+				</div>
+			</div>
+		</div>
+	</div>
 @stop
 
 @section('script')
