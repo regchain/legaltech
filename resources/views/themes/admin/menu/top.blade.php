@@ -1,14 +1,14 @@
 <ul class="nav navbar-nav">
   <!-- Messages: style can be found in dropdown.less-->
   <!-- messages -->
-  @include('themes.core.menu.top.messages')
+  @include('themes.admin.menu.top.messages')
   <!-- Notifications: style can be found in dropdown.less -->
   <!-- notif -->
-  @include('themes.core.menu.top.notif')
+  @include('themes.admin.menu.top.notif')
   
   <!-- Tasks: style can be found in dropdown.less -->
   <!-- tasks -->
-  @include('themes.core.menu.top.tasks')
+  @include('themes.admin.menu.top.tasks')
   <!-- end task item -->
 </ul>
 </li>

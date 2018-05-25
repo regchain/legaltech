@@ -15,25 +15,25 @@
       </a>
     </li>
 
-    @include('themes.core.menu.core.ekejaksaan')
+    @include('themes.admin.menu.core.ekejaksaan')
     
     <li class="header">BIDANG TEKNIS</li>
 
-    @include('themes.core.menu.core.was') 
+    @include('themes.admin.menu.core.was') 
 
-    @include('themes.core.menu.core.bin')
+    @include('themes.admin.menu.core.bin')
 
-    @include('themes.core.menu.core.intel')
+    @include('themes.admin.menu.core.intel')
 
-    @include('themes.core.menu.core.pidum')
+    @include('themes.admin.menu.core.pidum')
 
-    @include('themes.core.menu.core.pidsus')
+    @include('themes.admin.menu.core.pidsus')
 
-    @include('themes.core.menu.core.datun')
+    @include('themes.admin.menu.core.datun')
 
-    @include('themes.core.menu.left.example')
+    @include('themes.admin.menu.left.example')
 
-    {{-- @include('themes.core.menu.left.others') --}}
+    {{-- @include('themes.admin.menu.left.others') --}}
     
   </ul>
   <!-- /.sidebar-menu -->

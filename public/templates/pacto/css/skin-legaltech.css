@@ -1,0 +1,57 @@
+
+/*==============================================
+ Base
+ ===============================================*/
+ body{ color: #676666}
+a:hover, a:focus { color: #416cbf;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{font-family: 'Syncopate', sans-serif;}
+
+.theme-text,  h1.theme-text, h2.theme-text, h3.theme-text, h4.theme-text, h5.theme-text, h6.theme-text{color:#416cbf}
+.theme-bg .heading-block span{color: #fff}
+.theme-bg{background: #416cbf}
+.grey-bg{background:#f5f5f5;}
+.post-overlay{background: #416cbf}
+
+.counter .counter-info span.theme-text{color:#416cbf}
+
+.feature-box.feature-text1 .step {color:#416cbf}
+.feature-box.feature-text1 .step:before {background: #416cbf}
+
+/**************************/
+/* Button Setting */
+/**************************/
+.btn.theme-bg{background:#416cbf;}
+.btn.theme-text, .btn-link{color:#416cbf;}
+.btn.theme-border{border-color:#416cbf;}
+.btn.theme-outline{border-color:#416cbf;}
+
+.btn-default, .btn-default:hover{background:#416cbf;}
+.btn-outline{border-color:#416cbf; color:#416cbf; background:transparent;}
+.btn-outline:hover{background:transparent;}
+
+.btn-outline:hover, 
+.btn-outline:active, 
+.btn-outline:focus, 
+.btn-outline:active:focus{border-color:#416cbf; color:#416cbf;}
+
+.btn.fill-theme:before{background:#416cbf;}
+.btn.fill-theme:hover{border-color:#416cbf;}
+
+/************************/
+/* Extra */
+/************************/
+.post-overlay,
+.progress-bar,
+.overlay[data-overlay-color="theme"]:after{background:#416cbf;}
+.post.light-box .post-image > i{color:#416cbf;}
+.post.light-box .categery{border-color:#416cbf; color:#416cbf;}
+.owl-carousel.owl-theme .owl-dots .owl-dot.active span{background:#416cbf;}
+
+
+#back-to-top .top{background:#416cbf;}
