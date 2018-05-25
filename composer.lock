@@ -4,12 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-<<<<<<< HEAD
-    "hash": "8da29912fc4d7965c87954c2aeb90c33",
-    "content-hash": "a9b9ac52d20de2fb16b4c604b79eb722",
-=======
     "content-hash": "5e4fb4ce8316a98235f8ea76298ac7b4",
->>>>>>> 765db21902a7fd4643b902f347e1fd79b80b2121
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -3135,11 +3130,7 @@
                 "env",
                 "environment"
             ],
-<<<<<<< HEAD
-            "time": "2016-09-01 10:05:43"
-=======
             "time": "2016-09-01T10:05:43+00:00"
->>>>>>> 765db21902a7fd4643b902f347e1fd79b80b2121
         },
         {
             "name": "yajra/laravel-datatables-oracle",
@@ -3199,11 +3190,7 @@
                 "laravel4",
                 "laravel5"
             ],
-<<<<<<< HEAD
-            "time": "2017-01-24 02:46:52"
-=======
             "time": "2017-01-24T02:46:52+00:00"
->>>>>>> 765db21902a7fd4643b902f347e1fd79b80b2121
         }
     ],
     "packages-dev": [
