@@ -4,11 +4,9 @@
 
 @section('content')
 <div class="container">
-      <div class="login-box">
-        <div class="login-logo">
-          <a href="{{ url('/') }}"><b>e-</b>KEJAKSAAN</a>
-        </div>
-    </div>
+      <div class="login-logo">
+        <a href="{{ url('/') }}"><b>Legal</b>Tech Indonesia</a>
+      </div>
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
             <div class="panel panel-default">
