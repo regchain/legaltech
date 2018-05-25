@@ -48,7 +48,7 @@
                <!-- Responsive -->
                <link rel="stylesheet" href="{{ asset('templates/pacto/css/responsive.css')}}" type="text/css" />
                <!-- Skin -->
-               <link rel="stylesheet" href="{{ asset('templates/pacto/css/skin-medical.css')}}" type="text/css"/>
+               <link rel="stylesheet" href="{{ asset('templates/pacto/css/skin-legaltech.css')}}" type="text/css"/>
                <!-- Favicon -->
                <link rel="shortcut icon" href="favicon.ico"/>
             </head>

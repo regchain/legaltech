@@ -174,24 +174,24 @@
                </section> --}}
                <!-- End Projects -->
                <!-- Services --> 
-               {{-- <section class="p-0 pos-r grey-bg">
-                  <div class="fullbg bg-pos-right" data-bg-img="{{ asset('templates/pacto/images/consultant/bg1.jpg')}}"></div>
+               <section class="p-0 pos-r grey-bg">
+                  <div class="fullbg bg-pos-right" data-bg-img="{{ asset('images/keyboard.jpg')}}"></div>
                   <div class="container">
                      <div class="row ">
                         <div class="col-sm-8 col-md-6">
                            <div class="py-7 pr-5 xs-py-4 sm-py-5 sm-pr-4 xs-pr-0 xs-big-mt">
                               <div class="heading-block">
-                                 <h2>Services</h2>
-                                 <span>A few words about us</span> 
+                                 <h2>Drive real value for your legal practice and clients.</h2>
+                                 <p>With countless documents, revisions, and signatures to review, negotiate, and track, lawyers get bogged down in administrative work and distracted from the higher-margin tasks where they add substantial value to a transaction. <strong>Legal</strong>Tech provides one solution to manage all aspects of your transaction practice.</p>
                               </div>
-                              <p>Hello, we’re Valdis Agency. Here to solve your tricky design problems and help you tell your story. Click on the objects to find out more</p>
+                              
                               <div class="row">
                                  <div class="col-xs-6 col-xx-12 mb-3">
                                     <div class="feature">
                                        <div class="feature-icon theme-text"> <i class="lnr lnr-briefcase"></i> </div>
                                        <div class="feature-info">
-                                          <h4 class="solid-weight">Business Consulting</h4>
-                                          <p>Lorem ipsum dolor sit amet, conse ctetur adipisicing elit</p>
+                                          <h4 class="solid-weight">Accountability</h4>
+                                          <p>Stay updated on each deliverable and have full transparency into document revision responsibilities with a real-time activity feed.</p>
                                        </div>
                                     </div>
                                  </div>
@@ -200,7 +200,7 @@
                                        <div class="feature-icon  theme-text"> <i class="lnr lnr-graduation-hat"></i> </div>
                                        <div class="feature-info">
                                           <h4 class="solid-weight">Lawyer Consulting</h4>
-                                          <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit</p>
+                                          <p>Reduce risk and liability in each transaction and protect your client’s interests with a secure and archivable digital evidentiary record of every deal.</p>
                                        </div>
                                     </div>
                                  </div>
@@ -210,8 +210,8 @@
                                     <div class="feature">
                                        <div class="feature-icon  theme-text"> <i class="lnr lnr-bubble"></i> </div>
                                        <div class="feature-info">
-                                          <h4 class="solid-weight">Online Consulting</h4>
-                                          <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit</p>
+                                          <h4 class="solid-weight">Deeper Collaboration</h4>
+                                          <p>Collaborate seamlessly with your clients, opposing counsel, and other attorneys in your firm. Manage access across each deal, document, and signature.</p>
                                        </div>
                                     </div>
                                  </div>
@@ -219,8 +219,8 @@
                                     <div class="feature">
                                        <div class="feature-icon  theme-text"> <i class="lnr lnr-laptop-phone"></i> </div>
                                        <div class="feature-info">
-                                          <h4 class="solid-weight">IT Managment</h4>
-                                          <p>Lorem ipsum dolor sit amet, consect etur adipisicing elit</p>
+                                          <h4 class="solid-weight">Insights & Reporting</h4>
+                                          <p>Measure and market your firm with robust insights and reporting on your transactions, deal terms, and practice workflow.</p>
                                        </div>
                                     </div>
                                  </div>
@@ -229,7 +229,7 @@
                         </div>
                      </div>
                   </div>
-               </section> --}}
+               </section>
                <!-- End Services --> 
                <!-- News --> 
                {{-- <section class="section-pb ">
