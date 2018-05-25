@@ -150,7 +150,6 @@ return [
         /*
          * Package Service Providers...
          */
-        Regchain\Core\CoreServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Yajra\Datatables\DatatablesServiceProvider::class,
         /*

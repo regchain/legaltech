@@ -27,16 +27,6 @@
             "database/seeds",
             "database/factories"
         ],
-        "psr-4": {
-            "Regchain\\Core\\": "packages/Regchain/Core/src",
-            "App\\": "app/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Regchain\\Core\\": "packages/Regchain/Core/src",
-            "Tests\\": "tests/"
-        }
     },
     "extra": {
         "laravel": {
