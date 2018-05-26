@@ -1,12 +1,10 @@
-@extends('themes.website.template')
+@extends('themes.website.tpl_services')
 
 @section('stylesheets')
     {{-- expr --}}
 @endsection
 
 @section('content')
-                  @include('themes.website.menu.sidemenu')
-               </nav>
                <!-- End Navigation -->
                <!-- Banner -->
                <section class="full-height fullscreen bg white-text header-slide">

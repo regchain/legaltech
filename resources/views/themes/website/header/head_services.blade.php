@@ -22,7 +22,7 @@
                <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
                <meta content="" name="description"/>
                <meta content="" name="author"/>
-               <!-- Google fonts -->
+               < <!-- Google fonts -->
                <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet">
                <link href="https://fonts.googleapis.com/css?family=Unna:400,700" rel="stylesheet">
                <link href="https://fonts.googleapis.com/css?family=Tajawal:400,700|Syncopate:400,700" rel="stylesheet">
@@ -48,7 +48,7 @@
                <!-- Responsive -->
                <link rel="stylesheet" href="{{ asset('templates/pacto/css/responsive.css')}}" type="text/css" />
                <!-- Skin -->
-               <link rel="stylesheet" href="{{ asset('templates/pacto/css/skin-medical.css')}}" type="text/css"/>
+               <link rel="stylesheet" href="{{ asset('templates/pacto/css/skin-consultant.css')}}" type="text/css"/>
                <!-- Favicon -->
-               <link rel="shortcut icon" href="favicon.ico"/>
+               <link rel="shortcut icon" href="{{ asset('favicon.ico')}}"/>
             </head>

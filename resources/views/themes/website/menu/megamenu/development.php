@@ -1,10 +1,10 @@
           <li class="dropdown megamenu-fw">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elements</a>                            
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Development</a>                            
             <ul class="dropdown-menu megamenu-content" role="menu">
               <li>
                 <div class="row">
                   <div class="col-menu col-md-3">
-                    <h6 class="title">Elements 1</h6>
+                    <h6 class="title">Legal Technology</h6>
                     <div class="content">
                       <ul class="menu-col">
                         <li><a href="element-accordions.html">Accordion</a></li>
@@ -16,7 +16,7 @@
                     </div>
                   </div>
                   <div class="col-menu col-md-3">
-                    <h6 class="title">Elements 2</h6>                                 
+                    <h6 class="title">Finacial Technology</h6>                                 
                     <div class="content">
                       <ul class="menu-col">
                         <li><a href="element-counter.html">Counter</a></li>
@@ -28,7 +28,7 @@
                     </div>
                   </div>
                   <div class="col-menu col-md-3">
-                    <h6 class="title">Elements 3</h6>                                 
+                    <h6 class="title">Regulatory Technology</h6>                                 
                     <div class="content">
                       <ul class="menu-col">
                         <li><a href="element-list.html">List Style</a></li>
@@ -40,7 +40,7 @@
                     </div>
                   </div>
                   <div class="col-menu col-md-3">
-                    <h6 class="title">Elements 4</h6>                                 
+                    <h6 class="title">Data Engineering & Analytic</h6>                                 
                     <div class="content">
                       <ul class="menu-col">
                         <li><a href="element-step-feature.html">Step Feature</a></li>
