@@ -1,0 +1,16 @@
+{
+    "name": "regchain/adminlte",
+    "description": "AdminLte Test",
+    "type": "project",
+    "require": {
+        "laravel/framework": "5.5."
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tonny H Soerojo",
+            "email": "tonny@soerojo.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
