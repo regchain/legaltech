@@ -26,5 +26,8 @@
                 </ul> --}}
               </li>
               <li><a href="#">Forum</a></li>
+              <li><hr></li>
+              <li><a href="login">Login</a></li>
+              <li><a href="register">Register</a></li>
             </ul>
           </li>

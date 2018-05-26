@@ -8,10 +8,12 @@
           @include('themes.website.menu.megamenu.consulting')
 
           @include('themes.website.menu.megamenu.development')
+          
+          @include('themes.website.menu.megamenu.community')
+
 
           {{-- @include('themes.website.menu.megamenu.blog') --}}
 
-          @include('themes.website.menu.megamenu.community')
 
         </ul>
       </div>
