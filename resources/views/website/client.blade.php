@@ -144,11 +144,11 @@
             </div>
          </section> --}}
          <!-- Client -->
-         @include('themes.website.block.testimonial')
+         @include('website.partials.block.testimonial')
          <!-- End Client -->
          <!-- End Seven Business -->
          <!-- testimonials -->
-         @include('themes.website.block.client')
+         @include('website.partials.block.client')
          
          
 @endsection()

@@ -35,20 +35,18 @@
                <!-- simple-line-icons-->
                <link rel="stylesheet" href="{{ asset('templates/pacto/css/simple-line-icons.css')}}" type="text/css"/>
                <!-- owl-carousel -->
-               <link rel="stylesheet" href="{{ asset('templates/pacto/css/owl.carousel.css')}}" type="text/css" />
+               <link rel="stylesheet" href="{{ asset('templates/pacto/css/owl.carousel.css')}}"  type="text/css" />
                <link rel="stylesheet" href="{{ asset('templates/pacto/css/owl.theme.css')}}" type="text/css" />
                <!-- Magnific Popup -->
                <link rel="stylesheet" href="{{ asset('templates/pacto/css/magnific-popup/magnific-popup.css')}}" type="text/css" />
                <!-- shortcodes -->
                <link rel="stylesheet" href="{{ asset('templates/pacto/css/shortcodes.css')}}" type="text/css" />
                <!-- base -->
-               <link rel="stylesheet" href="{{ asset('templates/pacto/css/base.css')}}" type="text/css"/>
+               <link rel="stylesheet" href="{{ asset('templates/pacto/css/base.css')}}"  type="text/css"/>
                <!-- Bootsnav -->
                <link rel="stylesheet" href="{{ asset('templates/pacto/css/bootsnav.css')}}" type="text/css"/>
                <!-- Responsive -->
-               <link rel="stylesheet" href="{{ asset('templates/pacto/css/responsive.css')}}" type="text/css" />
-               <!-- Skin -->
-               <link rel="stylesheet" href="{{ asset('templates/pacto/css/skin-medical.css')}}" type="text/css"/>
+               <link rel="stylesheet" href="{{ asset('templates/pacto/css/legaltech.css')}}" type="text/css" />
                <!-- Favicon -->
-               <link rel="shortcut icon" href="favicon.ico"/>
+               <link rel="shortcut icon" href="{{ asset('favicon.ico')}}"/>
             </head>

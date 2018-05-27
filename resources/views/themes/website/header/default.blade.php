@@ -1,7 +1,7 @@
 <body>
   <!-- Preloader -->
   <div id="preloader">
-    <div class="clear-loading loading-effect"><img src="{{('images/pacto/loading.gif')}}" width="100" alt=""></div>
+    <div class="clear-loading loading-effect"><img src="{{ asset('images/pacto/loading.gif')}}" width="100" alt=""></div>
   </div>
   <!-- Start Navigation -->
   <nav class="navbar navbar-default navbar-fixed navbar-transparent dark bootsnav">
@@ -36,3 +36,5 @@
       @include('themes.website.menu.megamenu')
       <!-- /.navbar-collapse -->
     </div>
+     </nav>
+               <!-- End Navigation -->

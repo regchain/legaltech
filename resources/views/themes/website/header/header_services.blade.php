@@ -38,5 +38,6 @@
                      @include('themes.website.menu.sidemenu')
                      <!-- /.navbar-collapse -->
                   </div>
-                  
-            
+                  @include('themes.website.menu.sidemenu')
+ </nav>
+               <!-- End Navigation -->

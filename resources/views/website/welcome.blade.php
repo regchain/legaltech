@@ -1,4 +1,4 @@
-@extends('themes.website.tpl_services')
+@extends('themes.website.template')
 
 @section('stylesheets')
 {{-- expr --}}

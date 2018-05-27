@@ -22,6 +22,10 @@ Route::get('welcome', function () {
     return view('website.welcome');
 });
 
+Route::get('about-team', function () {
+    return view('website.about-team');
+});
+
 // ELapdu
 
 Route::get('pengaduan', 'Pengawasan\Elapdu\PublicPagesController@pengaduan');

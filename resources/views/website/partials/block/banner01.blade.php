@@ -1,5 +1,5 @@
         
-         <section class="inner-intro dark-bg bg bg-fixed overlay jarallax" data-jarallax='{"speed": 0.2}' data-overlay-color="dark" data-overlay="2" data-bg-img="images/banner.jpg" >
+         <section class="inner-intro dark-bg bg bg-fixed overlay jarallax" data-jarallax='{"speed": 0.2}' data-overlay-color="dark" data-overlay="2" data-bg-img="{{ asset('images/banner.png')}}" >
             <div class="container">
                <div class="row intro-title text-center">
                   <div class="col-sm-12">
