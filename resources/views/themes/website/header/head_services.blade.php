@@ -48,7 +48,7 @@
                <!-- Responsive -->
                <link rel="stylesheet" href="{{ asset('templates/pacto/css/responsive.css')}}" type="text/css" />
                <!-- Skin -->
-               <link rel="stylesheet" href="{{ asset('templates/pacto/css/skin-consultant.css')}}" type="text/css"/>
+               <link rel="stylesheet" href="{{ asset('templates/pacto/css/skin-responsive.css')}}" type="text/css"/>
                <!-- Favicon -->
                <link rel="shortcut icon" href="{{ asset('favicon.ico')}}"/>
             </head>

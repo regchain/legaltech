@@ -14,9 +14,9 @@
 
 @include('website.partials.block.business01')
 
+@include('website.partials.block.testimonial01')
 
-@include('website.partials.block.ourstory01')
-        
+@include('website.partials.block.client01')
 
                
          

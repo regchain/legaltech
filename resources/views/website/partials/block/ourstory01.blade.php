@@ -1,5 +1,5 @@
 <section class="p-0 pos-r grey-bg">
-            <div class="fullbg" data-bg-img="{{ asset('images/pacto/corporate/bg1.jpg')}}" ></div>
+            <div class="fullbg" data-bg-img="{{ asset('images/brain.jpg')}}" ></div>
             <div class="container">
                <div class="row ">
                   <div class="col-md-6 col-sm-8 col-sm-offset-4 col-md-offset-6" >
