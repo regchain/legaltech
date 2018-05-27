@@ -1,7 +1,11 @@
           <li class="dropdown dropdown-left">
             <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog</a>                            
             <ul class="dropdown-menu">
-              <li class="dropdown">
+                            <li><hr></li>
+              <li><a href="login">Login</a></li>
+              <li><a href="register">Register</a></li>
+
+              {{-- <li class="dropdown">
                 <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Blog Classic</a>                                    
                 <ul class="dropdown-menu">
                   <li><a href="blog-left-side">Left Sidebar</a></li>
@@ -31,6 +35,6 @@
                   <li><a href="blog-single-right-side">Right Sidebar</a></li>
                   <li><a href="blog-single-no-side">No Sidebar</a></li>
                 </ul>
-              </li>
+              </li> --}}
             </ul>
           </li>

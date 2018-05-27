@@ -20,7 +20,7 @@
                      <div class="attr-nav">
                         <ul>
                            <li class="search"><a href="#"><i class="icon-magnifier icons"></i></a></li>
-                           <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>
+                           <li class="side-menu"><a href="#"><i class="fa fa-2x fa-sign-in"></i></a></li>
                         </ul>
                      </div>
                      <!-- End Atribute Navigation -->
