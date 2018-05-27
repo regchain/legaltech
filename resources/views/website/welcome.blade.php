@@ -11,7 +11,7 @@
   <div class="owl-carousel owl-theme light-arrow" data-items="1" data-md-items="1" data-sm-items="1" data-nav-dots="false" data-nav-arrow="true" data-auto-play="false"  data-space="0">
     <!-- item -->
     <div class="item"  >
-      <div class="slide-img"><img src="{{ asset('images/pactoconsultant/slide1.jpg')}}" alt="" /></div>
+      <div class="slide-img"><img src="{{ asset('images/pacto/consultant/slide1.jpg')}}" alt="" /></div>
       <div class="container">
         <div class="row">
           <div class="col-md-8">
@@ -27,7 +27,7 @@
     <!-- End item -->
     <!-- item -->
     <div class="item" >
-      <div class="slide-img"><img src="{{ asset('images/pactoconsultant/slide2.jpg')}}" alt="" /></div>
+      <div class="slide-img"><img src="{{ asset('images/pacto/consultant/slide2.jpg')}}" alt="" /></div>
       <div class="container">
         <div class="row">
           <div class="col-md-8 col-md-offset-2 text-center">
@@ -43,7 +43,7 @@
     <!-- End item -->
     <!-- item -->
     <div class="item"  >
-      <div class="slide-img"><img src="{{ asset('images/pactoconsultant/slide3.jpg')}}" alt="" /></div>
+      <div class="slide-img"><img src="{{ asset('images/pacto/consultant/slide3.jpg')}}" alt="" /></div>
       <div class="container">
         <div class="row">
           <div class="col-md-8">
@@ -95,7 +95,7 @@
       </div>
       <div class="col-md-6">
         <div class="row mt-2">
-          <div class="col-md-12 col-sm-8 mb-2"><img src="{{ asset('images/pactoconsultant/image1.jpg')}}" class="img-responsive" alt="" /></div>
+          <div class="col-md-12 col-sm-8 mb-2"><img src="{{ asset('images/pacto/consultant/image1.jpg')}}" class="img-responsive" alt="" /></div>
           <div class="col-sm-4 col-xs-4 col-xx-12 sm-mb-2">
             <div class="counter text-center">
               <div class="counter-info"> <span class="timer theme-text" data-to="2500" data-speed="1000">2500</span>
@@ -136,31 +136,31 @@
       <div class="col-sm-12">
         <div class="owl-carousel owl-theme c-theme" data-items="3" data-nav-dots="true"  data-space="40">
           <div class="item">
-            <div class="mb-4"><img src="{{ asset('images/pactoconsultant/image2.jpg')}}" class="img-responsive" alt="what-we-offer" /></div>
+            <div class="mb-4"><img src="{{ asset('images/pacto/consultant/image2.jpg')}}" class="img-responsive" alt="what-we-offer" /></div>
             <p class="mb-0 theme-text solid-weight">BRANDING</p>
             <h5 class="mb-1">Strategy & Consulting</h5>
             <p class="mb-0">The clients are mostly the companies dealing with said products or services, but we also enjoy teaming up with other agencies, companies with great ideas. </p>
           </div>
           <div class="item">
-            <div class="mb-4"><img src="{{ asset('images/pactoconsultant/image3.jpg')}}" class="img-responsive" alt="what-we-offer" /></div>
+            <div class="mb-4"><img src="{{ asset('images/pacto/consultant/image3.jpg')}}" class="img-responsive" alt="what-we-offer" /></div>
             <p class="mb-0 theme-text solid-weight">FINANCE</p>
             <h5 class="mb-1">Stock Market Consulting</h5>
             <p class="mb-0">The clients are mostly the companies dealing with said products or services, but we also enjoy teaming up with other agencies, companies with great ideas. </p>
           </div>
           <div class="item">
-            <div class="mb-4"><img src="{{ asset('images/pactoconsultant/image4.jpg')}}" class="img-responsive" alt="what-we-offer" /></div>
+            <div class="mb-4"><img src="{{ asset('images/pacto/consultant/image4.jpg')}}" class="img-responsive" alt="what-we-offer" /></div>
             <p class="mb-0 theme-text solid-weight">FINANCE</p>
             <h5 class="mb-1">Smart Notifications & Reminders </h5>
             <p class="mb-0">Be notified on-time on important events and actions.</p><p> Never again miss a task deliverable or an appointment with our Smart Email or SMS reminders. </p>
           </div>
           <div class="item">
-            <div class="mb-4"><img src="{{ asset('images/pactoconsultant/image5.jpg')}}" class="img-responsive" alt="what-we-offer" /></div>
+            <div class="mb-4"><img src="{{ asset('images/pacto/consultant/image5.jpg')}}" class="img-responsive" alt="what-we-offer" /></div>
             <p class="mb-0 theme-text solid-weight">INVESTMENT</p>
             <h5 class="mb-1">Venture Capital Investment</h5>
             <p>The clients are mostly the companies dealing with said products or services, but we also enjoy teaming up with other agencies, companies with great ideas. </p>
           </div>
           <div class="item">
-            <div class="mb-4"><img src="{{ asset('images/pactoconsultant/image6.jpg')}}" class="img-responsive" alt="what-we-offer" /></div>
+            <div class="mb-4"><img src="{{ asset('images/pacto/consultant/image6.jpg')}}" class="img-responsive" alt="what-we-offer" /></div>
             <p class="mb-0 theme-text solid-weight">BRANDING</p>
             <h5 class="mb-1">Strategy & Consulting</h5>
             <p class="mb-0">The clients are mostly the companies dealing with said products or services, but we also enjoy teaming up with other agencies, companies with great ideas. </p>
@@ -251,7 +251,7 @@
             <div class="post-image clearfix">
               <i class="fa fa-quote-right" aria-hidden="true"></i>
               <div class="post-overlay theme-bg"></div>
-              <img class="img-responsive" src="{{ asset('images/pactoblog/blog1.jpg')}}" alt="" /> 
+              <img class="img-responsive" src="{{ asset('images/pacto/blog/blog1.jpg')}}" alt="" /> 
             </div>
             <div class="quote-content"> <a href="#">How new financial laws can Drive Innovation</a>
               <label>- by John Deo</label>
@@ -263,7 +263,7 @@
         </div>
         <div class="item">
           <div class="post post-over">
-            <div class="post-image clearfix"> <i class="lnr lnr-picture"></i> <img class="img-responsive" src="{{ asset('images/pactoblog/blog4.jpg')}}" alt="" /> </div>
+            <div class="post-image clearfix"> <i class="lnr lnr-picture"></i> <img class="img-responsive" src="{{ asset('images/pacto/blog/blog4.jpg')}}" alt="" /> </div>
             <div class="post-details">
               <span class="categery text-uppercase">LIFESTYLE</span>
               <div class="post-date">24<span>NAV 2017</span></div>
@@ -279,7 +279,7 @@
         </div>
         <div class="item">
           <div class="post post-over">
-            <div class="post-image clearfix"> <i class="lnr lnr-picture"></i> <img class="img-responsive" src="{{ asset('images/pactoblog/blog2.jpg')}}" alt="" /> </div>
+            <div class="post-image clearfix"> <i class="lnr lnr-picture"></i> <img class="img-responsive" src="{{ asset('images/pacto/blog/blog2.jpg')}}" alt="" /> </div>
             <div class="post-details">
               <span class="categery text-uppercase">BUSINESSES</span>
               <div class="post-date">20<span>FEB 2017</span></div>
@@ -295,7 +295,7 @@
         </div>
         <div class="item">
           <div class="post post-over">
-            <div class="post-image clearfix"> <i class="lnr lnr-picture"></i> <img class="img-responsive" src="{{ asset('images/pactoblog/blog3.jpg')}}" alt="" /> </div>
+            <div class="post-image clearfix"> <i class="lnr lnr-picture"></i> <img class="img-responsive" src="{{ asset('images/pacto/blog/blog3.jpg')}}" alt="" /> </div>
             <div class="post-details">
               <span class="categery text-uppercase">DESIGN</span>
               <div class="post-date">27<span>NAV 2017</span></div>
@@ -345,7 +345,7 @@
 <!-- End Step --> 
 <!-- Customer --> 
 {{-- <section class="pos-r p-0">
-  <div class="fullbg bg-pos-right" data-bg-img="{{ asset('images/pactoconsultant/bg2.jpg')}}" ></div>
+  <div class="fullbg bg-pos-right" data-bg-img="{{ asset('images/pacto/consultant/bg2.jpg')}}" ></div>
   <div class="container">
     <div class="row">
       <div class="col-sm-8 col-md-6 py-7 pr-5 xs-py-4 sm-py-5 sm-pr-4 xs-pr-0 xs-big-mt">
@@ -361,7 +361,7 @@
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                 <p>The countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river.</p>
                 <div class="author-info">
-                  <div class="author-img"><img class="img-responsive" src="{{ asset('images/pactotestimonials/image1.jpg')}}" alt="" /></div>
+                  <div class="author-img"><img class="img-responsive" src="{{ asset('images/pacto/testimonials/image1.jpg')}}" alt="" /></div>
                   <span class="author-name">- John Doe, Company CEO</span> 
                 </div>
               </div>
@@ -371,7 +371,7 @@
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                 <p>The countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river.</p>
                 <div class="author-info">
-                  <div class="author-img"><img class="img-responsive" src="{{ asset('images/pactotestimonials/image1.jpg')}}" alt="" /></div>
+                  <div class="author-img"><img class="img-responsive" src="{{ asset('images/pacto/testimonials/image1.jpg')}}" alt="" /></div>
                   <span class="author-name">- John Doe, Company CEO</span> 
                 </div>
               </div>
@@ -381,7 +381,7 @@
                 <i class="fa fa-quote-left" aria-hidden="true"></i>
                 <p>The countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river.</p>
                 <div class="author-info">
-                  <div class="author-img"><img class="img-responsive" src="{{ asset('images/pactotestimonials/image1.jpg')}}" alt="" /></div>
+                  <div class="author-img"><img class="img-responsive" src="{{ asset('images/pacto/testimonials/image1.jpg')}}" alt="" /></div>
                   <span class="author-name">- John Doe, Company CEO</span> 
                 </div>
               </div>
@@ -395,7 +395,7 @@
 <!-- End Customer -->
 <!-- Clients --> 
 {{-- <section class="pos-r p-0">
-  <div class="fullbg bg-left-pos" data-bg-img="{{ asset('images/pactoconsultant/bg3.jpg')}}" ></div>
+  <div class="fullbg bg-left-pos" data-bg-img="{{ asset('images/pacto/consultant/bg3.jpg')}}" ></div>
   <div class="container">
     <div class="row">
       <div class="col-sm-8 col-md-6 col-sm-offset-4 col-md-offset-6">
@@ -408,22 +408,22 @@
           <div class="row">
             <div class="col-sm-12"><div class="clients line">
               <div class="col-sm-4 col-xs-6 col-xx-12">
-                <div class="media"><img class="img-responsive" src="{{ asset('images/pactoclients/logo1.png')}}" alt=""></div>
+                <div class="media"><img class="img-responsive" src="{{ asset('images/pacto/clients/logo1.png')}}" alt=""></div>
               </div>
               <div class="col-sm-4 col-xs-6 col-xx-12">
-                <div class="media"><img class="img-responsive" src="{{ asset('images/pactoclients/logo2.png')}}" alt=""></div>
+                <div class="media"><img class="img-responsive" src="{{ asset('images/pacto/clients/logo2.png')}}" alt=""></div>
               </div>
               <div class="col-sm-4 col-xs-6 col-xx-12">
-                <div class="media"><img class="img-responsive" src="{{ asset('images/pactoclients/logo3.png')}}" alt=""></div>
+                <div class="media"><img class="img-responsive" src="{{ asset('images/pacto/clients/logo3.png')}}" alt=""></div>
               </div>
               <div class="col-sm-4 col-xs-6 col-xx-12">
-                <div class="media"><img class="img-responsive" src="{{ asset('images/pactoclients/logo4.png')}}" alt=""></div>
+                <div class="media"><img class="img-responsive" src="{{ asset('images/pacto/clients/logo4.png')}}" alt=""></div>
               </div>
               <div class="col-sm-4 col-xs-6 col-xx-12">
-                <div class="media"><img class="img-responsive" src="{{ asset('images/pactoclients/logo5.png')}}" alt=""></div>
+                <div class="media"><img class="img-responsive" src="{{ asset('images/pacto/clients/logo5.png')}}" alt=""></div>
               </div>
               <div class="col-sm-4 col-xs-6 col-xx-12">
-                <div class="media"><img class="img-responsive" src="{{ asset('images/pactoclients/logo1.png')}}" alt=""></div>
+                <div class="media"><img class="img-responsive" src="{{ asset('images/pacto/clients/logo1.png')}}" alt=""></div>
               </div>
             </div>
           </div>
