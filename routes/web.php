@@ -14,17 +14,13 @@
 
 
 // Website Legaltech
-Route::get('/', function () {
-    return view('website.services');
-});
+Route::get('/', function () {return view('website.welcome');});
 
-Route::get('welcome', function () {
-    return view('website.welcome');
-});
+Route::get('services', function () {return view('website.services');});
 
-Route::get('about-team', function () {
-    return view('website.about-team');
-});
+Route::get('methode', function () {return view('website.methode');});
+
+Route::get('about-team', function () {return view('website.about-team');});
 
 // ELapdu
 

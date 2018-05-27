@@ -20,9 +20,9 @@
               <li class="dropdown">
                 <a href="#" >Carreer</a>                                    
                 {{-- <ul class="dropdown-menu">
-                  <li><a href="portfolio-standard-2-col.html">2 Columns</a></li>
-                  <li><a href="portfolio-standard-3-col.html">3 Columns</a></li>
-                  <li><a href="portfolio-standard-4-col.html">4 Columns</a></li>
+                  <li><a href="portfolio-standard-2-col">2 Columns</a></li>
+                  <li><a href="portfolio-standard-3-col">3 Columns</a></li>
+                  <li><a href="portfolio-standard-4-col">4 Columns</a></li>
                 </ul> --}}
               </li>
               <li><a href="#">Forum</a></li>

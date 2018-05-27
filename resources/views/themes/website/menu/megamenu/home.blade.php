@@ -5,9 +5,9 @@
         <li><a href="#">Contact</a></li>
         {{-- <li><a href="auth/login">Admin Login</a></li> --}}
         {{-- <li><a href="register">Register</a></li> --}}
-        {{-- <li><a href="medical.html">Medical</a></li> --}}
-        {{-- <li><a href="gym.html">Fitness</a></li> --}}
-        {{-- <li><a href="mobile-app.html">App</a></li> --}}
-        {{-- <li><a href="personal.html">Personal</a></li> --}}
+        {{-- <li><a href="medical">Medical</a></li> --}}
+        {{-- <li><a href="gym">Fitness</a></li> --}}
+        {{-- <li><a href="mobile-app">App</a></li> --}}
+        {{-- <li><a href="personal">Personal</a></li> --}}
     </ul>
 </li>
