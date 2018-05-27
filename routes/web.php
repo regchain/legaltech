@@ -15,7 +15,7 @@
 
 // Website Legaltech
 Route::get('/', function () {
-    return view('website.welcome');
+    return view('website.services');
 });
 
 Route::get('welcome', function () {

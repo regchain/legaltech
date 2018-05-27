@@ -64,7 +64,7 @@
                 </div>
             </form>
         </div>
-        {{-- <div class="widget">
+        <div class="widget">
             <div class="social-icons animated color">
                 <ul class="clearfix">
                     <li class="social-facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -74,6 +74,6 @@
                     <li class="social-instagram"><a href="#"><i class="fa fa-instagram"></i></a></li>
                 </ul>
             </div>
-        </div> --}}
+        </div>
     </div>
     <!-- End Side Menu -->
