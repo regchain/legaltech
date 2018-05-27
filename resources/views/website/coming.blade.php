@@ -46,7 +46,7 @@
     <body>
       <!-- Preloader -->
       <div id="preloader">
-        <div class="clear-loading loading-effect"><img src="{{ asset('templates/pacto/images/loading.gif')}}" width="100" alt=""></div>
+        <div class="clear-loading loading-effect"><img src="{{ asset('images/pactoloading.gif')}}" width="100" alt=""></div>
       </div>
       
       <!-- coming-soon -->
