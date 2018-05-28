@@ -151,6 +151,9 @@ return [
          * Package Service Providers...
          */
 
+         Collective\Html\HtmlServiceProvider::class,
+        Yajra\Datatables\DatatablesServiceProvider::class,
+
         /*
          * Application Service Providers...
          */
@@ -159,6 +162,11 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+
+        /*
+         * Custom Providers
+         */
+        Maatwebsite\Excel\ExcelServiceProvider::class,
 
     ],
 
@@ -208,6 +216,10 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        'Excel' => Maatwebsite\Excel\Facades\Excel::class,
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
 
     ],
 
