@@ -14,7 +14,7 @@
 <!-- Default box -->
 <div class="box">
   <div class="box-header with-border">
-    <h3><i class="fa fa-dashboard"> </i> Executive Information System</h3>    
+    <a href="home"><h3><i class="fa fa-dashboard"> </i> Executive Information System</h3> </a>       
   </div>
   <div class="row">
     <div class="box-body">
