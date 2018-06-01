@@ -6,7 +6,7 @@
           <br>
         </header>
         <div class="container">
-          <img src="{{ asset('/bower_components/admin-lte/dist/img/logo-kejaksaan.png')}}" width="75" alt="">
+          <img src="{{ asset('/bower_components/admin-lte/dist/img/logo-mini.png')}}" width="75" alt="">
           <h1>e-LAPDU</h1>
           <p>JAKSA AGUNG MUDA BIDANG PENGAWASAN<br>
           <small>Laporan Pengaduan Masyarakat & Whistle Blower System</small></p>

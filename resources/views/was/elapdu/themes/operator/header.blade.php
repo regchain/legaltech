@@ -23,7 +23,7 @@
 
      {{-- <a href="{{ url('/operator') }}" class="logo">
       <!-- mini logo for sidebar mini 50x50 pixels -->
-      <span class="logo-mini"><img src="{{asset('bower_components/admin-lte/dist/img/logo-kejaksaan.png')}}" width="50"></span>
+      <span class="logo-mini"><img src="{{asset('bower_components/admin-lte/dist/img/logo-mini.png')}}" width="50"></span>
       <!-- logo for regular state and mobile devices -->
       <span class="logo-lg"><img src="{{asset('bower_components/admin-lte/dist/img/logo-kejaksaan-small.png')}}" height="50"></span>
     </a>

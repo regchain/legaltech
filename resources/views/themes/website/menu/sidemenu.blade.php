@@ -3,7 +3,7 @@
     <a href="#" class="close-side"><i class="fa fa-times"></i></a>
     <div class="widget">
         <p class="text-center text-white my-3">
-            <a href="{{ url('/') }}"><img src="{{ asset('images/brand/logo-white.png')}}" class="logo" alt="" /><br><b>Legal</b>Tech Indonesia</a></p>
+            <a href="{{ url('/') }}"><img src="{{ asset('images/logo-mini.png')}}" class="logo" alt="" /><br><b>Legal</b>Tech Indonesia</a></p>
             <div class="login-logo">
                 
             </div>
