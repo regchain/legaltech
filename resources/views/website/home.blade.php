@@ -22,7 +22,7 @@
       <!-- Bootstrap -->
       <link rel="stylesheet" type="text/css" href="{{ asset('templates/pacto/css/bootstrap.min.css')}}" />
       <!-- /Google Fonts -->
-      <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet">
+      
       <!-- font-awesome -->
       <link href="{{ asset('templates/pacto/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css" />
       <!-- line icons -->

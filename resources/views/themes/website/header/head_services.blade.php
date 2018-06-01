@@ -23,8 +23,8 @@
                <meta content="" name="description"/>
                <meta content="" name="author"/>
                <!-- Google fonts -->
-               <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i,600,600i,700" rel="stylesheet">
-               <link href="https://fonts.googleapis.com/css?family=Unna:400,700" rel="stylesheet">
+               
+               <link href="https://fonts.googleapis.com/css?family=Contrail+One|Roboto+Condensed:300,300i,400,400i" rel="stylesheet"> 
                <link href="https://fonts.googleapis.com/css?family=Tajawal:400,700|Syncopate:400,700" rel="stylesheet">
                <!-- Bootstrap -->
                <link rel="stylesheet" href="{{ asset('templates/pacto/css/bootstrap.min.css')}}" type="text/css"/>

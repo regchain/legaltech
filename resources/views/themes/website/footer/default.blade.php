@@ -46,21 +46,21 @@
                      </div>
                   </div>
                   <!-- Copy right -->
-                  <div class="footer-bottom">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-sm-6">© 2017 LegalTech All rights reserved</div>
-                           <div class="col-sm-6 text-right">
-                              <ul class="list-unstyled list-inline footer-social">
-                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                 <li><a href="#"><i class="fa fa-facebook"></i> </a> </li>
-                                 <li><a href="#"> <i class="fa fa-google-plus"></i> </a> </li>
-                              </ul>
-                           </div>
-                        </div>
+            <div class="footer-bottom">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-6">© 2017 <a hred="http://www.intersolusi.com" target="_blank"> InterSolusi Network</a> All rights reserved</div>
+                     <div class="col-sm-6 text-right">
+                        <ul class="list-unstyled list-inline footer-social">
+                           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                           <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                           <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                           <li><a href="#"><i class="fa fa-facebook"></i> </a> </li>
+                           <li><a href="#"> <i class="fa fa-google-plus"></i> </a> </li>
+                        </ul>
                      </div>
                   </div>
+               </div>
+            </div>
                </footer>
                <!-- End footer -->
