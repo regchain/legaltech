@@ -14,7 +14,7 @@
 <!-- Default box -->
 <div class="box">
   <div class="box-header with-border">
-    <h3><small class="pull-right"> source: <a href="http://eberkas.com" target="_blank">e-BERKAS©</a></small><i class="fa fa-history"> </i> e-RUP Information System [SIRUP]</h3>    
+    <h3><i class="fa fa-dashboard"> </i> Executive Information System</h3>    
   </div>
   <div class="row">
     <div class="box-body">
@@ -27,8 +27,9 @@
   <div class="row">
     <div class="box-body">
       <div class="col-xs-12">
-        row 1
-        {{-- @include('admin.map2') --}}
+
+        @include('intel.tp4d.partials.erup')
+        
       </div>
     </div>
     <!-- /.box-body -->
@@ -46,10 +47,10 @@
   </div>
   <!-- /.row-box-body -->
   
-  {{-- <div class="box-footer">
-    Footer
+  <div class="box-footer">
+    <small class="pull-right"> source: <a href="http://eberkas.com" target="_blank">e-BERKAS©</a></small>RegChain©
   </div>
-  <!-- /.box-footer--> --}}
+  <!-- /.box-footer-->
 </div>
 <!-- /.box -->
 @stop

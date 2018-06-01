@@ -651,7 +651,9 @@
     <!-- START ACCORDION & CAROUSEL-->
     <h2 class="page-header">Bootstrap Accordion & Carousel</h2>
 
+    <!-- END ACCORDION & CAROUSEL-->
     <div class="row">
+       <!-- .collapsible accordion -->
       <div class="col-md-6">
         <div class="box box-solid">
           <div class="box-header with-border">
@@ -727,7 +729,7 @@
         </div>
         <!-- /.box -->
       </div>
-      <!-- /.col -->
+       <!-- /.collapsible accordion -->
       <div class="col-md-6">
         <div class="box box-solid">
           <div class="box-header with-border">
@@ -778,7 +780,7 @@
       </div>
       <!-- /.col -->
     </div>
-    <!-- /.row -->
+    <!-- /.collapsible accordion -->
     <!-- END ACCORDION & CAROUSEL-->
 
 
