@@ -17,7 +17,7 @@
       </a>
       <ul class="treeview-menu">
         <li class="">
-          <a href="#">
+          <a href="{{ url('intel/tp4d/home')}}">
             <i class="fa fa-fw fa-dashboard "></i>
             <span>Dashboard</span>
           </a>
@@ -32,19 +32,19 @@
           </a>
           <ul class="treeview-menu">
             <li class="">
-              <a href="#">
+              <a href="{{ url('intel/tp4d/ebudgeting')}}">
                 <i class="fa fa-fw fa-money "></i>
                 <span>e-Budgeting [SIMDA]</span>
               </a>
             </li>
             <li class="">
-              <a href="#">
+              <a href="{{ url('intel/tp4d/erup')}}">
                 <i class="fa fa-fw fa-history "></i>
                 <span>e-RUP [SIRUP]</span>
               </a>
             </li>
             <li class="">
-              <a href="#">
+              <a href="{{ url('intel/tp4d/eproject')}}">
                 <i class="fa fa-fw fa-calendar "></i>
                 <span>e-Project Planning</span>
               </a>
@@ -61,25 +61,25 @@
           </a>
           <ul class="treeview-menu">
             <li class="">
-              <a href="#">
+              <a href="{{ url('intel/tp4d/eulp')}}">
                 <i class="fa fa-fw fa-angle-right "></i>
                 <span>e-ULP</span>
               </a>
             </li>
             <li class="">
-              <a href="#">
+              <a href="{{ url('intel/tp4d/eproc')}}">
                 <i class="fa fa-fw fa-angle-right "></i>
                 <span>e-Proc [LPSE]</span>
               </a>
             </li>
             <li class="">
-              <a href="#">
+              <a href="{{ url('intel/tp4d/swakelola')}}">
                 <i class="fa fa-fw fa-angle-right "></i>
                 <span>e-Swakelola</span>
               </a>
             </li>
             <li class="">
-              <a href="#">
+              <a href="{{ url('intel/tp4d/ekontrak')}}">
                 <i class="fa fa-fw fa-angle-right "></i>
                 <span>e-Kontrak</span>
               </a>
@@ -96,19 +96,19 @@
           </a>
           <ul class="treeview-menu">
             <li class="">
-              <a href="#">
+              <a href="{{ url('intel/tp4d/eprogress')}}">
                 <i class="fa fa-fw fa-tasks "></i>
                 <span>e-Progress</span>
               </a>
             </li>
             <li class="">
-              <a href="#">
+              <a href="{{ url('intel/tp4d/eperformance')}}">
                 <i class="fa fa-fw fa-bar-chart "></i>
                 <span>e-Performance</span>
               </a>
             </li>
             <li class="">
-              <a href="#">
+              <a href="{{ url('intel/tp4d/easset')}}">
                 <i class="fa fa-fw fa-bank "></i>
                 <span>e-Asset</span>
               </a>

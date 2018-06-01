@@ -46,33 +46,20 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 // core
 
-Route::get('forms', 'DocumentationsController@index');
-
-Route::get('editor', 'DocumentationsController@editor');
-
-Route::get('select2', 'DocumentationsController@select2');
-
-Route::get('daterange', 'DocumentationsController@daterange');
-
-Route::get('timepicker', 'DocumentationsController@timepicker');
-
-Route::get('icheck', 'DocumentationsController@icheck');
-
-Route::get('inputmask', 'DocumentationsController@inputmask');
-
-Route::get('inputaddon', 'DocumentationsController@inputaddon');
-
-Route::get('uigeneral', 'DocumentationsController@uigeneral');
-
-Route::get('documents', 'DocumentationsController@documents');
-
-Route::get('documentprint', 'DocumentationsController@documentprint');
-
-Route::get('button', 'DocumentationsController@button');
-
-Route::get('progress', 'DocumentationsController@progress');
-
-Route::get('table', 'DocumentationsController@table');
+Route::get('documentation/forms', 'DocumentationsController@index');
+Route::get('documentation/editor', 'DocumentationsController@editor');
+Route::get('documentation/select2', 'DocumentationsController@select2');
+Route::get('documentation/daterange', 'DocumentationsController@daterange');
+Route::get('documentation/timepicker', 'DocumentationsController@timepicker');
+Route::get('documentation/icheck', 'DocumentationsController@icheck');
+Route::get('documentation/inputmask', 'DocumentationsController@inputmask');
+Route::get('documentation/inputaddon', 'DocumentationsController@inputaddon');
+Route::get('documentation/uigeneral', 'DocumentationsController@uigeneral');
+Route::get('documentation/documents', 'DocumentationsController@documents');
+Route::get('documentation/documentprint', 'DocumentationsController@documentprint');
+Route::get('documentation/button', 'DocumentationsController@button');
+Route::get('documentation/progress', 'DocumentationsController@progress');
+Route::get('documentation/table', 'DocumentationsController@table');
 
 // Pembinaan
 
@@ -84,6 +71,20 @@ Route::get('/was/elapdu/operator', 'WasElapdu\PagesController@index')->name('ope
 
 Route::get('/was/elapdu/pelapor', 'WasElapdu\PagesController@pelapor')->name('pelapor');
 
+
+// Intel/TP4D
+
+Route::get('intel/tp4d/home', 'IntelTp4d\HomeController@index');
+Route::get('intel/tp4d/ebudgeting', 'IntelTp4d\HomeController@ebudgeting');
+Route::get('intel/tp4d/erup', 'IntelTp4d\HomeController@erup');
+Route::get('intel/tp4d/eproject', 'IntelTp4d\HomeController@eproject');
+Route::get('intel/tp4d/eulp', 'IntelTp4d\HomeController@eulp');
+Route::get('intel/tp4d/eproc', 'IntelTp4d\HomeController@eproc');
+Route::get('intel/tp4d/swakelola', 'IntelTp4d\HomeController@swakelola');
+Route::get('intel/tp4d/ekontrak', 'IntelTp4d\HomeController@ekontrak');
+Route::get('intel/tp4d/eprogress', 'IntelTp4d\HomeController@eprogress');
+Route::get('intel/tp4d/eperformance', 'IntelTp4d\HomeController@eperformance');
+Route::get('intel/tp4d/easset', 'IntelTp4d\HomeController@easset');
 
 // Pidsus/elPIDSUS
 
