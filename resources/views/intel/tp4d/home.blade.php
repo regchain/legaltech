@@ -14,12 +14,12 @@
 <!-- Default box -->
 <div class="box">
   <div class="box-header with-border">
-    <h3><small class="pull-right"> source: e-BERKAS©</small><i class="fa fa-dashboard"> </i> Executive Information System</h3>    
+    <h3><small class="pull-right"> source: <a href="http://eberkas.com" target="_blank">e-BERKAS©</a></small><i class="fa fa-dashboard"> </i> Executive Information System</h3>    
   </div>
 
   {{-- Row 1 --}}
   <div class="box-header with-border">
-    <h4><small class="pull-right"> source: e-BERKAS©</small><i class="fa fa-puzzle-piece"> </i> PERENCANAAN</h4>    
+    <h4><small class="pull-right"> source: <a href="http://eberkas.com" target="_blank">e-BERKAS©</a></small><i class="fa fa-puzzle-piece"> </i> PERENCANAAN</h4>    
 
       <div class="row">
       <div class="col-md-4">
@@ -132,7 +132,7 @@
   <!-- /.PERENCANAAN -->
 
   <div class="box-header with-border">
-    <h4><small class="pull-right"> source: e-BERKAS©</small><i class="fa fa-balance-scale"> </i> PENGADAAN</h4>    
+    <h4><small class="pull-right"> source: <a href="http://eberkas.com" target="_blank">e-BERKAS©</a></small><i class="fa fa-balance-scale"> </i> PENGADAAN</h4>    
 
       <div class="row">
       <div class="col-md-6">
@@ -221,7 +221,7 @@
    <!-- /.PENGADAAN -->
   
   <div class="box-header with-border">
-    <h4><small class="pull-right"> source: e-BERKAS©</small><i class="fa fa-puzzle-piece"> </i> MONITORING & EVALUASI</h4>    
+    <h4><small class="pull-right"> source: <a href="http://eberkas.com" target="_blank">e-BERKAS©</a></small><i class="fa fa-puzzle-piece"> </i> MONITORING & EVALUASI</h4>    
 
       <div class="row">
       <div class="col-md-4">

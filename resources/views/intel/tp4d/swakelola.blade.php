@@ -14,7 +14,7 @@
 <!-- Default box -->
 <div class="box">
   <div class="box-header with-border">
-    <h3><small class="pull-right"> source: e-BERKAS©</small><i class="fa fa-angle-right"> </i> e-Swakelola Information System</h3>    
+    <h3><small class="pull-right"> source: <a href="http://eberkas.com" target="_blank">e-BERKAS©</a></small><i class="fa fa-angle-right"> </i> e-Swakelola Information System</h3>    
   </div>
   <div class="row">
     <div class="box-body">
