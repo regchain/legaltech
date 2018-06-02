@@ -1,0 +1,40 @@
+{
+  "name": "mdb-boostrap-3",
+  "description": "This is just a standalone alternative repository for mdbootstrap version 3.4.1.",
+  "author": "mdbootstrap.com",
+  "license": "MIT",
+  "homepage": "https://mdbootstrap.com/",
+  "main": [
+    "js/mdb.js",
+    "css/mdb.css"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.5",
+    "jquery": "^1.11.1 "
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ederfranco23/mdb-boostrap-3.git"
+  },
+  "authors": [
+    "MDBootstrap"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "version": "3.4.1",
+  "_release": "3.4.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "3.4.1",
+    "commit": "ddf8f4b645fce3475d7c745433acaebf4570a256"
+  },
+  "_source": "https://github.com/ederfranco23/mdb-boostrap-3.git",
+  "_target": "^3.4.1",
+  "_originalSource": "mdb-bootstrap-3",
+  "_direct": true
+}
