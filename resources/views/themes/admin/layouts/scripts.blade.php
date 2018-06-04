@@ -2,7 +2,7 @@
 <!-- jQuery 3 -->
 <script src="{{ asset('bower_components/jquery/dist/jquery.min.js')}}"></script>
 <!-- jQuery UI 1.11.4 -->
-<script src="{{ asset('bower_components/jquery-ui/jquery-ui.min.js')}}"></script>
+<script src="{{ asset('bower_components/jquery-ui/jquery-ui.js')}}"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
 <script>
   $.widget.bridge('uibutton', $.ui.button);
@@ -37,5 +37,5 @@
 <!-- AdminLTE for demo purposes -->
 <script src="{{ asset('bower_components/admin-lte/dist/js/demo.js')}}"></script>
 <!-- Bootstrap Material Design -->
-<script type="text/javascript" src="{{ asset('bower_components/MDBootsrap/js/mdb.min.js')}}"></script>
-<script type="text/javascript" src="{{ asset('bower_components/MDBootsrap/js/popper.min.js')}}"></script>
+<script type="text/javascript" src="{{ asset('bower_components/mdb-boostrap-3/js/mdb.min.js')}}"></script>
+{{-- <script type="text/javascript" src="{{ asset('bower_components/MDBootsrap/js/popper.min.js')}}"></script> --}}

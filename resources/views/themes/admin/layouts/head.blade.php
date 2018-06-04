@@ -1,8 +1,8 @@
 <!-- Highcharts -->
   <link rel="stylesheet" href="{{ asset('bower_components/highcharts/css/highcharts.css')}}">
 <!-- bootstrap 3 material design -->
-  <link rel="stylesheet" href="{{ asset('bower_components/MDBootstrap/css/mdb.min.css')}}">
-  <link rel="stylesheet" href="{{ asset('bower_components/MDBootstrap/css/style.css')}}">
+  <link rel="stylesheet" href="{{ asset('bower_components/mdb-boostrap-3/css/mdb.min.css')}}">
+  {{-- <link rel="stylesheet" href="{{ asset('bower_components/MDBootstrap/css/style.css')}}"> --}}
 <!-- Bootstrap 3.3.7 -->
   <link rel="stylesheet" href="{{ asset('bower_components/bootstrap/dist/css/bootstrap.min.css')}}">
   <!-- Font Awesome -->
@@ -24,6 +24,9 @@
   <link rel="stylesheet" href="{{ asset('bower_components/bootstrap-daterangepicker/daterangepicker.css')}}">
   <!-- bootstrap wysihtml5 - text editor -->
   <link rel="stylesheet" href="{{ asset('bower_components/admin-lte/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css')}}">
+
+  <!-- JQuery-ui -->
+  <link rel="stylesheet" href="{{ asset('bower_components/jquery-ui/themes/base/jquery-ui.css')}}">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
