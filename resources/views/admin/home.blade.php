@@ -27,7 +27,7 @@
   <div class="row">
     <div class="box-body">
       <div class="col-xs-12">
-        {{-- @include('admin.map2') --}}
+        @include('admin.map')
       </div>
     </div>
     <!-- /.box-body -->
@@ -37,7 +37,8 @@
   <div class="row">
     <div class="box-body">
       <div class="col-xs-12">
-        @include('admin.map')
+         {{-- @include('admin.map2') --}}
+        {{-- @include('admin.googlemap2') --}}
       </div>
     </div>
     <!-- /.box-body -->
