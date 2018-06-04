@@ -5,7 +5,8 @@
           </div>
           <!-- /.box-header -->
           <div class="box-body">
-            <div class="col-md-3 alert alert-danger alert-dismissible">
+              @include('intel.tp4d.partials.chart_lelang')
+            {{-- <div class="col-md-3 alert alert-danger alert-dismissible">
               <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
               <h4><i class="icon fa fa-ban"></i> Alert!</h4>
               Danger alert preview. This alert is dismissable. 
@@ -24,12 +25,12 @@
               <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
               <h4><i class="icon fa fa-check"></i> Alert!</h4>
               Success alert preview. This alert is dismissable.
-            </div>
+            </div> --}}
           </div>
           <!-- /.box-body -->
           <div class="box-body">
             <div class="col-md-12">
-              
             </div>
           </div>
         </div>
+        

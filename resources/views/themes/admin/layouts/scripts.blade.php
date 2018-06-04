@@ -36,3 +36,5 @@
 <script src="{{ asset('bower_components/admin-lte/js/pages/dashboard.js')}}"></script>
 <!-- AdminLTE for demo purposes -->
 <script src="{{ asset('bower_components/admin-lte/js/demo.js')}}"></script>
+<!-- Bootstrap Material Design -->
+<script src="{{ asset('bower_components/bootstrap-material-design/js/bootstrapMaterialDesign.js')}}"></script>
