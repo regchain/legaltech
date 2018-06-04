@@ -6,9 +6,9 @@
 
 @endsection
 
-@section('maintitle', 'DIREKTORAT PENYIDIKAN')
+@section('judulhalaman', 'DIREKTORAT PENYIDIKAN')
 
-@section('mainsubtitle', 'Tindak Pidana Khusus')
+@section('subjudul', 'Tindak Pidana Khusus')
 
 @section('judulhalaman', 'Surat Perintah Penyerahan Tanggungjawab Tersangka dan Barang Buktinya [p-15a]')
 

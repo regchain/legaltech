@@ -2,14 +2,14 @@
 
 @section('title', 'Dir.Dik')
 
+
+@section('judulhalaman', 'DIREKTORAT PENYIDIKAN')
+
+@section('subjudul', 'Tindak Pidana Khusus')
+
 @section('stylesheet')
 
 @endsection
-
-@section('maintitle', 'DIREKTORAT PENYIDIKAN')
-
-@section('mainsubtitle', 'Tindak Pidana Khusus')
-
 @section('judulhalaman', 'Tambah Laporan Masyarakat / Kasus')
 
 @section('content')
