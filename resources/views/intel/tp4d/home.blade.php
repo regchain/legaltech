@@ -15,206 +15,64 @@
   <div class="box-header with-border">
     <a href="home"><h3><i class="fa fa-dashboard"> </i> Executive Information System</h3> </a>       
   </div>
-  <div class="col-md-12">
-    <!-- Nav tabs -->
-<ul class="nav nav-tabs nav-justified indigo" role="tablist">
-    <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#panel5" role="tab"><i class="fa fa-puzzle-piece"></i> PERENCANAAN</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#panel6" role="tab"><i class="fa fa-balance-scale"></i> PENGADAAN</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#panel7" role="tab"><i class="fa fa-eye"></i> MONITORING & EVALUASI</a>
-    </li>
-</ul>
-<!-- Tab panels -->
-<div class="tab-content">
-    <!--Panel 1-->
-    <div class="tab-pane fade in show active" id="panel5" role="tabpanel">
-        <p>
-          <!-- .row-perencanaan -->
-                          <!-- Custom Tabs (Pulled to the right) -->
-                          <div class="nav-tabs-custom">
-                            <ul class="nav nav-tabs">
-                              <li class="active"><a href="#perencanaan_1-1" data-toggle="tab">e-Budgeting</a></li>
-                              <li><a href="#perencanaan_2-2" data-toggle="tab">e-RUP</a></li>
-                              <li><a href="#perencanaan_3-3" data-toggle="tab">e-Project Planning</a></li>
-                            </ul>
-                            <div class="tab-content">
-                              <div class="tab-pane active" id="perencanaan_1-1">
-                                
-                                @include('intel.tp4d.partials.ebudgeting')
-                                
-                              </div>
-                              <!-- /.tab-pane -->
-                              <div class="tab-pane" id="perencanaan_2-2">
-                                
-                                @include('intel.tp4d.partials.erup')
-                                
-                              </div>
-                              <!-- /.tab-pane -->
-                              <div class="tab-pane" id="perencanaan_3-3">
-                                
-                                @include('intel.tp4d.partials.eproject')
-                                
-                              </div>
-                              <!-- /.tab-pane -->
-                            </div>
-                            <!-- /.tab-content -->
-                          </div>
-                          <!-- nav-tabs-custom -->
-                  <!-- /.row-perencanaan -->
-                </p>
-    </div>
-    <!--/.Panel 1-->
-    <!--Panel 2-->
-    <div class="tab-pane fade" id="panel6" role="tabpanel">
-        <p>
-                  <!-- .row-pengadaan -->
-                    <!-- Custom Tabs (Pulled to the right) -->
-                    <div class="nav-tabs-custom">
-                      <ul class="nav nav-tabs">
-                        <li class="active"><a href="#pengadaan_1-1" data-toggle="tab">e-ULP</a></li>
-                        <li><a href="#pengadaan_2-2" data-toggle="tab">e-Procurment</a></li>
-                        <li><a href="#pengadaan_3-3" data-toggle="tab">e-Swakelola</a></li>
-                        <li><a href="#pengadaan_4-4" data-toggle="tab">e-Kontrak</a></li>
-                      </ul>
-                      <div class="tab-content">
-                        <div class="tab-pane active" id="pengadaan_1-1">
-                          
-                          @include('intel.tp4d.partials.eulp')
-                          
-                        </div>
-                        <!-- /.tab-pane -->
-                        <div class="tab-pane" id="pengadaan_2-2">
-                          
-                          @include('intel.tp4d.partials.eproc')
-                          
-                        </div>
-                        <!-- /.tab-pane -->
-                        <div class="tab-pane" id="pengadaan_3-3">
-                          
-                          @include('intel.tp4d.partials.swakelola')
-                          
-                        </div>
-                        <!-- /.tab-pane -->
-                        <!-- /.tab-pane -->
-                        <div class="tab-pane" id="pengadaan_4-4">
-                          
-                          @include('intel.tp4d.partials.ekontrak')
-                          
-                        </div>
-                        <!-- /.tab-pane -->
-                      </div>
-                      <!-- /.tab-content -->
-                    </div>
-                    <!-- nav-tabs-custom -->
-                  <!-- /.row-pengadaan -->
-          
-        </p>
-    </div>
-    <!--/.Panel 2-->
-    <!--Panel 3-->
-    <div class="tab-pane fade" id="panel7" role="tabpanel">
-        <p>
-                  <!-- .row-monev -->
-                      <!-- Custom Tabs (Pulled to the right) -->
-                      <div class="nav-tabs-custom">
-                        <ul class="nav nav-tabs">
-                          <li class="active"><a href="#monev_1-1" data-toggle="tab">e-Progress</a></li>
-                          <li><a href="#monev_2-2" data-toggle="tab">e-Performance</a></li>
-                          <li><a href="#monev_3-3" data-toggle="tab">e-Asset</a></li>
-                        </ul>
-                        <div class="tab-content">
-                          <div class="tab-pane active" id="monev_1-1">
-                            
-                            @include('intel.tp4d.partials.eprogress')
-                            
-                          </div>
-                          <!-- /.tab-pane -->
-                          <div class="tab-pane" id="monev_2-2">
-                            
-                            @include('intel.tp4d.partials.eperformance')
-                            
-                          </div>
-                          <!-- /.tab-pane -->
-                          <div class="tab-pane" id="monev_3-3">
-                            
-                            @include('intel.tp4d.partials.easset')
-                            
-                          </div>
-                          <!-- /.tab-pane -->
-                        </div>
-                        <!-- /.tab-content -->
-                      </div>
-                      <!-- nav-tabs-custom -->
-                  <!-- /.row-monev -->
-        </p>
-    </div>
-    <!--/.Panel 3-->
-</div>
-  </div>
-  {{-- <!-- /.row-collapsible accordion -->
+  <!-- /.row-collapsible accordion -->
   <div class="row">
     <div class="col-md-12">
-      <div class="box box-solid">
-        <!-- /.box-header -->
-        <div class="box-body">
-          <div class="box-group" id="accordion">
-            <!-- we are adding the .panel class so bootstrap.js collapse plugin detects it -->
-            <div class="panel box">
-              <div class="box-header with-border">
-                <h4 class="box-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
-                    <i class="fa fa-puzzle-piece"></i> PERENCANAAN
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseOne" class="panel-collapse collapse in">
+      <div class="box-body">
+        
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs nav-justified indigo" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#panel1" role="tab"><i class="fa fa-user"></i> Perencanaan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#panel2" role="tab"><i class="fa fa-heart"></i> Pengadaan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#panel3" role="tab"><i class="fa fa-eye"></i> Monitoring & Evaluasi</a>
+          </li>
+        </ul>
+        <!-- Tab panels -->
+        <div class="tab-content">
+          <!--Panel 1-->
+          <div class="tab-pane fade in show active" id="panel1" role="tabpanel">
+            <div class="row">
+              <div class="col-md-12">
                 <div class="box-body">
-                  
-                </div>
-              </div>
-            </div>
-            <div class="panel box">
-              <div class="box-header with-border">
-                <h4 class="box-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                    <i class="fa fa-balance-scale"></i> PENGADAAN
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseTwo" class="panel-collapse collapse">
-                <div class="box-body">
-                  
-                  
-                </div>
-              </div>
-            </div>
-            <div class="panel box">
-              <div class="box-header with-border">
-                <h4 class="box-title">
-                  <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                    <i class="fa fa-eye"></i> MONITORING & EVALUASI
-                  </a>
-                </h4>
-              </div>
-              <div id="collapseThree" class="panel-collapse collapse">
-                <div class="box-body">
-                  
-                  
+                  @include('intel.tp4d.partials.ebudgeting')
                 </div>
               </div>
             </div>
           </div>
+          <!--/.Panel 1-->
+          <!--Panel 2-->
+          <div class="tab-pane fade in" id="panel2" role="tabpanel">
+             <div class="row">
+              <div class="col-md-12">
+                <div class="box-body">
+                  @include('intel.tp4d.partials.erup')
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.Panel 2-->
+          <!--Panel 3-->
+          <div class="tab-pane fade in" id="panel3" role="tabpanel">
+             <div class="row">
+              <div class="col-md-12">
+                <div class="box-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil odit magnam minima, soluta doloribus reiciendis molestiae placeat unde eos molestias. Quisquam aperiam, pariatur. Tempora, placeat ratione porro voluptate odit minima.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--/.Panel 3-->
         </div>
-        <!-- /.box-body -->
+        
       </div>
-      <!-- /.box -->
+      <!-- /.box-body -->
     </div>
   </div>
-  <!-- /.row-collapsible accordion --> --}}
+  <!-- /.row-collapsible accordion -->
   
   
   <div class="box-footer">
@@ -228,7 +86,7 @@
 
 @section('scripts')
 <!-- bootstrap wysihtml5 - text editor -->
-  <link rel="stylesheet" href="{{ asset('bower_components/highcharts/highcharts.js')}}">
+
 
 
 <script>

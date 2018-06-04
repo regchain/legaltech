@@ -33,9 +33,9 @@
 <!-- AdminLTE App -->
 <script src="{{ asset('bower_components/admin-lte/dist/js/adminlte.min.js')}}"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="{{ asset('bower_components/admin-lte/js/pages/dashboard.js')}}"></script>
+<script src="{{ asset('bower_components/admin-lte/dist/js/pages/dashboard.js')}}"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="{{ asset('bower_components/admin-lte/js/demo.js')}}"></script>
+<script src="{{ asset('bower_components/admin-lte/dist/js/demo.js')}}"></script>
 <!-- Bootstrap Material Design -->
-{{-- <script src="{{ asset('bower_components/bootstrap-material-design/js/bootstrapMaterialDesign.js')}}"></script>
-<script src="{{ asset('bower_components/bootstrap-material-design/js/base.js')}}"></script> --}}
+<script type="text/javascript" src="{{ asset('bower_components/MDBootsrap/js/mdb.min.js')}}"></script>
+<script type="text/javascript" src="{{ asset('bower_components/MDBootsrap/js/popper.min.js')}}"></script>
