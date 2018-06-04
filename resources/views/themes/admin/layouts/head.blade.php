@@ -1,5 +1,5 @@
 <!-- bootstrap 3 material design -->
-  <link rel="stylesheet" href="{{ asset('bower_components/mdb-boostrap-3/css/mdb.min.css')}}">
+  {{-- <link rel="stylesheet" href="{{ asset('bower_components/mdb-boostrap-3/css/mdb.min.css')}}"> --}}
 <!-- Bootstrap 3.3.7 -->
   <link rel="stylesheet" href="{{ asset('bower_components/bootstrap/dist/css/bootstrap.min.css')}}">
   <!-- Font Awesome -->
