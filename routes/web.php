@@ -24,16 +24,16 @@ Route::get('about-team', function () {return view('website.about-team');});
 
 // ELapdu
 
-Route::get('pengaduan', 'Pengawasan\Elapdu\PublicPagesController@pengaduan');
-Route::get('pengaduan2', 'Pengawasan\Elapdu\PublicPagesController@pengaduan2');
-Route::get('question1', 'Pengawasan\Elapdu\PublicPagesController@question1');
-Route::get('question2', 'Pengawasan\Elapdu\PublicPagesController@question2');
-Route::get('question3', 'Pengawasan\Elapdu\PublicPagesController@question3');
-Route::get('question4', 'Pengawasan\Elapdu\PublicPagesController@question4');
-Route::get('cara_lapdu', 'Pengawasan\Elapdu\PublicPagesController@cara_lapdu');
-Route::get('cara_whistle', 'Pengawasan\Elapdu\PublicPagesController@cara_whistle');
-Route::get('test', 'Pengawasan\Elapdu\PublicPagesController@test');
-Route::get('kawal', 'Pengawasan\Elapdu\PublicPagesController@kawal');
+Route::get('was/elapdu/pengaduan', 'WasElapdu\PublicPagesController@pengaduan');
+Route::get('was/elapdu/pengaduan2', 'WasElapdu\PublicPagesController@pengaduan2');
+Route::get('was/elapdu/question1', 'WasElapdu\PublicPagesController@question1');
+Route::get('was/elapdu/question2', 'WasElapdu\PublicPagesController@question2');
+Route::get('was/elapdu/question3', 'WasElapdu\PublicPagesController@question3');
+Route::get('was/elapdu/question4', 'WasElapdu\PublicPagesController@question4');
+Route::get('was/elapdu/cara_lapdu', 'WasElapdu\PublicPagesController@cara_lapdu');
+Route::get('was/elapdu/cara_whistle', 'WasElapdu\PublicPagesController@cara_whistle');
+Route::get('was/elapdu/test', 'WasElapdu\PublicPagesController@test');
+Route::get('was/elapdu/kawal', 'WasElapdu\PublicPagesController@kawal');
 
 
 Auth::routes();
@@ -43,6 +43,88 @@ Route::get('/home', 'HomeController@index')->name('home');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('was/elapdu/inspeksi', 'WasElapdu\InspeksiController@inspeksi');
+Route::get('was/elapdu/inspeksi_create', 'WasElapdu\InspeksiController@inspeksi_create');
+Route::get('was/elapdu/inspeksi_disposisi', 'WasElapdu\InspeksiController@inspeksi_disposisi');
+Route::get('was/elapdu/l_was2_create', 'WasElapdu\InspeksiController@l_was2_create');
+Route::get('was/elapdu/inspeksi_view', 'WasElapdu\InspeksiController@inspeksi_view');
+Route::get('was/elapdu/sp_was2_create', 'WasElapdu\InspeksiController@sp_was2_create');
+Route::get('was/elapdu/ba_was3_qna', 'WasElapdu\InspeksiController@ba_was3_qna');
+Route::get('was/elapdu/ba_was3_create', 'WasElapdu\InspeksiController@ba_was3_create');
+Route::get('was/elapdu/ba_was3_edit', 'WasElapdu\InspeksiController@ba_was3_edit');
+Route::get('was/elapdu/ba_was3_view', 'WasElapdu\InspeksiController@ba_was3_view');
+Route::get('was/elapdu/sp_was3_create', 'WasElapdu\InspeksiController@sp_was3_create');
+Route::get('was/elapdu/was15_create', 'WasElapdu\InspeksiController@was15_create');
+
+Route::get('was/elapdu/pengaduan', 'WasElapdu\PublicPagesController@pengaduan');
+Route::get('was/elapdu/pengaduan2', 'WasElapdu\PublicPagesController@pengaduan2');
+Route::get('was/elapdu/question1', 'WasElapdu\PublicPagesController@question1');
+Route::get('was/elapdu/question2', 'WasElapdu\PublicPagesController@question2');
+Route::get('was/elapdu/question3', 'WasElapdu\PublicPagesController@question3');
+Route::get('was/elapdu/question4', 'WasElapdu\PublicPagesController@question4');
+Route::get('was/elapdu/cara_lapdu', 'WasElapdu\PublicPagesController@cara_lapdu');
+Route::get('was/elapdu/cara_whistle', 'WasElapdu\PublicPagesController@cara_whistle');
+Route::get('was/elapdu/test', 'WasElapdu\PublicPagesController@test');
+Route::get('was/elapdu/kawal', 'WasElapdu\PublicPagesController@kawal');
+
+
+Route::get('was/elapdu/klarifikasi', 'WasElapdu\KlarifikasiController@klarifikasi');
+Route::get('was/elapdu/klarifikasi_create', 'WasElapdu\KlarifikasiController@klarifikasi_create');
+Route::get('was/elapdu/klarifikasi_view', 'WasElapdu\KlarifikasiController@klarifikasi_view');
+Route::get('was/elapdu/klarifikasi_edit', 'WasElapdu\KlarifikasiController@klarifikasi_edit');
+Route::get('was/elapdu/klarifikasi_proses', 'WasElapdu\KlarifikasiController@klarifikasi_proses');
+Route::get('was/elapdu/ba_was2_create', 'WasElapdu\KlarifikasiController@ba_was2_create');
+Route::get('was/elapdu/ba_was2_qna', 'WasElapdu\KlarifikasiController@ba_was2_qna');
+Route::get('was/elapdu/ba_was2_view', 'WasElapdu\KlarifikasiController@ba_was2_view');
+Route::get('was/elapdu/ba_was2_edit', 'WasElapdu\KlarifikasiController@ba_was2_edit');
+Route::get('was/elapdu/was5b', 'WasElapdu\KlarifikasiController@was5b');
+Route::get('was/elapdu/was4_create', 'WasElapdu\KlarifikasiController@was4_create');
+Route::get('was/elapdu/was4_edit', 'WasElapdu\KlarifikasiController@was4_edit');
+Route::get('was/elapdu/was5a_create', 'WasElapdu\KlarifikasiController@was5a_create');
+Route::get('was/elapdu/l_was1_create', 'WasElapdu\KlarifikasiController@l_was1_create');
+Route::get('was/elapdu/sp_was2_create', 'WasElapdu\KlarifikasiController@sp_was2_create');
+
+
+Route::get('was/elapdu/laporan', 'WasElapdu\LapduController@laporan');
+Route::get('was/elapdu/laporan_create', 'WasElapdu\LapduController@laporan_create');
+Route::get('was/elapdu/laporan_view', 'WasElapdu\LapduController@laporan_view');
+Route::get('was/elapdu/laporan_edit', 'WasElapdu\LapduController@laporan_edit');
+Route::get('was/elapdu/laporan_disposisi', 'WasElapdu\LapduController@laporan_disposisi');
+Route::get('was/elapdu/was1', 'WasElapdu\LapduController@was1');
+Route::get('was/elapdu/was1_create', 'WasElapdu\LapduController@was1_create');
+Route::get('was/elapdu/was1_edit', 'WasElapdu\LapduController@was1_edit');
+Route::get('was/elapdu/was2', 'WasElapdu\LapduController@was2');
+Route::get('was/elapdu/was2_edit', 'WasElapdu\LapduController@was2_edit');
+Route::get('was/elapdu/was3_create', 'WasElapdu\LapduController@was3_create');
+Route::get('was/elapdu/was3_edit', 'WasElapdu\LapduController@was3_edit');
+Route::get('was/elapdu/sp_was1_create', 'WasElapdu\LapduController@sp_was1_create');
+
+Route::get('was/elapdu/userblank', 'WasElapdu\PelaporController@userblank');
+
+Route::get('was/elapdu/putusan', 'WasElapdu\PutusanController@putusan');
+
+
+Route::get('was/elapdu/subyek_terlapor', 'WasElapdu\SubyekController@subyek_terlapor');
+Route::get('was/elapdu/subyek_klarifikasi', 'WasElapdu\SubyekController@subyek_klarifikasi');
+Route::get('was/elapdu/subyek_inspeksi', 'WasElapdu\SubyekController@subyek_inspeksi');
+Route::get('was/elapdu/subyek_usulan', 'WasElapdu\SubyekController@subyek_usulan');
+Route::get('was/elapdu/subyek_putusan', 'WasElapdu\SubyekController@subyek_putusan');
+Route::get('was/elapdu/subyek_putusanprint', 'WasElapdu\SubyekController@subyek_putusanprint');
+Route::get('was/elapdu/subyek_putusandetail', 'WasElapdu\SubyekController@subyek_putusandetail');
+
+
+Route::get('was/elapdu/usulan', 'WasElapdu\UsulanController@usulan');
+Route::get('was/elapdu/usulan_disposisi', 'WasElapdu\SubyekController@usulan_disposisi');
+Route::get('was/elapdu/ba_was6_create', 'WasElapdu\SubyekController@ba_was6_create');
+Route::get('was/elapdu/ba_was7_create', 'WasElapdu\SubyekController@ba_was7_create');
+Route::get('was/elapdu/ba_was8_create', 'WasElapdu\SubyekController@ba_was8_create');
+Route::get('was/elapdu/ba_was9', 'WasElapdu\SubyekController@ba_was9');
+Route::get('was/elapdu/was16a_create', 'WasElapdu\SubyekController@was16a_create');
+Route::get('was/elapdu/was17_create', 'WasElapdu\SubyekController@was17_create');
+Route::get('was/elapdu/was18_create', 'WasElapdu\SubyekController@was18_create');
+Route::get('was/elapdu/usulan_view', 'WasElapdu\SubyekController@usulan_view');
+Route::get('was/elapdu/sk_was1_create', 'WasElapdu\SubyekController@sk_was1_create');
 
 // core
 

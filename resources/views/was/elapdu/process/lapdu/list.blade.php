@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.themes.core.template')
 
 @section('title', 'List')
 

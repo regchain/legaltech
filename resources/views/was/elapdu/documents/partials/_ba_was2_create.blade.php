@@ -35,7 +35,7 @@
       <div id="tabs-1">
         <div class="row">
           <p>Pada hari ini <b>[tanggal berita acara]</b> , bertempat di <b>[institusi]</b> saya / kami *) :</p>
-          @include('was.elapdu.klarifikasi.partials._jaksapengawas_create')
+          @include('was.elapdu.process.klarifikasi.partials._jaksapengawas_create')
         </div>
       </div>
       <div id="tabs-2">
@@ -53,7 +53,7 @@
       <div id="tabs-4">
         <div class="row">
           <p>Dengan hasil sebagai berikut :</p>
-          @include('was.elapdu.surat.partials._ba_was2_list')
+          @include('was.elapdu.documents.partials._ba_was2_list')
         </div>
       </div>
     </div>

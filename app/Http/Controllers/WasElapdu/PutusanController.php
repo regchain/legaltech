@@ -8,6 +8,6 @@ class PutusanController extends Controller
 {
     public function putusan()
     {
-        return view('elapdu.putusan.list');
+        return view('was.elapdu.process.putusan.list');
     }
 }

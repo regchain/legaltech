@@ -28,7 +28,7 @@
 
           <div class="box-body">
             
-          @include('was.elapdu.surat.partials._was17_create')
+          @include('was.elapdu.documents.partials._was17_create')
 
           </div>
 

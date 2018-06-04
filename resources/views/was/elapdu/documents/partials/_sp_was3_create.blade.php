@@ -35,7 +35,7 @@
                   <dl class="dl-horizontal">
                     <dt>Kepada</dt>
                     <dd>
-                       @include('was.elapdu.klarifikasi.partials._jaksapengawas_create')
+                       @include('was.elapdu.process.klarifikasi.partials._jaksapengawas_create')
                 </dd>
                 <dt>Untuk</dt>
                 <dd>

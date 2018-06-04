@@ -22,7 +22,7 @@
 
           <div class="box-body">
             
-          @include('was.elapdu.surat.partials._was2_create')
+          @include('was.elapdu.documents.partials._was2_create')
 
           </div>
 

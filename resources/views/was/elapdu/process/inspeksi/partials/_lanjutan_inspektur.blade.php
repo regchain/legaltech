@@ -10,7 +10,7 @@
     <div id="collapseLanJa" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingLanJa">
       <div class="panel-body">
 
-        @include('was.elapdu.inspeksi.partials._lanjutan_inspektur_ja')
+        @include('was.elapdu.process.inspeksi.partials._lanjutan_inspektur_ja')
         
     </div>
   </div>
@@ -26,7 +26,7 @@
     <div id="collapseLanJamwas" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingLanJamwas">
       <div class="panel-body">
         
-        @include('was.elapdu.inspeksi.partials._lanjutan_inspektur_jamwas')
+        @include('was.elapdu.process.inspeksi.partials._lanjutan_inspektur_jamwas')
     </div>
   </div>
 </div>
@@ -41,7 +41,7 @@
   <div id="collapseLanInspektur" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingLanInspektur">
     <div class="panel-body">
 
-      @include('was.elapdu.inspeksi.partials._lanjutan_inspektur_inspektur')
+      @include('was.elapdu.process.inspeksi.partials._lanjutan_inspektur_inspektur')
 
     </div>
   </div>
@@ -57,7 +57,7 @@
   <div id="collapseLanIrmud" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingLanIrmud">
     <div class="panel-body">
 
-      @include('was.elapdu.inspeksi.partials._lanjutan_inspektur_irmud')
+      @include('was.elapdu.process.inspeksi.partials._lanjutan_inspektur_irmud')
 
     </div>
   </div>
@@ -73,7 +73,7 @@
   <div id="collapseLanRiksa" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingLanRiksa">
     <div class="panel-body">
 
-      @include('was.elapdu.inspeksi.partials._lanjutan_inspektur_riksa')
+      @include('was.elapdu.process.inspeksi.partials._lanjutan_inspektur_riksa')
       <div class="box-footer">
         <br>
         <a href='ba_was3_qna' class="btn btn-flat btn-info" data-toggle="tooltip" data-placement="top" title="FORM KARTU WAWANCARA" style="margin-right: 5px;"><i class="fa fa-plus"></i> Form Wawancara</a>

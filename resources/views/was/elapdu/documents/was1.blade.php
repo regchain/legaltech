@@ -87,7 +87,7 @@
 
         <div class="row">
 
-          @include('was.elapdu.surat.partials._was1_view')
+          @include('was.elapdu.documents.partials._was1_view')
 
         </div>
 

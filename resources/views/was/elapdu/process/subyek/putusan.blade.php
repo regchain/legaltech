@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.themes.core.template')
 
 @section('title', 'Subyek Hukum')
 
@@ -71,7 +71,7 @@
             </div> --}}
           </div>
 
-        @include('was.elapdu.partials.subyek_putusan')
+        @include('was.elapdu.process.partials.subyek_putusan')
 
         <div class="box-footer">
             <!-- this row will not appear when printing -->

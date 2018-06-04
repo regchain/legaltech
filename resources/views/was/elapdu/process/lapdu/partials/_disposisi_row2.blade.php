@@ -10,7 +10,7 @@
     <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
         
-        @include('was.elapdu.lapdu.partials._disposisi_ja')
+        @include('was.elapdu.process.lapdu.partials._disposisi_ja')
         
       </div>
     </div>
@@ -25,7 +25,7 @@
     </div>
     <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="panel-body">
-        @include('was.elapdu.lapdu.partials._disposisi_jamwas')
+        @include('was.elapdu.process.lapdu.partials._disposisi_jamwas')
       </div>
     </div>
   </div>
@@ -40,7 +40,7 @@
     <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
       <div class="panel-body">
         
-        @include('was.elapdu.lapdu.partials._disposisi_inspektur')
+        @include('was.elapdu.process.lapdu.partials._disposisi_inspektur')
 
       </div>
     </div>
@@ -56,7 +56,7 @@
     <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
       <div class="panel-body">
         
-        @include('was.elapdu.lapdu.partials._disposisi_irmud')
+        @include('was.elapdu.process.lapdu.partials._disposisi_irmud')
 
       </div>
     </div>
@@ -72,7 +72,7 @@
     <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
       <div class="panel-body">
 
-        @include('was.elapdu.lapdu.partials._disposisi_riksa')
+        @include('was.elapdu.process.lapdu.partials._disposisi_riksa')
         <div class="box-footer">
           
         {{-- <a href='was3_create' class="btn btn-info pull-right" data-toggle="tooltip" data-placement="top" title="PERMINTAAN KLARIFIKASI" style="margin-right: 5px;"><i class="fa fa-plus"></i> WAS-3</a>

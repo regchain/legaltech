@@ -27,15 +27,15 @@
           
           <div class="row">
 
-          extends('was.elapdu.process.partials.dashboard.putusan')
+          @extends('was.elapdu.process.partials.dashboard.putusan')
 
 
 
-          extends('was.elapdu.process.partials.dashboard.subyek_hukum')
+          @extends('was.elapdu.process.partials.dashboard.subyek_hukum')
 
 
 
-          extends('was.elapdu.process.partials.dashboard.kasus')
+          @extends('was.elapdu.process.partials.dashboard.kasus')
 
         </div>
 

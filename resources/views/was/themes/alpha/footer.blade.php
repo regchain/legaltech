@@ -1,7 +1,7 @@
 <!-- Footer -->
 <!-- cta -->
 
-				  {{-- @include('templates.alpha.cta') --}}
+				  {{-- @include('was.themes.alpha.cta') --}}
 				  
 
 				<footer id="footer">

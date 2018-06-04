@@ -19,7 +19,7 @@
                    <h6 class="title">LEGAL TECHNOLOGY</h6>
                     <div class="content">
                       <ul class="menu-col">
-                        <li><a href="#">Apps 1</a></li>
+                        <li><a href="was/elapdu/pengaduan2">Whistle Blower System</a></li>
                         <li><a href="#">Apps 2</a></li>
                         <li><a href="#">Apps 3</a></li>
                         <li><a href="#">Apps 4</a></li>

@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.themes.core.template')
 
 @section('title', 'Inspeksi Kasus')
 
@@ -42,7 +42,7 @@
 
           <div class="box-body">
 
-            @include('was.elapdu.surat.partials._sp_was2_view')
+            @include('was.elapdu.documents.partials._sp_was2_view')
 
           </div>
 
@@ -60,11 +60,11 @@
       <div id="collapsePermasalahan" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingPermasalahan">
         <div class="panel-body">
 
-          @include('was.elapdu.lapdu.partials.kasus_view')
+          @include('was.elapdu.process.lapdu.partials.kasus_view')
 
           <div class="box box-success">
 
-          @include('was.elapdu.surat.partials._was1_view')
+          @include('was.elapdu.documents.partials._was1_view')
 
           </div>
 
@@ -84,19 +84,19 @@
 
           <div class="box-body">
 
-            @include('was.elapdu.lapdu.partials.pelapor_view')
+            @include('was.elapdu.process.lapdu.partials.pelapor_view')
 
           </div>
 
           <div class="box-body">
 
-            @include('was.elapdu.lapdu.partials.terlapor_view')
+            @include('was.elapdu.process.lapdu.partials.terlapor_view')
 
           </div>
 
           <div class="box-body">
 
-            @include('was.elapdu.lapdu.partials.datapenunjang_view')
+            @include('was.elapdu.process.lapdu.partials.datapenunjang_view')
 
           </div>
 
@@ -113,7 +113,7 @@
       </div>
       <div id="collapseLwas2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingLwas2">
         <div class="panel-body">
-            @include('was.elapdu.surat.partials._l_was2_view')
+            @include('was.elapdu.documents.partials._l_was2_view')
         </div>
       </div>
     </div>
@@ -129,9 +129,9 @@
         <div class="panel-body">
           <ol type="1">
             <h4><li>[Nama Terlapor]</li></h4>
-            @include('was.elapdu.surat.partials._l_was2_terlapor_view')
+            @include('was.elapdu.documents.partials._l_was2_terlapor_view')
             <h4><li>[Nama Terlapor]</li></h4>
-            @include('was.elapdu.surat.partials._l_was2_terlapor_view')
+            @include('was.elapdu.documents.partials._l_was2_terlapor_view')
           </ol>
         </div>
       </div>

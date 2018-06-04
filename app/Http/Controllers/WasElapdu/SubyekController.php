@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\WasElapdu;
 
 use Illuminate\Http\Request;
 use App\Pidsus\Models\Punishment;
@@ -9,19 +9,19 @@ class SubyekController extends Controller
 {
     public function subyek_terlapor()
     {
-        return view('elapdu.subyek.terlapor');
+        return view('was.elapdu.process.subyek.terlapor');
     }
     public function subyek_klarifikasi()
     {
-        return view('elapdu.subyek.klarifikasi');
+        return view('was.elapdu.process.subyek.klarifikasi');
     }
     public function subyek_inspeksi()
     {
-        return view('elapdu.subyek.inspeksi');
+        return view('was.elapdu.process.subyek.inspeksi');
     }
     public function subyek_usulan()
     {
-        return view('elapdu.subyek.usulan');
+        return view('was.elapdu.process.subyek.usulan');
     }
     public function subyek_putusan(Request $request)
     {
@@ -51,17 +51,17 @@ class SubyekController extends Controller
 
         $result = $result->get();
 
-        return view('elapdu.subyek.putusan', compact('result'));
+        return view('was.elapdu.process.subyek.putusan', compact('result'));
     }
 
     public function subyek_putusanprint()
     {
-        return view('elapdu.subyek.putusanprint');
+        return view('was.elapdu.process.subyek.putusanprint');
     }
 
     public function subyek_putusandetail()
     {
-        return view('elapdu.subyek.putusandetail');
+        return view('was.elapdu.process.subyek.putusandetail');
     }
 }
 

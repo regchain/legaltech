@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.themes.core.template')
 
 @section('title', 'Usulan Hukuman Disiplin')
 
@@ -64,7 +64,7 @@
 
           <div class="box-body">
 
-            @include('was.elapdu.surat.partials._l_was2_view')
+            @include('was.elapdu.documents.partials._l_was2_view')
   
           </div>
 
@@ -118,7 +118,7 @@
     <div id="collapseSix" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingSix">
       <div class="panel-body">
         <div class="row">
-          @include('was.elapdu.inspeksi.partials._inspeksi_hasil')
+          @include('was.elapdu.process.inspeksi.partials._inspeksi_hasil')
           </div>
       </div>
     </div>

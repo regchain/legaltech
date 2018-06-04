@@ -23,5 +23,5 @@
 		       folder instead of downloading all of them to reduce the load. -->
 		  <link rel="stylesheet" href="{{ asset('/bower_components/admin-lte/dist/css/skins/_all-skins.min.css')}}">
 
-		  <link rel="stylesheet" href="{{ asset('bower_components/templates/alpha/assets/css/alpha.css')}}" />
+		  <link rel="stylesheet" href="{{ asset('templates/alpha/assets/css/alpha.css')}}" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="templates/alpha/assets/css/ie8.css" /><![endif]-->

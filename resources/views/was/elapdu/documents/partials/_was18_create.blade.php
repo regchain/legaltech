@@ -77,7 +77,7 @@
 <p>
   <div class="box-body">
     @include('was.elapdu.process.lapdu.partials.terhukum_view')
-    @include('was.elapdu.klarifikasi.partials._jaksapengawas')
+    @include('was.elapdu.process.klarifikasi.partials._jaksapengawas')
     @include('was.elapdu.process.lapdu.partials.terlapor_view')
     @include('was.elapdu.process.lapdu.partials.kasus_view')
 <ol style="list-style-type: lower-alpha; margin-left: -20px">

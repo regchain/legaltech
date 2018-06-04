@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.themes.core.template')
 
 @section('title', 'Kartu Disposisi')
 
@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="{{ asset('/bower_components/jquery-ui/themes/humanity/theme.css')}}">
 <!-- UI Tool Tip -->
 <link rel="stylesheet" href="{{ asset('bower_components/jquery-ui/themes/base/jquery-ui.css')}}">
-<link rel="stylesheet" href="{{ asset('bower_components/templates/alpha/assets/css/tooltip.css')}}">
+<link rel="stylesheet" href="{{ asset('templates/alpha/assets/css/tooltip.css')}}">
   <!-- iCheck for checkboxes and radio inputs -->
         <link rel="stylesheet" href="{{ asset('/bower_components/admin-lte/plugins/iCheck/all.css')}}">
         <!-- Select2 -->
@@ -30,7 +30,7 @@
   </div>
 
   <div class="box-body">
-   @include('was.elapdu.lapdu.partials._disposisi_register')
+   @include('was.elapdu.process.lapdu.partials._disposisi_register')
  </div>
 
  <div class="box-header with-border">
@@ -38,9 +38,9 @@
 </div>
 <div class="box-body">
 
- @include('was.elapdu.inspeksi.partials._disposisi_row2')
+ @include('was.elapdu.process.inspeksi.partials._disposisi_row2')
 
- @include('was.elapdu.inspeksi.partials._disposisi_kejati')
+ @include('was.elapdu.process.inspeksi.partials._disposisi_kejati')
 
 </div>
 <div class="box-header with-border">
@@ -48,9 +48,9 @@
 </div>
 <div class="box-body">
 
- @include('was.elapdu.inspeksi.partials._lanjutan_inspektur')
+ @include('was.elapdu.process.inspeksi.partials._lanjutan_inspektur')
 
- @include('was.elapdu.inspeksi.partials._lanjutan_kejati')
+ @include('was.elapdu.process.inspeksi.partials._lanjutan_kejati')
 
 </div>
 <!-- /.row -->
@@ -61,7 +61,7 @@
   <h3 class="box-title">INSPEKSI KASUS</h3><br>
 </div>
 <div class="box-body">
-  @include('was.elapdu.inspeksi.partials._inspeksi_view')
+  @include('was.elapdu.process.inspeksi.partials._inspeksi_view')
 </div>
 
 

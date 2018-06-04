@@ -116,7 +116,7 @@
 
           <div class="box-body">
 
-            @include('was.elapdu.surat.partials._l_was2_view')
+            @include('was.elapdu.documents.partials._l_was2_view')
 
           </div>
 

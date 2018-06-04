@@ -27,13 +27,13 @@
           </div>
         </div>
 
-        extends('was.elapdu.process.partials.kasus_edit')
+        @extends('was.elapdu.process.partials.kasus_edit')
 
-        extends('was.elapdu.process.partials.pelapor_edit')
+        @extends('was.elapdu.process.partials.pelapor_edit')
 
-        extends('was.elapdu.process.partials.terlapor_edit')
+        @extends('was.elapdu.process.partials.terlapor_edit')
 
-        extends('was.elapdu.process.partials.datapenunjang_edit')
+        @extends('was.elapdu.process.partials.datapenunjang_edit')
 
         <div class="box-footer">
             <!-- this row will not appear when printing -->

@@ -1,4 +1,4 @@
-@extends('templates.alpha.templatealt')
+@extends('was.themes.alpha.templatealt')
 
 @section('title', 'Data Terlapor')
 

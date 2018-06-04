@@ -1,4 +1,4 @@
-@extends('templates.alpha.template')
+@extends('was.themes.alpha.template')
 
 @section('title', 'Pengaduan Masyarakat')
 

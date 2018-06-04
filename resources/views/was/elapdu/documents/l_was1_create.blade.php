@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ asset('/bower_components/bootstrap-datepicker/dist/css/bootstrap-datepicker3.min.css')}}">
 <!-- UI Tool Tip -->
 <link rel="stylesheet" href="{{ asset('bower_components/jquery-ui/themes/base/jquery-ui.css')}}">
-<link rel="stylesheet" href="{{ asset('bower_components/templates/alpha/assets/css/tooltip.css')}}">
+<link rel="stylesheet" href="{{ asset('templates/alpha/assets/css/tooltip.css')}}">
 <!-- iCheck for checkboxes and radio inputs -->
 <link rel="stylesheet" href="{{ asset('/bower_components/admin-lte/plugins/iCheck/line/green.css')}}">
 
@@ -42,7 +42,7 @@
 Sehubungan dengan Surat Perintah [id_sp.was1] Nomor: [no_sp.was1] tanggal [tgl_sp.was1], telah ditugaskan :
 <p>
   <ul style="list-style-type:none">
-  <li>@include('was.elapdu.klarifikasi.partials._jaksapengawas')</li>
+  <li>@include('was.elapdu.process.klarifikasi.partials._jaksapengawas')</li>
 </ul>
 </p>
     <p>untuk melakukan Klarifikasl terhadap :</p>
@@ -72,7 +72,7 @@ Sehubungan dengan Surat Perintah [id_sp.was1] Nomor: [no_sp.was1] tanggal [tgl_s
 
           <div class="box box-success">
 
-          @include('was.elapdu.surat.partials._was1_view')
+          @include('was.elapdu.documents.partials._was1_view')
 
           </div>
 
@@ -110,9 +110,9 @@ Sehubungan dengan Surat Perintah [id_sp.was1] Nomor: [no_sp.was1] tanggal [tgl_s
 
           </div>
           <div class="box-body">
-          {{-- @include('was.elapdu.surat.partials._was4_view') --}}
+          {{-- @include('was.elapdu.documents.partials._was4_view') --}}
 
-          @include('was.elapdu.surat.partials._ba_was2_list')
+          @include('was.elapdu.documents.partials._ba_was2_list')
         </div>
 
         </div>

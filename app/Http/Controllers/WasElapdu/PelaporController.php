@@ -8,6 +8,6 @@ class PelaporController extends Controller
 {
     public function userblank()
         {
-            return view('elapdu.pelapor.blank');
+            return view('was.elapdu.process.pelapor.blank');
         }
 }

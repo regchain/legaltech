@@ -9,7 +9,7 @@
 @section('stylesheets')
 <!-- UI Tool Tip -->
 <link rel="stylesheet" href="{{ asset('bower_components/jquery-ui/themes/base/jquery-ui.css')}}">
-<link rel="stylesheet" href="{{ asset('bower_components/templates/alpha/assets/css/tooltip.css')}}">
+<link rel="stylesheet" href="{{ asset('templates/alpha/assets/css/tooltip.css')}}">
   <!-- iCheck for checkboxes and radio inputs -->
         <link rel="stylesheet" href="{{ asset('/bower_components/admin-lte/plugins/iCheck/all.css')}}">
         <!-- Select2 -->
@@ -25,9 +25,9 @@
     <h1 class="box-title">EDIT HASIL KLARIFIKASI</h1><br>
   </div>
   <div class="box-body">
-    @include('was.elapdu.surat.partials._ba_was2_edit')
+    @include('was.elapdu.documents.partials._ba_was2_edit')
 
-       @include('was.elapdu.surat.partials._ba_was2_detail')
+       @include('was.elapdu.documents.partials._ba_was2_detail')
        <div class="col-md-12">
        <label for="">Kesimpulan : </label>
        <form>

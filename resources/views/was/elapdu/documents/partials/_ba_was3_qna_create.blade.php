@@ -58,7 +58,7 @@
                   <button type="submit" class="btn btn-primary pull-right">Kirim</button>
                 </div>
 
-                @include('was.elapdu.surat.partials._ba_was3_detail')
+                @include('was.elapdu.documents.partials._ba_was3_detail')
                 
         </div>
 

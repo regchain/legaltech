@@ -1,4 +1,4 @@
-@extends('elapdu.operator.template')
+@extends('was.themes.core.template')
 
 @section('title', 'Tambah Laporan')
 
@@ -41,7 +41,7 @@
                 <div class="panel-body">
 
                   <div class="box-body">
-                    @include('was.elapdu.lapdu.partials.kasus_create')
+                    @include('was.elapdu.process.lapdu.partials.kasus_create')
                   </div>
 
                 </div>
@@ -58,7 +58,7 @@
               <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
                 <div class="panel-body">
                   <div class="box-body">
-                    @include('was.elapdu.lapdu.partials.pelapor_create')
+                    @include('was.elapdu.process.lapdu.partials.pelapor_create')
                   </div>
 
                 </div>
@@ -76,7 +76,7 @@
                 <div class="panel-body">
 
                   <div class="box-body">
-                    @include('was.elapdu.lapdu.partials.terlapor_create')
+                    @include('was.elapdu.process.lapdu.partials.terlapor_create')
                   </div>
                 </div>
 
@@ -94,7 +94,7 @@
                 <div class="panel-body">
 
                   <div class="box-body">
-                    @include('was.elapdu.lapdu.partials.datapenunjang_create')
+                    @include('was.elapdu.process.lapdu.partials.datapenunjang_create')
                   </div>
                 </div>
 

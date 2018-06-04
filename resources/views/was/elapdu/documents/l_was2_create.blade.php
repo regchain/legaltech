@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="{{ asset('/bower_components/select2/dist/css/select2.min.css')}}">
 <!-- UI Tool Tip -->
 <link rel="stylesheet" href="{{ asset('bower_components/jquery-ui/themes/base/jquery-ui.css')}}">
-<link rel="stylesheet" href="{{ asset('bower_components/templates/alpha/assets/css/tooltip.css')}}">
+<link rel="stylesheet" href="{{ asset('templates/alpha/assets/css/tooltip.css')}}">
 <!-- iCheck for checkboxes and radio inputs -->
 <link rel="stylesheet" href="{{ asset('/bower_components/admin-lte/plugins/iCheck/line/green.css')}}">
 
@@ -41,7 +41,7 @@
       Berdasarkan Surat Perintah [id_sp.was2] Nomor: [no_sp.was2] tanggal [tgl_sp.was2], telah ditugaskan :
       <p>
         <ul style="list-style-type:none">
-          <li>@include('was.elapdu.klarifikasi.partials._jaksapengawas')</li>
+          <li>@include('was.elapdu.process.klarifikasi.partials._jaksapengawas')</li>
         </ul>
       </p>
       <p>untuk melakukan Klarifikasl terhadap :</p>
@@ -64,7 +64,7 @@
           </form>
         
         <h3>DATA</h3>
-        @include('was.elapdu.surat.partials._ba_was3_list')
+        @include('was.elapdu.documents.partials._ba_was3_list')
         <h3>ANALISA</h3>
         
           <form>
@@ -107,10 +107,10 @@
 
           <ol type="1" style="margin-left: -20px">
             <h4><li>&nbsp;[Nama Terlapor] </li></h4>
-            @include('was.elapdu.surat.partials._l_was2_terlapor')
+            @include('was.elapdu.documents.partials._l_was2_terlapor')
             <hr>
             <h4><li>&nbsp; [Nama Terlapor] </li></h4>
-            @include('was.elapdu.surat.partials._l_was2_terlapor')
+            @include('was.elapdu.documents.partials._l_was2_terlapor')
             <hr>
             
           </ol>

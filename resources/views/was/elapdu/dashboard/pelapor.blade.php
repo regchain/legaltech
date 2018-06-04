@@ -33,7 +33,7 @@
           <div class="tab-pane active" id="tab_1-1">
               <div class="box-body">
 
-                @include('was.elapdu.themes.pelapor.partials.progress')
+                @include('was.elapdu.process.themes.pelapor.partials.progress')
               </div>
               <!-- /.box-body -->
 

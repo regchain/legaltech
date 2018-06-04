@@ -10,7 +10,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 		<meta charset="UTF-8">
 		<meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
 		<meta name="csrf-token" content=" {{ csrf_token() }}">
-		@include('templates.alpha.head')
+		@include('was.themes.alpha.head')
 
 		@yield('stylesheets')
 
@@ -20,11 +20,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 			<!-- Header -->
 				
-				    @include('templates.alpha.headeralt')
+				    @include('was.themes.alpha.headeralt')
 
 			<!-- Banner -->
 				
-				{{-- @include('templates.alpha.banner') --}}
+				{{-- @include('was.themes.alpha.banner') --}}
 
 			<!-- Main -->
 				<section id="main" class="container">
@@ -37,13 +37,13 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
 			<!-- Footer -->
 
-				  @include('templates.alpha.footer')
+				  @include('was.themes.alpha.footer')
 
 		</div>
 
 		<<!-- REQUIRED JS SCRIPTS -->
 
- @include('templates.alpha.scripts')
+ @include('was.themes.alpha.scripts')
 
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the

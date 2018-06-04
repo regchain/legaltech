@@ -23,7 +23,7 @@
     </div>
 
   <div class="box-body">
-    @include('was.elapdu.surat.partials._was5a_create')
+    @include('was.elapdu.documents.partials._was5a_create')
   </div>
 
 
@@ -89,9 +89,9 @@
       <div class="panel-body">
 
         <div class="box-body">
-          @include('was.elapdu.surat.partials._was4_view')
+          @include('was.elapdu.documents.partials._was4_view')
 
-          @include('was.elapdu.surat.partials._ba_was2_list')
+          @include('was.elapdu.documents.partials._ba_was2_list')
         </div>
       </div>
     </div>
@@ -107,7 +107,7 @@
     <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
       <div class="panel-body">
 
-        @include('was.elapdu.surat.partials._was5b_view')
+        @include('was.elapdu.documents.partials._was5b_view')
         
       </div>
     </div>

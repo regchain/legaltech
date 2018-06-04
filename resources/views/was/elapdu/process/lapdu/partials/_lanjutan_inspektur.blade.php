@@ -15,7 +15,7 @@
     <div id="lanjutanOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
       <div class="panel-body">
         
-        @include('was.elapdu.lapdu.partials._lanjutan_inspektur_ja')
+        @include('was.elapdu.process.lapdu.partials._lanjutan_inspektur_ja')
         <div class="box-footer">
          <a href='sp_was1_create' for="spwas1" class="btn btn-flat btn-info" data-toggle="tooltip" data-placement="top" title="SURAT PERINTAH KLARIFIKASI" style="margin-right: 5px;"><i class="fa fa-plus"></i> SP.WAS-1</a>
        </div>
@@ -37,7 +37,7 @@
     <div id="lanjutanThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
       <div class="panel-body">
         <div class="box-body">
-        @include('was.elapdu.lapdu.partials._lanjutan_inspektur_jamwas')
+        @include('was.elapdu.process.lapdu.partials._lanjutan_inspektur_jamwas')
         </div>
         <div class="box-footer">
          <a href='sp_was1_create' for="spwas1" class="btn btn-info btn-flat pull-right" data-toggle="tooltip" data-placement="top" title="SURAT PERINTAH KLARIFIKASI" style="margin-right: 5px;"><i class="fa fa-plus"></i> SP.WAS-1</a>
@@ -58,7 +58,7 @@
     </div>
     <div id="lanjutanFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
       <div class="panel-body">
-        @include('was.elapdu.lapdu.partials._lanjutan_inspektur_inspektur')
+        @include('was.elapdu.process.lapdu.partials._lanjutan_inspektur_inspektur')
 
 
       </div>
@@ -78,7 +78,7 @@
     <div id="lanjutanSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSix">
       <div class="panel-body">
         
-        @include('was.elapdu.lapdu.partials._lanjutan_inspektur_irmud')
+        @include('was.elapdu.process.lapdu.partials._lanjutan_inspektur_irmud')
 
       </div>
     </div>
@@ -96,7 +96,7 @@
     </div>
     <div id="lanjutanSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingSeven">
       <div class="panel-body">
-        @include('was.elapdu.lapdu.partials._lanjutan_inspektur_riksa')
+        @include('was.elapdu.process.lapdu.partials._lanjutan_inspektur_riksa')
        
           
        

@@ -67,7 +67,7 @@
 
 
   <div class="box-body">
-    @include('was.elapdu.surat.partials._sp_was1_create')
+    @include('was.elapdu.documents.partials._sp_was1_create')
   </div>
 
 
@@ -132,9 +132,9 @@
       <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
         <div class="panel-body">
 
-        @include('was.elapdu.klarifikasi.partials._spklarifikasi_view')
+        @include('was.elapdu.process.klarifikasi.partials._spklarifikasi_view')
 
-        @include('was.elapdu.klarifikasi.partials._wawancara_view')
+        @include('was.elapdu.process.klarifikasi.partials._wawancara_view')
 
        </div>
      </div>
@@ -150,7 +150,7 @@
     <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
       <div class="panel-body">
 
-        @include('was.elapdu.klarifikasi.partials._notadinas_view')
+        @include('was.elapdu.process.klarifikasi.partials._notadinas_view')
 
         
       </div>

@@ -24,12 +24,12 @@
 
           <div class="box-body">
             
-          @include('was.elapdu.surat.partials._was5b_create')
+          @include('was.elapdu.documents.partials._was5b_create')
 
           </div>
 
          <div class="box-body">
-            {{-- @include('was.elapdu.klarifikasi.partials._klarifikasi_view') --}}
+            {{-- @include('was.elapdu.process.klarifikasi.partials._klarifikasi_view') --}}
          </div>
 
 
