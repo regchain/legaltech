@@ -2,7 +2,7 @@
   <ul class="sidebar-menu tree" data-widget="tree">
     <li class="header">MAIN NAVIGATION</li>
     <li class="">
-      <a href="{{ url('/welcome')}}">
+      <a href="{{ url('/')}}">
         <i class="fa fa-fw fa-home "></i>
         <span>LegalTech</span>
       </a>
